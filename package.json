@@ -1,0 +1,15 @@
+{
+  "name": "digital-prevention-services-portfolio",
+  "version": "0.0.1",
+  "description": "NHS Digital prevention services portfolio",
+  "scripts": {
+    "build": "eleventy --quiet",
+    "start": "eleventy --serve --quiet"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "nhsuk-frontend": "^9.3.0",
+    "sass-embedded": "^1.77.5"
+  },
+  "private": true
+}
