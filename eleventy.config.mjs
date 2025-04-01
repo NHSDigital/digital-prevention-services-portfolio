@@ -43,6 +43,7 @@ export default function(eleventyConfig) {
     dir: {
       input: 'app',
       layouts: '_layouts'
-    }
+    },
+    pathPrefix: process.env.GITHUB_ACTIONS && '/digital-prevention-services-portfolio'
   }
 };
