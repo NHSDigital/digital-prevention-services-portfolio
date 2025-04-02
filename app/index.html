@@ -1,19 +1,33 @@
 {% extends 'layout.njk' %}
 
-{% block content %}
+{% block main %}
+<div class="nhsuk-hero">
+  <div class="nhsuk-width-container nhsuk-hero--border">
+    <div class="nhsuk-grid-row">
+      <div class="nhsuk-grid-column-one-half nhsuk-u-one-half-tablet">
+        <div class="nhsuk-hero__wrapper">
+          <h1 class="nhsuk-heading-l">Helping more people stay healthy</h1>
+          <div class="nhsuk-heading-l nhsuk-u-margin-bottom-0">Helping the NHS keep them that way</div>
+        </div>
+      </div>
+      <div class="nhsuk-grid-column-one-half nhsuk-u-one-half-tablet">
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="nhsuk-width-container ">
+  <main class="nhsuk-main-wrapper" id="maincontent" role="main">
   <div class="nhsuk-grid-row">
     <div class="nhsuk-grid-column-two-thirds">
 
-      <h1 class="nhsuk-heading-l">Helping more people stay healthy<br />
-Helping the NHS keep them that way
-</h1>
-      
+
+
 <p>Digital Prevention Services Portfolio (DPSP) is part of <a href="">NHS England</a>. We’re here to <strong>help build the NHS that keeps you well, before you need the NHS that makes you better</strong>. </p>
 
 <p>We play a central part in the government’s high-level strategy for the NHS: </p>
 
-<p>analogue → digital<br /> 
-sickness → prevention<br /> 
+<p>analogue → digital<br />
+sickness → prevention<br />
 hospital → community </p>
 
 <p>We build digital services, platforms and components to support NHS screenings, vaccinations, and personal prevention.</p>
@@ -40,9 +54,10 @@ hospital → community </p>
 <p>For a full list, browse the <a href="https://www.service-catalogue.nhs.uk">prevention services catalogue</a>, which includes services from DPSP and other organisations. </p>
 
 <p>Queries? Questions? Contact us: email-address@nhs.net </p>
-      
-    
+
+
     </div>
   </div>
-
+  </main>
+  </div>
 {% endblock %}
