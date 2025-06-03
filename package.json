@@ -9,7 +9,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "nhsuk-frontend": "^9.6.1",
-    "sass-embedded": "^1.77.5"
+    "sass-embedded": "^1.89.1"
   },
   "private": true
 }
