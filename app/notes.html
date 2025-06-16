@@ -1,0 +1,45 @@
+{% extends 'layout.njk' %}
+
+{% block pageTitle %}Notes - NHS Digital prevention services portfolio{% endblock %}
+
+{% block beforeContent %}
+  {{ backLink({
+    href: "/"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+      <h1>Notes</h1>
+
+      <p>We encourage everyone in the DPSP team to work in the open as much as possible. Openness is one of our 4 team values – sharing our work openly is an excellent way to build trust and invite constructive feedback. </p>
+
+      <p>Here are some recent notes from members of the team: </p>
+
+      <ol class="app-links-list">
+        <li class="app-links-list__item">
+          <h2 class="app-links-list__title"><a href="https://medium.com/@carolinefinucane/breaking-siloes-with-a-service-catalogue-515b41332c9a">Breaking siloes with a service catalogue</a></h2>
+          <p class="app-links-list__description">Caroline Finucane, Design Lead in DPSP's Vaccination Digital Services team</p>
+          <p class="app-links-list__date">16 May 2025</p>
+        </li>
+        <li class="app-links-list__item">
+          <h2 class="app-links-list__title"><a href="https://medium.com/@sarah-fisher/not-all-users-wear-smart-watches-on-digital-design-and-health-inequalities-f4357765dd2a">Not all users wear smart watches: on digital design and health inequalities</a></h2>
+          <p class="app-links-list__description">Sarah Fisher, Deputy Director of Policy, Strategy and Engagement in DPSP's Digital Screening team</p>
+          <p class="app-links-list__date">23 April 2025</p>
+        </li>
+        <li class="app-links-list__item">
+          <h2 class="app-links-list__title"><a href="https://www.england.nhs.uk/blog/transforming-digital-services-breast-screening/">Transforming digital services in breast screening</a></h2>
+          <p class="app-links-list__description">Katie Sheridan, Communications Lead in our Digital Screening team</p>
+          <p class="app-links-list__date">14 April 2025</p>
+        </li>
+        <li class="app-links-list__item">
+          <h2 class="app-links-list__title"><a href="https://medium.com/design-bootcamp/why-you-should-embrace-the-outcomes-over-outputs-mindset-b68152a039bf">Why you should embrace the 'outcomes over outputs' mindset</a></h2>
+          <p class="app-links-list__description">Veronika Jermolina in our Digital Prevention Services team</p>
+          <p class="app-links-list__date">12 November 2024</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+
+{% endblock %}

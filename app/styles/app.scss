@@ -1,6 +1,10 @@
 // Import NHS Frontend
 @forward "node_modules/nhsuk-frontend/packages/nhsuk";
 
+// Our own components
+@forward "links-list";
+
 .app-section-white {
   background-color: white;
 }
+
