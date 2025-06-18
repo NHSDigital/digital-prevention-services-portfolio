@@ -4,3 +4,19 @@
 .app-section-white {
   background-color: white;
 }
+
+.nhsuk-hero .nhsuk-grid-column-one-half:last-child {
+  display: flex;
+  align-items: flex-end;
+}
+
+.app-homepage-illustration {
+  max-width: 100%;
+  margin-top: 56px;
+}
+
+@media (max-width: 767px) {
+  .app-homepage-illustration {
+    display: none;
+  }
+}
