@@ -4,7 +4,7 @@
   "description": "NHS Digital prevention services portfolio",
   "scripts": {
     "build": "eleventy --quiet",
-    "start": "eleventy --serve --quiet"
+    "start": "eleventy --serve --quiet --port $PORT"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.0",
