@@ -8,11 +8,12 @@
 .nhsuk-hero .nhsuk-grid-column-one-half:last-child {
   display: flex;
   align-items: flex-end;
+  padding: 0;
 }
 
 .app-homepage-illustration {
-  max-width: 100%;
-  margin-top: 56px;
+  max-width: 75%;
+  margin: 56px auto 0 auto;
 }
 
 @media (max-width: 767px) {
