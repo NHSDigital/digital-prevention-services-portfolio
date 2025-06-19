@@ -15,7 +15,7 @@
 .app-links-list__title {
   margin: 0 0 nhsuk-spacing(1);
 
-  @include nhsuk-font($size: 24, $weight: "bold")
+  @include nhsuk-font($size: 22, $weight: "bold")
 }
 
 .app-links-list__description {
