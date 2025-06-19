@@ -1,0 +1,32 @@
+@use "node_modules/nhsuk-frontend/packages/nhsuk" as *;
+
+.app-links-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app-links-list__item {
+  border-top: 1px $nhsuk-border-color solid;
+  margin-bottom: nhsuk-spacing(3);
+  padding-top: nhsuk-spacing(2);
+}
+
+.app-links-list__title {
+  margin: 0 0 nhsuk-spacing(1);
+
+  @include nhsuk-font($size: 22, $weight: "bold")
+}
+
+.app-links-list__description {
+  margin: 0 0 nhsuk-spacing(1);
+  padding: 0;
+}
+
+.app-links-list__date {
+  color: $nhsuk-secondary-text-color;
+  @include nhsuk-font($size: 19);
+  margin: 0;
+  padding: 0;
+}
+
