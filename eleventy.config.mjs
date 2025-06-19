@@ -17,6 +17,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "node_modules/nhsuk-frontend/packages/assets": "assets",
     "node_modules/nhsuk-frontend/dist/nhsuk.min.js": "javascripts/nhsuk.min.js",
+    "app/images": "images"
   });
 
   // Set up SASS
