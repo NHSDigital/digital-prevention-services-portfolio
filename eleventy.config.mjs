@@ -1,6 +1,9 @@
 import Nunjucks from "nunjucks";
 import sass from "sass-embedded";
 import path from "path";
+import prototypeFilters from '@x-govuk/govuk-prototype-filters';
+import yaml from "js-yaml";
+
 
 export default function(eleventyConfig) {
 
@@ -12,7 +15,12 @@ export default function(eleventyConfig) {
     ])
   );
 
+  nunjucksEnvironment.addFilter("govukDate", prototypeFilters.govukDate)
+
   eleventyConfig.setLibrary("njk", nunjucksEnvironment);
+
+  // Allow YAML to be used for data
+  eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
   eleventyConfig.addPassthroughCopy({
     "node_modules/nhsuk-frontend/packages/assets": "assets",
