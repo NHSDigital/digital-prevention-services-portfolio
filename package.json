@@ -10,7 +10,7 @@
     "@11ty/eleventy": "^3.1.0",
     "@x-govuk/govuk-prototype-filters": "^1.5.0",
     "js-yaml": "^4.1.0",
-    "nhsuk-frontend": "^9.6.3",
+    "nhsuk-frontend": "^9.6.4",
     "sass-embedded": "^1.77.5"
   },
   "private": true
