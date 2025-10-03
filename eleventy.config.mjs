@@ -9,8 +9,10 @@ export default function(eleventyConfig) {
 
   let nunjucksEnvironment = new Nunjucks.Environment(
     new Nunjucks.FileSystemLoader([
-      './node_modules/nhsuk-frontend/packages/components',
-      './node_modules/nhsuk-frontend/packages/macros',
+      './node_modules/nhsuk-frontend/dist/nhsuk/components',
+      './node_modules/nhsuk-frontend/dist/nhsuk/macros',
+      './node_modules/nhsuk-frontend/dist/nhsuk',
+      './node_modules/nhsuk-frontend/dist',
       'app/_layouts'
     ])
   );
@@ -37,7 +39,7 @@ export default function(eleventyConfig) {
       const parsed = path.parse(inputPath);
 
       let result = sass.compileString(inputContent, {
-        loadPaths: [parsed.dir, this.config.dir.includes, './node_modules', './'],
+        loadPaths: ['node_modules'],
         quietDeps: true
       });
 
