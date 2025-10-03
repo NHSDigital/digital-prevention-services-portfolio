@@ -37,13 +37,12 @@ export default function(eleventyConfig) {
 
     compile: async function (inputContent, inputPath) {
       const parsed = path.parse(inputPath);
-
-      let result = await sass.compileStringAsync(inputContent, {
+    
+      let result = await sass.compileAsync(inputPath, {
         importers: [new sass.NodePackageImporter()],
-        loadPaths: ['node_modules', parsed.dir],
-        quietDeps: true
+        loadPaths: ['node_modules', parsed.dir]
       });
-
+    
       return () => {
         return result.css;
       };
