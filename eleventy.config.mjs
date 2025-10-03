@@ -1,5 +1,5 @@
 import Nunjucks from "nunjucks";
-import sass from "sass-embedded";
+import * as sass from "sass-embedded"
 import path from "path";
 import prototypeFilters from '@x-govuk/govuk-prototype-filters';
 import yaml from "js-yaml";
