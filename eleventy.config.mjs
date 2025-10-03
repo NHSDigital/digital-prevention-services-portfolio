@@ -42,7 +42,7 @@ export default function(eleventyConfig) {
         return;
       }
     
-      let result = await sass.compileAsync(inputPath, {
+      const result = await sass.compileAsync(inputPath, {
         importers: [new sass.NodePackageImporter()]
       });
     
