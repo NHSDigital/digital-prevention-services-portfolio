@@ -37,6 +37,9 @@ export default function(eleventyConfig) {
 
     compile: async function (inputContent, inputPath) {
       const parsed = path.parse(inputPath);
+      if (parsed.name.startsWith("_")) {
+        return;
+      }
     
       let result = await sass.compileAsync(inputPath, {
         importers: [new sass.NodePackageImporter()],
