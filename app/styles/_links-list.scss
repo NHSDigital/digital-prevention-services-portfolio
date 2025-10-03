@@ -1,4 +1,4 @@
-@use "node_modules/nhsuk-frontend/packages/nhsuk" as *;
+@use "pkg:nhsuk-frontend/dist/nhsuk" as *;
 
 .app-links-list {
   list-style-type: none;
