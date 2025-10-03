@@ -35,11 +35,12 @@ export default function(eleventyConfig) {
   eleventyConfig.addExtension("scss", {
     outputFileExtension: "css",
 
-    compile: function (inputContent, inputPath) {
+    compile: async function (inputContent, inputPath) {
       const parsed = path.parse(inputPath);
 
-      let result = sass.compileString(inputContent, {
-        loadPaths: ['node_modules'],
+      let result = await sass.compileStringAsync(inputContent, {
+        importers: [new sass.NodePackageImporter()],
+        loadPaths: ['node_modules', parsed.dir],
         quietDeps: true
       });
 
