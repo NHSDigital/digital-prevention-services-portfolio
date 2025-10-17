@@ -1,0 +1,153 @@
+{% extends 'layout.njk' %}
+
+{% set currentSection = "roadmap" %}
+{% from 'contents-list/macro.njk' import contentsList %}
+
+{% block pageTitle %}Digital prevention services portfolio roadmap{% endblock %}
+
+{% block content %}
+<div class="nhsuk-u-reading-width">
+  <p class="nhsuk-caption-xl">October 2025</p>
+  <h1 class="nhsuk-heading-xl">Roadmap</h1>
+
+  
+  <p>This roadmap sets out a high-level overview of the work of the Digital Prevention Services Portfolio within NHS England. We aim to update it quarterly, and iterate it, to make it more useful to readers. If you have comments or questions, please send them to <a href="mailto:england.dpsp-front-door@nhs.net?subject=roadmap">england.dpsp-front-door@nhs.net</a>.</p>
+
+  {{ contentsList({
+    items: [
+      {
+        href: "#screening",
+        text: "Digital screening"
+      },
+      {
+        href: "#vaccination",
+        text: "Vaccination Digital Services"
+      },
+      {
+        href: "#personalised-prevention",
+        text: "Personalised Prevention Services"
+      },
+      {
+        href: "#hometest",
+        text: "HomeTest"
+      },
+      {
+        href: "#childrens-health",
+        text: "Children’s Digital Health Services"
+      }
+    ]
+  }) }}
+  
+  <h2 id="screening">Digital Screening</h2>
+  
+  <p>The Digital Screening team works on providing provide safe, efficient, high quality and nationally consistent screening services for adult participants. We’re driving a shift to home testing, and transforming clinic-based screening.</p>
+  
+  <h3>Recently completed</h3>
+  
+  <ul>
+    <li>rollout of a new service to help NHS staff manage cervical screening (Cervical Screening Management System) </li>
+    <li>now sending millions of digital communications for bowel cancer and cervical screening </li>
+  </ul>
+
+  <h3>Up next </h3>
+  
+  <ul>
+    <li>adding self-testing as a new mode for cervical screening participants who have previously not attended clinic-based screening </li>
+    <li>expanding the use of digital communications to participants in breast cancer screening</li>
+    <li>launching a new service to improve the quality of data used to invite people for breast cancer screening</li>
+  </ul>
+
+  <h2 id="vaccination">Vaccination Digital Services</h2>
+  
+  <p>The Vaccination Digital Services (VDS) team is here to protect the NHS and public, particularly those facing vaccine inequalities, by ensuring more people get vaccinated, more easily.</p>
+  
+  <h3>Recently completed</h3>
+  
+  <ul>
+    <li>GP surgeries and community pharmacies have access to digital services to help them accurately record the vaccinations they administer (including the new Record a vaccination service) </li>
+    <li>vaccination providers now have access to a service (Manage Your Appointment) that helps them manage millions of vaccination appointment slots across thousands of locations, as part of the Vaccinations National Booking Service</li>
+    <li>digital support in place for early-adopter pharmacies across parts of England, which means people can get RSV and pertussis and infant-flu vaccinations</li>
+    <li>three additional school-aged vaccination providers in the Midlands, Hertfordshire, and East of England are using digital services for planning and recording HPV and MenACWY & TD/IPV vaccinations in schools (Manage Vaccinations in Schools)</li>
+    <li>helping clinicians make better decisions because we’re enabling vaccination data to flow more easily between GP and other clinical systems</li>
+  </ul>
+
+  <h3>Up next</h3>
+  
+  <ul>
+    <li>more school aged vaccination providers using digital services and extending the service to include flu vaccinations (Manage Vaccinations in Schools)</li>
+    <li>community pharmacy vaccination providers in London having a quicker, more accurate way to record flu, MMR and pneumococcal vaccinations using RAVS</li>  
+    <li>helping members of the public understand if they are eligible for, and how to get, RSV vaccinations, using the NHS App</li>
+    <li>helping GPs save time and money by using our national invitations and booking services for seasonal vaccinations</li>
+    <li>supporting the government’s ambition with digital services to help Health Visitors provide vaccinations to children (Manage Your Appointment) </li>
+    <li>supporting the NHS and wider healthcare system to provide chicken pox (varicella) vaccinations to children</li>
+  </ul>
+   
+  <h2 id="personalised-prevention">Personalised Prevention Services</h2>
+
+  <p>The Personalised Prevention Services (PPS) team exists to make it easy for people to understand their health risks, and find the right services to stay well.</p>
+  
+  <h3>Recently completed</h3>
+  
+  <ul>
+    <li>residents of three local authority areas are now able to complete a free cardiovascular health check at home (NHS Health Check online)</li>
+    <li>understood the challenges faced by users of prevention and behaviour change services, and whether these challenges could be addressed through the application of AI</li>
+  </ul>
+
+  <h3>Up next</h3>
+  
+  <ul>
+    <li>scaling up NHS Health Check online to more local authorities and GP practices</li>
+    <li>piloting a service for people to find the right services to achieve and maintain a healthy weight</li>
+    <li>testing the use of AI tools integrated into the Better Health apps to support setting goals and achieving positive health changes (Better Health apps)</li>
+    <li>trialling personalised communications to increase uptake of Talking Therapy services for mental health</li>
+  </ul>
+
+  <h2 id="hometest">HomeTest</h2>
+  
+  <p>Our job is to scale up home tests across a wide range of biomarkers. HomeTest will provide commercial, clinical, and digital capabilities, providing easier access to essential tests – enabling faster diagnosis, improved condition management and brings care closer to home.</p>
+  
+  <h3>Recently completed</h3>
+  
+  <ul>
+    <li>setting up HomeTest team, securing and allocating funding</li>
+    <li>HIV test ordering via national channels agreed as initial area of focus (eg, NHS App)</li>
+  </ul>
+
+  <h3>Up next</h3>
+  
+  <ul>
+    <li>design and ratification of our end-to-end service offering, including how citizens order tests and onward pathway integration</li>
+    <li>strategic commercial model design and approval aimed at streamlining contracting and assurance for commissioners</li>
+    <li>care integration pattern design, providing a blueprint for plugging in the HomeTest service into existing care pathways</li>
+    <li>initial alpha build across NHS App and other national services enabling low-friction at-home test ordering and results</li>
+    <li>identification and prioritisation of long-term at-home tests across an array of conditions to help support locally delivered healthcare</li>
+  </ul>
+
+  <h2 id="childrens-health">Children’s Digital Health Services</h2>
+  
+  <p>Children’s Digital Health Services (CDHS) is a new area within DPSP, established during summer 2025. Its focus is on digital services that support families and care professionals to give children and young people the best start in life.</p>
+  
+  <h3>Recently completed</h3>
+  
+  <ul>
+    <li>setting up CDHS teams</li>
+    <li>enabled changes to the childhood vaccinations schedule, introduced in July 2025, by making changes to CHIS (Child Health Information Services)</li>
+    <li>added hereditary tyrosinaemia (HT1) to newborn blood spot screening</li>
+  </ul>
+
+  <h3>Up next</h3>
+  
+  <ul>
+    <li>initial work on My Children features for the NHS App, enabling parents to access a new baby's health record online, as announced in the 10 Year Plan for Health</li>
+    <li>initial work on timely prompts for parents and carers, to help them with guidance on routine health appointments and key topics, such as weaning</li>
+    <li>exploring ways to help newborn screening staff better manage cohorts of babies</li>
+    <li>improving newborn screening reporting and quality assurance tools</li>
+    <li>exploring ways to share blood spot test results with parents using digital communication tools</li>
+    <li>enabling the introduction of new chickenpox vaccinations as part of MMR-V, through further changes to CHIS</li>
+  </ul>
+
+  <h2>Help us make this roadmap more useful</h2>
+  
+  <p>Please send questions, comments and suggestions to <a href="mailto:england.dpsp-front-door@nhs.net?subject=roadmap">england.dpsp-front-door@nhs.net</a>, with the word ‘roadmap’ in the subject line.</p>
+</div>    
+{% endblock %}
