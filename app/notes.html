@@ -1,0 +1,29 @@
+{% extends 'layout.njk' %}
+
+{% set currentSection = "notes" %}
+
+{% block pageTitle %}Notes – Digital prevention services portfolio{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-u-reading-width">
+    <h1>Notes</h1>
+  
+    <p>We encourage our teams to work in the open as much as possible. Openness is one of our 4 team values – sharing our work openly is an excellent way to build trust and invite constructive feedback. </p>
+  
+    <p>Read our <a href="https://design-history.prevention-services.nhs.uk/">design histories</a> for detailed notes on current work in progress </p>
+  
+    <ol class="app-links-list">
+      {% for link in links | sort(true, false, "date") %}
+        <li class="app-links-list__item">
+          <h2 class="app-links-list__title">
+            <a href="{{ link.url }}">
+              {{- link.title -}}
+            </a>
+          </h2>
+          <p class="app-links-list__description">{{ link.author }}{% if link.role %}, {{ link.role }}{% endif %}</p>
+          <p class="app-links-list__date">{{ link.date | govukDate }}</p>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+{% endblock %}

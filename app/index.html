@@ -2,6 +2,8 @@
 
 {% block pageTitle %}NHS Digital prevention services portfolio{% endblock %}
 
+{% set currentSection = "home" %}
+
 {% block main %}
 <main id="maincontent" role="main">
   <div class="nhsuk-hero">
@@ -140,19 +142,23 @@
 
             <p>Read our <a href="https://design-history.prevention-services.nhs.uk/">design histories</a> for detailed notes on current work in progress </p>
 
-            <ol class="app-links-list">
+            <ol class="app-links-list nhsuk-u-margin-bottom-5">
               {% for link in links | sort(true, false, "date") %}
-                <li class="app-links-list__item">
-                  <h2 class="app-links-list__title">
-                    <a href="{{ link.url }}">
-                      {{- link.title -}}
-                    </a>
-                  </h2>
-                  <p class="app-links-list__description">{{ link.author }}{% if link.role %}, {{ link.role }}{% endif %}</p>
-                  <p class="app-links-list__date">{{ link.date | govukDate }}</p>
-                </li>
+                {% if (loop.index <= 5) %}
+                  <li class="app-links-list__item">
+                    <h2 class="app-links-list__title">
+                      <a href="{{ link.url }}">
+                        {{- link.title -}}
+                      </a>
+                    </h2>
+                    <p class="app-links-list__description">{{ link.author }}{% if link.role %}, {{ link.role }}{% endif %}</p>
+                    <p class="app-links-list__date">{{ link.date | govukDate }}</p>
+                  </li>
+                {% endif %}
               {% endfor %}
             </ol>
+            
+            <p><a href="/notes" class="nhsuk-link">View all {{ links | length }} notes</a></p>
           </div>
         </div>
       </div>
