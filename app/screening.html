@@ -1,35 +1,7 @@
-<!-- Use this page as the index for your project -->
+{% extends 'layout.njk' %}
 
-<!-- ADDING CUSTOM CSS - Add your custom CSS or Sass in /app/assets/sass/main.scss -->
+{% block pageTitle %}Screening – Digital prevention services portfolio{% endblock %}
 
-<!-- Extends the layout from /app/views/layout.html -->
-{% extends 'layout.html' %}
-<!--
-  In /app/views/layout.html you can:
-    - change the header and footer
-    - add custom CSS and JavaScript
--->
-
-<!--
-  Use this to set the page name which will appear at the
-  start of the <title> tag, followed by the service name.
-  This is often not needed on the homepage, where only the
-  service name is needed. You can also reuse this variable
-  within the <h1>, where they are the same.
--->
-{% set pageName = "" %}
-
-<!-- For adding a breadcrumb or back link -->
-<!-- Code examples can be found at https://service-manual.nhs.uk/design-system/components/breadcrumbs and https://service-manual.nhs.uk/design-system/components/back-link -->
-{% block beforeContent %}
-{% endblock %}
-
-<!-- For adding page content -->
-<!-- Page layout code can be found at https://service-manual.nhs.uk/design-system/styles/layout -->
-
-{% set currentSection = "Digital screening" %}
-
-{% block pageTitle %}DPSP - Digital screening{% endblock %}
 
 {% block content %}
   <div class="nhsuk-u-reading-width">
