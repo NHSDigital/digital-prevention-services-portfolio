@@ -9,6 +9,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
     "@x-govuk/govuk-prototype-filters": "^2.0.3",
+    "@x-govuk/nhsuk-eleventy-plugin": "^1.0.5",
     "js-yaml": "^4.1.0",
     "nhsuk-frontend": "^10.0.0",
     "sass-embedded": "^1.93.2"
