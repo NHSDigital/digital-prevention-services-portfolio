@@ -1,0 +1,11 @@
+@use "pkg:nhsuk-frontend/dist/nhsuk/core" as *;
+
+// Extra NHS.UK Frontend components used by this app
+@forward "pkg:nhsuk-frontend/dist/nhsuk/components/contents-list";
+
+// NHS.UK Eleventy Plugin components
+@forward "pkg:@x-govuk/nhsuk-eleventy-plugin";
+
+.app-section-white {
+  background-color: white;
+}
