@@ -49,8 +49,7 @@ The Digital Screening team works on providing provide safe, efficient, high qual
 - expanding the use of digital communications to participants in breast cancer screening
 - piloting a new service for staff working in breast screening, giving them a quicker, easier way to manage the screening process, and freeing them up to spend more time with participants
 
-Vaccination Digital Services
-----------------------------
+## Vaccination Digital Services
 
 The Vaccination Digital Services (VDS) team is here to protect the NHS and public, particularly those facing vaccine inequalities, by ensuring more people get vaccinated, more easily.
 
