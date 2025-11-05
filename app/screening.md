@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Screening
+title: Digital screening
 ---
 
 <p class="nhsuk-lede-text">NHS England is transforming the digital services that underpin NHS screening programmes. This is part of wider digital prevention services – a new portfolio to develop and deliver digital products for services including vaccination and screening, personalised prevention and the NHS Health Check online.</p>
