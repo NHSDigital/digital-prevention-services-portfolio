@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Screening
+description: NHS England is transforming the digital services that underpin NHS screening programmes. This is part of wider digital prevention services – a new portfolio to develop and deliver digital products for services including vaccination and screening, personalised prevention and the NHS Health Check online.
 ---
-
-<p class="nhsuk-lede-text">NHS England is transforming the digital services that underpin NHS screening programmes. This is part of wider digital prevention services – a new portfolio to develop and deliver digital products for services including vaccination and screening, personalised prevention and the NHS Health Check online.</p>
 
 NHS Screening Programmes can save lives and reduce ill health by finding out if people have a higher chance of having a health problem, so that early treatment can be offered, or information given to help them make informed decisions. By supporting the government’s shift from treatment to prevention, these programmes mitigate the demand for resource-intensive procedures and reduce strain on other NHS services.
 
