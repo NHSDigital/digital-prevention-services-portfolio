@@ -1,13 +1,16 @@
 import yaml from "js-yaml";
 import { nhsukEleventyPlugin } from '@x-govuk/nhsuk-eleventy-plugin'
 
+const serviceName = 'Digital prevention services portfolio'
+
 export default function(eleventyConfig) {
 
   eleventyConfig.addPlugin(nhsukEleventyPlugin, {
+    titleSuffix: `NHS ${serviceName}`,
     stylesheets: ['/assets/application.css'],
     header: {
       service: {
-        text: 'Digital prevention services portfolio',
+        text: serviceName,
         href: '/'
       },
       navigation: {
