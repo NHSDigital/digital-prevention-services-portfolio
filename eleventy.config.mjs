@@ -1,10 +1,5 @@
-import Nunjucks from "nunjucks";
-import * as sass from "sass-embedded"
-import path from "path";
-import prototypeFilters from '@x-govuk/govuk-prototype-filters';
 import yaml from "js-yaml";
 import { nhsukEleventyPlugin } from '@x-govuk/nhsuk-eleventy-plugin'
-
 
 export default function(eleventyConfig) {
 
