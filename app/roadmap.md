@@ -102,7 +102,7 @@ Children’s Digital Health Services (CDHS) is a new area within DPSP, establish
 <!-- omit from toc -->
 ### Up next
 
-- initial work on _My Children_ features for the NHS App, enabling parents to access a new baby's health record online, as announced in the [10 Year Plan for Health](https://www.gov.uk/government/publications/10-year-health-plan-for-england-fit-for-the-future/fit-for-the-future-10-year-health-plan-for-england-executive-summary)
+- initial work on My Children features for the NHS App, enabling parents to access a new baby's health record online, as announced in the [10 Year Plan for Health](https://www.gov.uk/government/publications/10-year-health-plan-for-england-fit-for-the-future/fit-for-the-future-10-year-health-plan-for-england-executive-summary)
 - initial work on timely prompts for parents and carers, to help them with guidance on routine health appointments and key topics, such as weaning
 - exploring ways to help newborn screening staff better manage cohorts of babies
 - improving newborn screening reporting and quality assurance tools
