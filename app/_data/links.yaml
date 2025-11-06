@@ -1,80 +1,64 @@
 - title: 'Making the NHS design system fit for the future'
-  url: https://digital.nhs.uk/blog/design-matters/2025/making-the-nhs-design-system-fit-for-the-future
-  author: Tero Väänänen
-  role: Head of Design
+  href: https://digital.nhs.uk/blog/design-matters/2025/making-the-nhs-design-system-fit-for-the-future
+  description: Tero Väänänen, Head of Design
   date: '2025-10-31'
 - title: 'Design by cliché'
-  url: https://mechanicalsurvival.com/blog/design-by-cliche/
-  author: Duncan Brown
-  role: Chief Technology Officer, Digital prevention services
+  href: https://mechanicalsurvival.com/blog/design-by-cliche/
+  description: Duncan Brown, Chief Technology Officer, Digital prevention services
   date: '2025-10-17'
 - title: 'Stop following the rules, start designing the NHS like lives depend on it'
-  url: https://medium.com/@lauren.latham1/stop-following-the-rules-084c0652f3d7
-  author: Lauren Latham
-  role: Deputy Director, Primary Care and Home Testing Services
+  href: https://medium.com/@lauren.latham1/stop-following-the-rules-084c0652f3d7
+  description: Lauren Latham, Deputy Director, Primary Care and Home Testing Services
   date: '2025-10-10'
 - title: 'Can you apply service design principles to fix a fragmented NHS?'
-  url: https://lizlutgendorff.substack.com/p/can-you-apply-service-design-principles
-  author: Liz Lutgendorff
-  role: Digital Pathway Lead for breast screening
+  href: https://lizlutgendorff.substack.com/p/can-you-apply-service-design-principles
+  description: Liz Lutgendorff, Digital Pathway Lead for breast screening
   date: '2025-10-07'
 - title: 'Why lung cancer screening is a glimpse into the future of digital prevention'
-  url: https://danielbower.com/2025/08/25/future-digital-prevention
-  author: Daniel Bower
-  role: Head of Product, Digital Screening
+  href: https://danielbower.com/2025/08/25/future-digital-prevention
+  description: Daniel Bower, Head of Product, Digital Screening
   date: '2025-08-25'
 - title: 'An easier way to manage vaccinations in schools'
-  url: https://digital.nhs.uk/blog/transformation-blog/2025/an-easier-way-to-manage-vaccinations-in-schools
-  author: Helen Pitts
-  role: Clinical Strategy and Engagement Lead
+  href: https://digital.nhs.uk/blog/transformation-blog/2025/an-easier-way-to-manage-vaccinations-in-schools
+  description: Helen Pitts, Clinical Strategy and Engagement Lead
   date: '2025-08-19'
 - title: 'Designing for the NHS shift to digital and prevention'
-  url: https://www.healthia.services/insight/problems-worth-solving-rachel-hope
-  author: Rachel Hope
-  role: Director of Digital Prevention Services, interviewed on the Problems Worth Solving podcast
+  href: https://www.healthia.services/insight/problems-worth-solving-rachel-hope
+  description: Rachel Hope, Director of Digital Prevention Services, interviewed on the Problems Worth Solving podcast
   date: '2025-08-06'
 - title: 'Why we are reinvesting in the NHS prototype kit'
-  url: https://digital.nhs.uk/blog/design-matters/2025/why-we-are-reinvesting-in-the-nhs-prototype-kit
-  author: Frankie Roberto, Mike Gallagher
-  role: Designers, NHS England
+  href: https://digital.nhs.uk/blog/design-matters/2025/why-we-are-reinvesting-in-the-nhs-prototype-kit
+  description: Frankie Roberto and Mike Gallagher, designers for NHS England
   date: '2025-07-21'
 - title: 'Building the NHS’s digital backbone: The hidden tech that delivers vaccines' 
-  url: https://www.linkedin.com/pulse/building-nhss-digital-backbone-hidden-tech-delivers-vaccines-powell-k9d2e/
-  author: Helena Powell
-  role: Deputy Director, Vaccination Digital Services
+  href: https://www.linkedin.com/pulse/building-nhss-digital-backbone-hidden-tech-delivers-vaccines-powell-k9d2e/
+  description: Helena Powell, Deputy Director, Vaccination Digital Services
   date: '2025-07-15'
 - title: 'The tangled undergrowth of complexity'
-  url: https://lizlutgendorff.substack.com/p/the-tangled-undergrowth-of-complexity
-  author: Liz Lutgendorff
-  role: Digital Pathway Lead for breast screening
+  href: https://lizlutgendorff.substack.com/p/the-tangled-undergrowth-of-complexity
+  description: Liz Lutgendorff, Digital Pathway Lead for breast screening
   date: '2025-07-07'
 - title: 'I will tell everyone that you are the people who will fix digital'
-  url: https://medium.com/@veroj/i-will-tell-everyone-that-you-are-the-people-who-will-fix-digital-8b2cae7df15d
-  author: Vero Jermolina 
-  role: Product discovery specialist
+  href: https://medium.com/@veroj/i-will-tell-everyone-that-you-are-the-people-who-will-fix-digital-8b2cae7df15d
+  description: Vero Jermolina, Product discovery specialist
   date: '2025-06-18'
 - title: 'Breaking siloes with a service catalogue'
-  url: https://medium.com/@carolinefinucane/breaking-siloes-with-a-service-catalogue-515b41332c9a
-  author: Caroline Finucane
-  role: Design Lead in DPSP's Vaccination Digital Services team
+  href: https://medium.com/@carolinefinucane/breaking-siloes-with-a-service-catalogue-515b41332c9a
+  description: Caroline Finucane, Design Lead in DPSP's Vaccination Digital Services team
   date: '2025-05-16'
 - title: 'Not all users wear smart watches: on digital design and health inequalities'
-  url: https://medium.com/@sarah-fisher/not-all-users-wear-smart-watches-on-digital-design-and-health-inequalities-f4357765dd2a
-  author: Sarah Fisher
-  role: Deputy Director of Policy, Strategy and Engagement in DPSP's Digital Screening team
+  href: https://medium.com/@sarah-fisher/not-all-users-wear-smart-watches-on-digital-design-and-health-inequalities-f4357765dd2a
+  description: Sarah Fisher, Deputy Director of Policy, Strategy and Engagement in DPSP's Digital Screening team
   date: '2025-04-23'
 - title: 'Transforming digital services in breast screening'
-  url: https://www.england.nhs.uk/blog/transforming-digital-services-breast-screening/
-  author: Katie Sheridan
-  role: Communications Lead in our Digital Screening team
+  href: https://www.england.nhs.uk/blog/transforming-digital-services-breast-screening/
+  description: Katie Sheridan, Communications Lead in our Digital Screening team
   date: '2025-04-14'
 - title: "Why you should embrace the 'outcomes over outputs' mindset'"
-  url: https://medium.com/design-bootcamp/why-you-should-embrace-the-outcomes-over-outputs-mindset-b68152a039bf
-  author: Veronika Jermolina
-  role: Digital Prevention Services team
+  href: https://medium.com/design-bootcamp/why-you-should-embrace-the-outcomes-over-outputs-mindset-b68152a039bf
+  description: Veronika Jermolina,  Digital Prevention Services team
   date: '2024-11-12'
 - title: 'Products deliver outputs, services deliver outcomes'
-  url: https://digital.nhs.uk/blog/design-matters/2022/products-deliver-outputs-services-deliver-outcomes
-  author: Tero Väänänen
-  role: Head of Design
+  href: https://digital.nhs.uk/blog/design-matters/2022/products-deliver-outputs-services-deliver-outcomes
+  description: Tero Väänänen, Head of Design
   date: '2022-09-21'
