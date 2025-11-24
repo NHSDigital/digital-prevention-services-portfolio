@@ -1,8 +1,6 @@
 ---
-layout: sub-navigation
 order: 1
-title: Incident management process
-sectionKey: docs
+title: Incident management
 ---
 
 
