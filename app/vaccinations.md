@@ -1,10 +1,8 @@
 ---
 layout: page
 title: Vaccination Digital Services (VDS)
-description: A brief overview of the Vaccination Digital Services team within the Digital Prevention Services Portfolio. This page sets out some useful background, context, and a list of current projects.
+description: VDS delivers digital transformation in immunisation, by building digital products and services to improve how vaccinations are booked, recorded, organised and delivered. Since 2024, we've been part of the Digital Prevention Services Portfolio.
 ---
-
-VDS delivers digital transformation in immunisation, by building digital products and services to improve how vaccinations are booked, recorded, organised and delivered. Since 2024, we've been part of the Digital Prevention Services Portfolio.
 
 NHS vaccination programmes save lives, reduce ill health and reduce pressures on hospitals. This is done by reducing the impact of preventable diseases by better protecting individuals and the population as a whole and by providing information to help make informed decisions. 
 
