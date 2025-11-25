@@ -32,7 +32,7 @@ pagination:
         <p>We’re currently focusing our efforts on:</p>
         <ul class="nhsuk-u-margin-bottom-6">
           <li><strong><a href="/screening">digital services to support screening</a></strong> for breast cancer, bowel cancer and cervical cancer</li>
-          <li><strong>digital services for organising, managing and recording vaccinations</strong> for COVID-19, flu, RSV and pertussis, with teams devoted to infant, maternity and school vaccinations</li>
+          <li><strong><a href="/vaccinations">digital services for organising, managing and recording vaccinations</a></strong> for COVID-19, flu, RSV and pertussis, with teams devoted to infant, maternity and school vaccinations</li>
           <li><strong>personalised prevention services</strong>, making it easy for people to understand
             their health risks and find the right services to stay well
           </li>

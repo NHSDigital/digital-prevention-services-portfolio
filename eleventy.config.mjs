@@ -24,6 +24,10 @@ export default function(eleventyConfig) {
             href: '/screening'
           },
           {
+            text: 'Vaccinations',
+            href: '/vaccinations'
+          },
+          {
             text: 'Roadmap',
             href: '/roadmap'
           },
