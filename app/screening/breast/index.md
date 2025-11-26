@@ -1,57 +1,49 @@
 ---
 layout: page
-title: Screening
-description: NHS England is transforming the digital services that underpin NHS screening programmes. This is part of wider digital prevention services – a new portfolio to develop and deliver digital products for services including vaccination and screening, personalised prevention and the NHS Health Check online.
+title: Digital breast screening
+description: NHS England is developing digital services to support the national breast screening programme. This includes new services and replacements for outdated technology.
+
 ---
 
-NHS Screening Programmes can save lives and reduce ill health by finding out if people have a higher chance of having a health problem, so that early treatment can be offered, or information given to help them make informed decisions. By supporting the government’s shift from treatment to prevention, these programmes mitigate the demand for resource-intensive procedures and reduce strain on other NHS services.
+<div class="nhsuk-width-container">
+  <div class="nhsuk-main-wrapper">
+    <div class="nhsuk-grid-row">
+      <div class="nhsuk-grid-column-two-thirds">
+        <h2 id="contactus">Sign up to the newsletter</h2>
+        <p>Subscribe to the [Breast Screening Digital Digest](https://forms.office.com/Pages/ResponsePage.aspx?id=slTDN7CF9UeyIge0jXdO45mS-NvFy31Gqzkcb-jJwqpUNkJCWFlFOUFBTVdYRDU1SEtHRzJSNzdBNC4u) (Microsoft Forms) for the latest updates.</p>
+          <p>More information is available on [NHS Futures](https://future.nhs.uk/vaccsandscreening/view?objectId=60311632) (login required), including [previous newsletters](https://future.nhs.uk/vaccsandscreening/view?objectId=66919568).</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-## Background
+## Replacing NBSS (the National Breast Screening Service)
 
-Our vision is that in the next 5 years, a third of interactions with the NHS will be delivered using the NHS App and other digital tools. These tools can support people to take control of their health, while also freeing up more time for healthcare staff and providing valuable new data and insight.
+The processes involved in breast screening include identifying participants, arranging appointments, taking mammograms, reading images, and recording results.
 
-## Aims
+The systems currently used by breast screening offices (BSOs) to manage these tasks are no longer fit for purpose. By 2028 we aim to replace them with modern, digital services.
 
-New digital products and services will:
+### Designed for the NHS, by the NHS
 
-- improve the way eligible people are identified and invited for screening and enable them to view and change their appointments through the NHS App. Non-digital alternatives will remain in place for those who are unable or choose not to use the app</li>
-- better support and manage participants through the screening process, making the most of data to reduce the need to collect information multiple times, and supporting the tracking of participants’ progress more effectively, freeing up time for staff</li>
-- provide better data on the performance of screening services, allowing providers and commissioners to better target their work to continually improve screening
+We’re designing bespoke services for the NHS, and we’re doing it in house. Some key advantages of this are: 
 
-Our ambition is to provide earlier detection and more time for care by:
+* integration with the NHS App and NHS Notify
+* improved accessibility
+* greater information for participants about appointments and results
+* improved data quality and sharing across systems 
+* single sign on (no need to remember multiple usernames and passwords)
+* reduced paper
+* reduced costs
 
-- driving the shift to home testing through screening at home that is more accessible, more personalised and reaches more people, when it matters most
-- transforming clinic-based screening by delivering a new service for breast screening, reaching more of those most at risk, and lightening the load on the workforce
-- running reliable, safe and secure live services</li>
+--ETC--
 
-## Approach
-
-We will initially build and roll out our new digital capabilities on a small scale, allowing us to test our approach to designing and delivering new services that support the clinical journey for staff and participants. This will ensure that the new services can be integrated smoothly with existing systems.
-
-Throughout our transformation, services will be designed in collaboration with users, and insights will be used to continually improve and expand the new services, eventually extending the transformation to cover all screening programmes.
-
-## Progress and next steps
-
-In June 2025, the NHS Cervical Screening Programme introduced digital-first invitations and reminders via the NHS App. Eligible women and people with a cervix first receive a notification through the app to alert them to book a screening appointment, followed by a text message if the app notification isn’t opened. Letters will still be sent for those who need them. Since June 2025, 9 out of 10 invitations have been sent digitally. 
-
-The NHS bowel cancer and breast screening programmes plan to start rolling out digital-first communications in 2026.
-
-Currently, over 25 million letters are sent annually by post, costing £14.7 million. Using the NHS App with NHS Notify will help reduce these costs.
-
-Transitioning to digital-first communications brings significant benefits for screening programmes and the people they serve. It improves accessibility – offering more language options and faster communication through modern channels. Digital messages also work with device features such as magnification and text-to-speech.
-
-During a pilot in breast screening, one clinic attendee with severe sight impairment said:
-
-> My husband saw the notification on the phone and let me know to log into the NHS App. [Using it] was a good experience, even if a surprise as I usually got letters.
-
-Findings from the breast screening pilot have guided further testing, with a focus on accessibility, inclusion, and equity.
-
-## Latest news
-
-[NHS rolls out more personalised cervical screening for millions](https://www.england.nhs.uk/2025/06/nhs-rolls-out-more-personalised-cervical-screening-for-millions/)
-
-[A digital-first approach to patient communications](https://digital.nhs.uk/blog/transformation-blog/2025/a-digital-first-approach-to-patient-communications)
-
-[Transforming digital services in breast screening](https://www.england.nhs.uk/blog/transforming-digital-services-breast-screening/)
-
-[NHS ‘ping and book’ screening to help save thousands of women’s lives](https://www.england.nhs.uk/2024/11/nhs-ping-and-book-screening-to-help-save-thousands-of-womens-lives/)
+<div class="nhsuk-width-container">
+  <div class="nhsuk-main-wrapper">
+    <div class="nhsuk-grid-row">
+      <div class="nhsuk-grid-column-two-thirds">
+        <h2 id="contactus">Get involved</h2>
+        <p>Features are being actively trialled with BSOs to ensure they meet the needs of both clinical and administrative staff prior to release. <a href="mailto:england.digitalscreening@nhs.net">eGet in touch</a> if you would like to be involved in research and testing, or if you have any other feedback or questions.</p>
+      </div>
+    </div>
+  </div>
+</div>
