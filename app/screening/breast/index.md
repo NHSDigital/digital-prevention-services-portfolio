@@ -53,6 +53,6 @@ Different elements of the end-to-end service are being developed, tested and rel
 
 The teams involved in developing these tools regularly publish updates on the [Digital screening design history](https://design-history.prevention-services.nhs.uk/). 
 
-## Help us to improve the future of breast screneing
+## Help us to improve the future of breast screening
 
-Features are being actively trialled with BSOs to ensure they meet the needs of both clinical and administrative staff prior to release. <a href="mailto:england.digitalscreening@nhs.net">eGet in touch</a> if you would like to be involved in research and testing, or if you have any other feedback or questions.
+Features are being actively trialled with BSOs to ensure they meet the needs of both clinical and administrative staff prior to release. <a href="mailto:england.digitalscreening@nhs.net">Get in touch</a> if you would like to be involved in research and testing, or if you have any other feedback or questions.
