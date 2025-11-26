@@ -31,7 +31,7 @@ pagination:
         <h2 class="nhsuk-heading-l">Current activity</h2>
         <p>We’re currently focusing our efforts on:</p>
         <ul class="nhsuk-u-margin-bottom-6">
-          <li><strong><a href="/screening">digital services to support screening</a></strong> for <a href="/screening/breast/">breast cancer</a></strong>, bowel cancer and cervical cancer</li>
+          <li><strong><a href="/screening">digital services to support screening</a></strong> across <a href="/screening/breast/">breast</a></strong>, bowel and cervical programmes</li>
           <li><strong>digital services for organising, managing and recording vaccinations</strong> for COVID-19, flu, RSV and pertussis, with teams devoted to infant, maternity and school vaccinations</li>
           <li><strong>personalised prevention services</strong>, making it easy for people to understand
             their health risks and find the right services to stay well
