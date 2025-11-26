@@ -5,9 +5,6 @@ title: Digital prevention services portfolio
 description: Building the NHS that helps people stay well, before they need the NHS that makes them better
 image:
   src: /assets/images/dpsp-illustration.svg
-pagination:
-  data: links
-  size: 4
 intro: |
   Digital Prevention Services Portfolio (DPSP) is part of [NHS England](https://www.england.nhs.uk). We play a central part in the government's high-level strategy to [build an NHS that's fit for the future](https://www.england.nhs.uk/long-term-plan/):
 
@@ -58,11 +55,13 @@ current_activity:
 
 notes:
   title: Notes
-  size: 5
-  intro: |
+  limit: 5
+  type: "secondary"
+  content: |
     We encourage our teams to work in the open as much as possible. Openness is one of our 4 team values – sharing our work openly is an excellent way to build trust and invite constructive feedback.
 
     Read our [design histories](https://design-history.prevention-services.nhs.uk/) for detailed notes on current work in progress
+  items: links
 
 contact:
   title: Contact us

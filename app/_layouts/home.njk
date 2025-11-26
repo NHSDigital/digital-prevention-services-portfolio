@@ -1,7 +1,5 @@
 {% extends "layouts/product.njk" %}
 
-{% from "nhsuk/components/card/macro.njk" import card %}
-
 {% block main %}
   <main id="maincontent">
     {{ appHero({
@@ -28,6 +26,7 @@
           level: 2,
           size: "l"
         }) }}
+
         {{ appProseScope(current_activity.content | markdown) }}
 
         {{ appHeading({
@@ -35,6 +34,7 @@
           level: 3,
           size: "m"
         }) }}
+
         {{ appCardGroup(current_activity.services) }}
 
         {{ appProseScope(current_activity.footer | markdown) }}
@@ -44,44 +44,33 @@
     <div class="app-section-white">
       <div class="nhsuk-width-container">
         <div class="nhsuk-main-wrapper">
-          {{ appHeading({
-            title: notes.title,
-            level: 2,
-            size: "l"
-          }) }}
-          {{ appProseScope(notes.intro | markdown) }}
+          {% call appProseScope() %}
+            {{ appHeading({
+              title: notes.title,
+              level: 2,
+              size: "l"
+            }) }}
 
-          <div class="nhsuk-u-reading-width">
-            {% for link in links %}
-              {% if loop.index0 < notes.size %}
-                {% set descriptionHtml %}
-                  <p class="nhsuk-body-s nhsuk-u-margin-bottom-2"><time class="nhsuk-u-secondary-text-colour" datetime="{{ link.date | isoDate }}">{{ link.date | nhsukDate }}</time></p>
-                  {{ (link.description | markdown) }}
-                {% endset %}
+            {{ notes.content | markdown }}
 
-                {{ card({
-                  secondary: true,
-                  heading: link.title,
-                  headingClasses: "nhsuk-u-font-size-22 nhsuk-u-margin-bottom-2",
-                  headingLevel: 3,
-                  href: link.href,
-                  descriptionHtml: descriptionHtml
-                }) }}
-              {% endif %}
-            {% endfor %}
+            {{ appCardGroup(notes) }}
 
             <p><a href="/notes" class="nhsuk-link">View all {{ links | length }} notes</a></p>
-          </div>
+          {% endcall %}
         </div>
       </div>
     </div>
 
     <div class="nhsuk-width-container">
       <div class="nhsuk-main-wrapper">
-        <h2 class="nhsuk-heading-l">{{ contact.title }}</h2>
+        {{ appHeading({
+          title: contact.title,
+          level: 2,
+          size: "l"
+        }) }}
+
         {{ appProseScope(contact.content | markdown) }}
       </div>
     </div>
-
   </main>
 {% endblock %}
