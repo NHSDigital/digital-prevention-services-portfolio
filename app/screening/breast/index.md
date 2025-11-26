@@ -5,19 +5,19 @@ description: NHS England is developing digital services to support the national 
 
 ---
 
-> ## Sign up to the newsletter
->
-> Subscribe to the [Breast Screening Digital Digest](https://forms.office.com/Pages/ResponsePage.aspx?id=slTDN7CF9UeyIge0jXdO45mS-NvFy31Gqzkcb-jJwqpUNkJCWFlFOUFBTVdYRDU1SEtHRzJSNzdBNC4u) (Microsoft Forms) for the latest updates.
->
-> More information is available on [NHS Futures](https://future.nhs.uk/vaccsandscreening/view?objectId=60311632) (login required), including [previous newsletters](https://future.nhs.uk/vaccsandscreening/view?objectId=66919568).
-
 ## Replacing NBSS (the National Breast Screening Service)
 
 The processes involved in breast screening include identifying participants, arranging appointments, taking mammograms, reading images, and recording results.
 
 The systems currently used by breast screening offices (BSOs) to manage these tasks are no longer fit for purpose. By 2028 we aim to replace them with modern, digital services.
 
-### Designed for the NHS, by the NHS
+### Sign up to the newsletter
+
+Subscribe to the [Breast Screening Digital Digest](https://forms.office.com/Pages/ResponsePage.aspx?id=slTDN7CF9UeyIge0jXdO45mS-NvFy31Gqzkcb-jJwqpUNkJCWFlFOUFBTVdYRDU1SEtHRzJSNzdBNC4u) (Microsoft Forms) for the latest updates.
+
+More information is available on [NHS Futures](https://future.nhs.uk/vaccsandscreening/view?objectId=60311632) (login required), including [previous newsletters](https://future.nhs.uk/vaccsandscreening/view?objectId=66919568).
+
+## Designed for the NHS, by the NHS
 
 We’re designing bespoke services for the NHS, and we’re doing it in house. Some key advantages of this are: 
 
@@ -31,6 +31,6 @@ We’re designing bespoke services for the NHS, and we’re doing it in house. S
 
 --ETC--
 
-> ## Help us to improve the future of breast screneing
-> 
-> Features are being actively trialled with BSOs to ensure they meet the needs of both clinical and administrative staff prior to release. <a href="mailto:england.digitalscreening@nhs.net">eGet in touch</a> if you would like to be involved in research and testing, or if you have any other feedback or questions.
+## Help us to improve the future of breast screneing
+
+Features are being actively trialled with BSOs to ensure they meet the needs of both clinical and administrative staff prior to release. <a href="mailto:england.digitalscreening@nhs.net">eGet in touch</a> if you would like to be involved in research and testing, or if you have any other feedback or questions.
