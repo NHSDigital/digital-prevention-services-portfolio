@@ -5,17 +5,11 @@ description: NHS England is developing digital services to support the national 
 
 ---
 
-<div class="nhsuk-width-container">
-  <div class="nhsuk-main-wrapper">
-    <div class="nhsuk-grid-row">
-      <div class="nhsuk-grid-column-two-thirds">
-        <h2 id="contactus">Sign up to the newsletter</h2>
-        <p>Subscribe to the [Breast Screening Digital Digest](https://forms.office.com/Pages/ResponsePage.aspx?id=slTDN7CF9UeyIge0jXdO45mS-NvFy31Gqzkcb-jJwqpUNkJCWFlFOUFBTVdYRDU1SEtHRzJSNzdBNC4u) (Microsoft Forms) for the latest updates.</p>
-          <p>More information is available on [NHS Futures](https://future.nhs.uk/vaccsandscreening/view?objectId=60311632) (login required), including [previous newsletters](https://future.nhs.uk/vaccsandscreening/view?objectId=66919568).</p>
-      </div>
-    </div>
-  </div>
-</div>
+> ## Sign up to the newsletter
+>
+> Subscribe to the [Breast Screening Digital Digest](https://forms.office.com/Pages/ResponsePage.aspx?id=slTDN7CF9UeyIge0jXdO45mS-NvFy31Gqzkcb-jJwqpUNkJCWFlFOUFBTVdYRDU1SEtHRzJSNzdBNC4u) (Microsoft Forms) for the latest updates.
+>
+> More information is available on [NHS Futures](https://future.nhs.uk/vaccsandscreening/view?objectId=60311632) (login required), including [previous newsletters](https://future.nhs.uk/vaccsandscreening/view?objectId=66919568).
 
 ## Replacing NBSS (the National Breast Screening Service)
 
@@ -37,13 +31,6 @@ We’re designing bespoke services for the NHS, and we’re doing it in house. S
 
 --ETC--
 
-<div class="nhsuk-width-container">
-  <div class="nhsuk-main-wrapper">
-    <div class="nhsuk-grid-row">
-      <div class="nhsuk-grid-column-two-thirds">
-        <h2 id="contactus">Get involved</h2>
-        <p>Features are being actively trialled with BSOs to ensure they meet the needs of both clinical and administrative staff prior to release. <a href="mailto:england.digitalscreening@nhs.net">eGet in touch</a> if you would like to be involved in research and testing, or if you have any other feedback or questions.</p>
-      </div>
-    </div>
-  </div>
-</div>
+> ## Help us to improve the future of breast screneing
+> 
+> Features are being actively trialled with BSOs to ensure they meet the needs of both clinical and administrative staff prior to release. <a href="mailto:england.digitalscreening@nhs.net">eGet in touch</a> if you would like to be involved in research and testing, or if you have any other feedback or questions.
