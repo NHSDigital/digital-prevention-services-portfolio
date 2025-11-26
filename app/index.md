@@ -31,7 +31,7 @@ pagination:
         <h2 class="nhsuk-heading-l">Current activity</h2>
         <p>We’re currently focusing our efforts on:</p>
         <ul class="nhsuk-u-margin-bottom-6">
-          <li><strong><a href="/screening">digital services to support screening</a></strong> for breast cancer, bowel cancer and cervical cancer</li>
+          <li><strong><a href="/screening">digital services to support screening</a></strong> for <a href="/screening/breast/">breast cancer</a></strong>, bowel cancer and cervical cancer</li>
           <li><strong>digital services for organising, managing and recording vaccinations</strong> for COVID-19, flu, RSV and pertussis, with teams devoted to infant, maternity and school vaccinations</li>
           <li><strong>personalised prevention services</strong>, making it easy for people to understand
             their health risks and find the right services to stay well
@@ -63,8 +63,8 @@ pagination:
         <div class="nhsuk-grid-column-one-third nhsuk-u-margin-top-2 nhsuk-card-group__item">
         <div class="nhsuk-card nhsuk-card--clickable">
           <div class="nhsuk-card__content">
-            <h3 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a class="nhsuk-card__link" href="https://select-people-for-invitation.nhs.uk">Select people for invitation</a></h3>
-            <p class="nhsuk-card__description">A system for campaign managers to run an awareness or invitation campaign, sending communications to eligible people</p>
+            <h3 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a class="nhsuk-card__link" href="/screening/breast/">Manage breast screening</a></h3>
+            <p class="nhsuk-card__description">New services and replacements for outdated technology used in the national breast screening programme</p>
           </div>
         </div>
       </div>
