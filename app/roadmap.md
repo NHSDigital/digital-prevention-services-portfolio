@@ -26,7 +26,7 @@ The Digital Screening team works on providing provide safe, efficient, high qual
 
 - adding self-testing as a new mode for cervical screening participants who have previously not attended clinic-based screening
 - expanding the use of digital communications to participants in breast cancer screening
-- piloting a new service for staff working in breast screening, giving them a quicker, easier way to manage the screening process, and freeing them up to spend more time with participants
+- piloting a ([new service for staff working in breast screening](/screening/breast/)), giving them a quicker, easier way to manage the screening process, and freeing them up to spend more time with participants
 
 ## Vaccination Digital Services
 
