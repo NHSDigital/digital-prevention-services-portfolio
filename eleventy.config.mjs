@@ -34,6 +34,10 @@ export default function(eleventyConfig) {
           {
             text: 'Notes',
             href: '/notes'
+          },
+          {
+            text: 'Documents',
+            href: '/docs'
           }
         ]
       }
