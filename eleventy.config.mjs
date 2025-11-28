@@ -8,6 +8,9 @@ export default function(eleventyConfig) {
   eleventyConfig.addPlugin(nhsukEleventyPlugin, {
     titleSuffix: `NHS ${serviceName}`,
     stylesheets: ['/assets/application.css'],
+    markdown: {
+      headingsStartWith: 'l'
+    },
     header: {
       service: {
         text: serviceName,
