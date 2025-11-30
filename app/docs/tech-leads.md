@@ -34,12 +34,12 @@ The Tech Lead of a team is not the boss in two key ways:
 Responsibilities
 ----------------
 
-- *Technical alignment*: guiding the team towards consistent approaches, patterns, and practices. Working with other teams to help inform and shape those approaches, patterns, and practices.
+- **Technical alignment**: guiding the team towards consistent approaches, patterns, and practices. Working with other teams to help inform and shape those approaches, patterns, and practices.
 
-- *Decision facilitation*: helping the team weigh options and reach timely decisions.
+- **Decision facilitation**: helping the team weigh options and reach timely decisions.
 
-- *Communication*: being a main contact for other teams and stakeholders on technical matters. Be the "developer that can be interrupted".
+- **Communication**: being a main contact for other teams and stakeholders on technical matters. Be the "developer that can be interrupted".
 
-- *Mentorship*: supporting the growth of team members through sharing knowledge, reviewing code, and encouraging learning.
+- **Mentorship**: supporting the growth of team members through sharing knowledge, reviewing code, and encouraging learning.
 
-- *Balancing delivery and quality*: helping the team navigate trade-offs between speed, maintainability, and technical debt.
+- **Balancing delivery and quality**: helping the team navigate trade-offs between speed, maintainability, and technical debt.
