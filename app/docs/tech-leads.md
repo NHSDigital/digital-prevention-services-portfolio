@@ -1,6 +1,6 @@
 ---
 order: 2
-title: Being a Tech Lead in DPSP
+title: Being a Tech Lead
 ---
 
 Each multi-disciplinary team within DPSP should have one person acting as the Tech Lead for that team.
