@@ -2,15 +2,6 @@
   "name": "digital-prevention-services-portfolio",
   "description": "The website for NHS Digital prevention services portfolio (DPSP).",
   "homepage": "https://www.digital-prevention-services.nhs.uk",
-  "scripts": {
-    "build": "eleventy --quiet",
-    "start": "eleventy --serve --quiet --port $PORT"
-  },
-  "dependencies": {
-    "@11ty/eleventy": "^3.1.2",
-    "@x-govuk/nhsuk-eleventy-plugin": "^1.0.5",
-    "js-yaml": "^4.1.1"
-  },
   "author": {
     "name": "NHS England",
     "url": "https://www.england.nhs.uk"
@@ -20,6 +11,29 @@
     "url": "https://github.com/NHSDigital/digital-prevention-services-portfolio/issues"
   },
   "license": "MIT",
+  "scripts": {
+    "build": "eleventy --quiet",
+    "lint:prettier": "prettier . --check",
+    "lint:prettier:fix": "prettier . --write",
+    "lint:js": "eslint '**/*.js'",
+    "lint:js:fix": "eslint '**/*.js' --fix",
+    "lint:scss": "stylelint '**/*.scss'",
+    "lint:scss:fix": "stylelint '**/*.scss' --fix",
+    "lint": "npm run lint:prettier && npm run lint:js && npm run lint:scss",
+    "lint:fix": "npm run lint:prettier:fix && npm run lint:js:fix && npm run lint:scss:fix",
+    "start": "eleventy --serve --quiet --port $PORT"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@x-govuk/nhsuk-eleventy-plugin": "^1.0.5",
+    "js-yaml": "^4.1.1"
+  },
+  "devDependencies": {
+    "@x-govuk/eslint-config": "^0.0.1",
+    "prettier": "^3.6.2",
+    "stylelint": "^16.24.0",
+    "stylelint-config-gds": "^2.0.0"
+  },
   "private": true,
   "engines": {
     "node": "^22",
