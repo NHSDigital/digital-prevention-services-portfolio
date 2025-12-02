@@ -49,9 +49,6 @@ current_activity:
       - title: Cervical screening management system
         href: https://www.service-catalogue.nhs.uk/services/cervical-screening-management-system
         description: A tool for NHS staff running cervical screening clinics
-      - title: Cervical screening management system
-        href: /screening/breast/
-        description: New services and replacements for outdated technology used in the national breast screening programme
 
   footer: |
     See a [full list of digital prevention services](https://www.service-catalogue.nhs.uk/by-organisation#digital-prevention-services)
@@ -71,5 +68,3 @@ contact:
   content: |
     If you have a service or digital transformation idea, or something you would like our support with, please email: [england.dpsp-front-door@nhs.net](mailto:england.dpsp-front-door@nhs.net)
 ---
-  </div>
-</div>

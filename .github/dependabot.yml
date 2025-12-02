@@ -6,6 +6,8 @@ updates:
     directory: '/'
     schedule:
       interval: monthly
+    cooldown:
+      default-days: 4
 
   # Update GitHub Actions
   - package-ecosystem: github-actions

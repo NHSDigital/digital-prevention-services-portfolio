@@ -1,0 +1,78 @@
+{% extends "layouts/product.njk" %}
+
+{% set bodyClasses = "app-homepage" %}
+
+{% block main %}
+  <main id="maincontent">
+    {{ appHero({
+      caption: caption,
+      title: title,
+      headingClasses: headingClasses,
+      description: description,
+      image: image,
+      startButton: startButton
+    }) }}
+
+    <div class="app-section-white">
+      <div class="nhsuk-width-container">
+        <div class="nhsuk-main-wrapper">
+          {{ appProseScope(intro | markdown) }}
+        </div>
+      </div>
+    </div>
+
+    <div class="nhsuk-width-container">
+      <div class="nhsuk-main-wrapper">
+        {{ appHeading({
+          title: current_activity.title,
+          level: 2,
+          size: "l"
+        }) }}
+
+        {{ appProseScope(current_activity.content | markdown) }}
+
+        {{ appHeading({
+          title: current_activity.services.title,
+          level: 3,
+          size: "m"
+        }) }}
+
+        {{ appCardGroup(current_activity.services) }}
+
+        {{ appProseScope(current_activity.footer | markdown) }}
+      </div>
+    </div>
+
+    <div class="app-section-white">
+      <div class="nhsuk-width-container">
+        <div class="nhsuk-main-wrapper">
+          {% call appProseScope() %}
+            {{ appHeading({
+              title: notes.title,
+              level: 2,
+              size: "l"
+            }) }}
+
+            {{ notes.content | markdown }}
+
+            {{ appCardGroup(notes) }}
+
+            <p><a href="/notes" class="nhsuk-link">View all {{ links | length }} notes</a></p>
+          {% endcall %}
+        </div>
+      </div>
+    </div>
+
+    <div class="nhsuk-width-container">
+      <div class="nhsuk-main-wrapper">
+        {{ appHeading({
+          title: contact.title,
+          level: 2,
+          size: "l"
+        }) }}
+
+        {{ appProseScope(contact.content | markdown) }}
+      </div>
+    </div>
+  </main>
+{% endblock %}
