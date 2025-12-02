@@ -19,31 +19,31 @@ Maps are available from reception and on posters around the venue.
 
 ### 13:45 – RAVS 
 
-_Frankie Roberto and Matt Lucht_
+Frankie Roberto and Matt Lucht
 
 : Find out how to record a vaccination with RAVS in a live demonstration, and see how it has been improved in the past year. 
 
 ### 14:05 – HomeTest
 
-_Matt Visser_
+Matt Visser
 
 : How we want to scale home testing: Changing lives from HIV to long-term condition management. 
 
 ### 14:30 – Intro to Accessibility 
 
-_???_
+???
 
 : ???? 
 
 ### 14:35 – NHS Lung Cancer Risk Check Online 
 
-_Michael Watson and Jules Fidler_
+Michael Watson and Jules Fidler
 
 : Step into the shoes of a real NHS service user and experience the new NHS lung cancer risk check online. Then tell us what works and what doesn’t! 
 
 ### 14:55 – MAVIS 
 
-_Adam Maddison and Giulia Matrigiani_
+Adam Maddison and Giulia Matrigiani
 
 : See how Mavis helps the NHS vaccinate more children more easily. 
 
@@ -53,25 +53,25 @@ _Adam Maddison and Giulia Matrigiani_
 
 ### 00:00 – ???
 
-_???_
+???
 
 : ???? 
 
 ### 00:00 – ???
 
-_???_
+???
 
 : ???? 
 
 ### 00:00 – ???
 
-_???_
+???
 
 : ???? 
 
 ### 00:00 – ???
 
-_???_
+???
 
 : ???? 
 
@@ -81,25 +81,24 @@ _???_
 
 ### 00:00 – ???
 
-_???_
+???
 
 : ???? 
 
 ### 00:00 – ???
 
-_???_
+???
 
 : ???? 
 
 ### 00:00 – ???
 
-_???_
+???
 
 : ???? 
 
 ### 00:00 – ???
 
-_???_
+???
 
 : ???? 
-
