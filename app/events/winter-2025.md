@@ -37,7 +37,7 @@ _???_
 
 ### 14:35 – NHS Lung Cancer Risk Check Online 
 
-_ Michael Watson and Jules Fidler_
+_Michael Watson and Jules Fidler_
 
 : Step into the shoes of a real NHS service user and experience the new NHS lung cancer risk check online. Then tell us what works and what doesn’t! 
 
