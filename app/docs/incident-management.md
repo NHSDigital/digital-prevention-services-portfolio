@@ -42,7 +42,7 @@ If in doubt, consult the [NHS England guidance on Priority levels](https://nhsdi
 
 P2 and P3 moderate “significant” to “moderate” and “minor”. Note that data issues are always P1.
 
-**Know your service tier**, which will determine your SLA. NHS England ranks services on a Gold-Silver-Bronze scale. There is a list in Slack [here](https://screening-discovery.slack.com/archives/CJBBTHWTX/p1763049602409279) (we are seeking a better source). Teams can determine their own service tier. Contact Service Management to do this.
+**Know your service tier**, which will determine your SLA. NHS England ranks services on a Platinum-Gold-Silver-Bronze scale. There is a list in Slack [here](https://screening-discovery.slack.com/archives/CJBBTHWTX/p1763049602409279) (we are seeking a better source). Teams can determine their own service tier. Contact Service Management to do this.
 
 > [!IMPORTANT] Major incidents
 > NHS England calls P1 or P2 incidents (defined according to the criteria linked above) **Major incidents**. If this is a Major incident the comms lead must report it to NHS England’s “Service Bridge”. Their contact details are published on page 10 of the [Service Management documentation](https://nhsdigitallive.service-now.com/now/nav/ui/classic/params/target/%24viewer.do%3Fsysparm_stack%3Dno%26sysparm_sys_id%3Da76b63e4fb465e50ecbef3baaeefdc64).
