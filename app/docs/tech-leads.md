@@ -5,8 +5,7 @@ title: Being a Tech Lead
 
 Each multi-disciplinary team within DPSP should have one person acting as the Tech Lead for that team.
 
-Role, not rank
---------------
+## Role, not rank
 
 The Tech Lead is a role within a team, not a job title or level of seniority. 
 
@@ -22,8 +21,7 @@ A Tech Lead is responsible for guiding the team's technical direction. This incl
 
 The role can shift depending on the context. Different people may take on the Tech Lead role in different teams, or at different times, depending on skills, project needs, and team composition.
 
-Not the boss
-------------
+## Not the boss
 
 The Tech Lead of a team is not the boss in two key ways:
 
@@ -31,8 +29,7 @@ The Tech Lead of a team is not the boss in two key ways:
 
 - They are facilitator, not dictator. While the Tech Lead can be the deciding vote when agreement is not possible within a team, they should always be trying to create agreement and understanding on technical decisions.
 
-Responsibilities
-----------------
+## Responsibilities
 
 - **Technical alignment**: guiding the team towards consistent approaches, patterns, and practices. Working with other teams to help inform and shape those approaches, patterns, and practices.
 

@@ -32,7 +32,7 @@ Throughout our transformation, services will be designed in collaboration with u
 
 ## Progress and next steps
 
-In June 2025, the NHS Cervical Screening Programme introduced digital-first invitations and reminders via the NHS App. Eligible women and people with a cervix first receive a notification through the app to alert them to book a screening appointment, followed by a text message if the app notification isn’t opened. Letters will still be sent for those who need them. Since June 2025, 9 out of 10 invitations have been sent digitally. 
+In June 2025, the NHS Cervical Screening Programme introduced digital-first invitations and reminders via the NHS App. Eligible women and people with a cervix first receive a notification through the app to alert them to book a screening appointment, followed by a text message if the app notification isn’t opened. Letters will still be sent for those who need them. Since June 2025, 9 out of 10 invitations have been sent digitally.
 
 The NHS bowel cancer and breast screening programmes plan to start rolling out digital-first communications in 2026.
 
