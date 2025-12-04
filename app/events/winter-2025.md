@@ -17,9 +17,7 @@ Welcome​ - 2025: It's a wrap
 
 DPSP meeting of minds
 
-### 11:30 - 12:00
-
-==Break==
+### ==11:30 - 12:00 - Break==
 
 ### 12:00 - 12:45
 
@@ -27,26 +25,21 @@ Keynote
 **Care at the core: An ICB's digital journey**
 Sam Burrows, Managing Director, NHS Frimley ICB
 
-### 12:45 - 13:45
-
-==Lunch==
+### ==12:45 - 13:45 - Lunch==
 
 ### 13:45 - 15:15
 
-DPSP Festival - [see session details](#dpsp-festival)
+**DPSP Festival**
+See session details](#dpsp-festival)
 
-### 15:15 - 15:30
-
-==Break==
+### ==15:15 - 15:30 - Break==
 
 ### 15:30 - 16:10​
 
-DPSP CKAF 🎤❔🏆
+**DPSP CKAF** 🎤❔🏆
 The DPSP Competitive Knowledge Assessment Framework (don’t say the Q word)
 
-### 16:10
-
-==Close==
+### ==16:10 - Close==
 
 ---
 
@@ -60,7 +53,7 @@ Select a room to see what’s on:
 
 All times are approximate.
 
-See the venue map. Printed maps are also available from reception and on posters around the venue.
+See the [venue map](#venue-map). Printed maps are available from reception and on posters around the venue.
 
 ---
 
@@ -72,25 +65,27 @@ Frankie Roberto and Matt Lucht
 
 : Find out how to record a vaccination with RAVS in a live demonstration, and see how it has been improved in the past year. 
 
-### 14:05 – HomeTest
+### 14:10 – HomeTest
 
 Matt Visser
 
 : How we want to scale home testing: Changing lives from HIV to long-term condition management. 
 
-### 14:30 – Intro to Accessibility 
+### ==14:30 - Break==
+
+### 14:35 – Intro to Accessibility 
 
 ???
 
 : ???? 
 
-### 14:35 – NHS Lung Cancer Risk Check Online 
+### 14:40 – NHS Lung Cancer Risk Check Online
 
 Michael Watson and Jules Fidler
 
 : Step into the shoes of a real NHS service user and experience the new NHS lung cancer risk check online. Then tell us what works and what doesn’t! 
 
-### 14:55 – MAVIS 
+### 14:50 – Mavis 
 
 Adam Maddison and Giulia Matrigiani
 
@@ -98,61 +93,62 @@ Adam Maddison and Giulia Matrigiani
 
 ---
 
-## Maple and Mulberry  
+## Maple and Mulberry
 
-### 00:00 – ???
+### 13:45 – ChildHealth
 
-???
+Amy Glees
 
-: ???? 
+: Building healthier futures – the story and vision behind digital child health​ 
 
-### 00:00 – ???
+### 14:00 – HPV
 
-???
+Adam Withers (and team)
 
-: ???? 
+: HPV Self-Testing: What can you expect to see in 2026? 
 
-### 00:00 – ???
+### 14:15 – NHS Health Check Online
 
-???
+Rob Bridgewater
 
-: ???? 
+: Not everyone gets the same chance to prevent cardiovascular disease...
 
-### 00:00 – ???
+### ==14:30 - Break==
 
-???
+### 14:35 – Interop / data​
 
-: ???? 
+Ben MacInnes
+
+: Banishing batch and the drive for real time - what's the Imms API all about? 
+
+### 14:50 – AI Health Coach
+
+John Fisher
+
+: Exploring an AI Coach to establish long term behavioural change in prevention. 
 
 ---
 
 ## Beech & Cedar 
 
-### 00:00 – ???
+### 13:45 – Intro to Accessibility ​
 
 ???
 
 : ???? 
 
-### 00:00 – ???
+### 13:50 – BoxWave​
 
-???
+Harry & Joe Freeman
 
-: ???? 
+: Join us for a thought-provoking conversation on behavioural change – BoxWave work with kids struggling with confidence, weight, motivation or bullying.
 
-### 00:00 – ???
+### ==14:30 - Break==
 
-???
-
-: ???? 
-
-### 00:00 – ???
-
-???
-
-: ????
-
+### 14:35 – BoxWave (repeat)​
 
 ---
 
-![DPSP Winter Event Map](/assets/post-image.jpg 'Zoom in to see details')
+# Venue Map
+
+![DPSP Winter Event Map](/assets/dpsp-winter-event-venue-map.png 'Zoom in to see details')
