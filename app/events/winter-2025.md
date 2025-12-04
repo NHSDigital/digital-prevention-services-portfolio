@@ -9,37 +9,34 @@ title: 2025 Winter Event
 
 # Agenda
 
-### 10:00 - 11:00
+### 10:00 - 11:00 - Welcome​
 
-Welcome​ - 2025: It's a wrap
+2025: It's a wrap
 
-### 11:00 - 11:30
-
-DPSP meeting of minds
+### 11:00 - 11:30 - DPSP meeting of minds
 
 ### ==11:30 - 12:00 - Break==
 
-### 12:00 - 12:45
+### 12:00 - 12:45 - Keynote
 
-Keynote
 **Care at the core: An ICB's digital journey**
 Sam Burrows, Managing Director, NHS Frimley ICB
 
 ### ==12:45 - 13:45 - Lunch==
 
-### 13:45 - 15:15
+### 13:45 - 15:15 - DPSP Festival
 
-**DPSP Festival**
-See session details](#dpsp-festival)
+[See session details](#dpsp-festival)
 
 ### ==15:15 - 15:30 - Break==
 
-### 15:30 - 16:10​
+### 15:30 - 16:10​ - DPSP CKAF 🎤❔🏆
 
-**DPSP CKAF** 🎤❔🏆
 The DPSP Competitive Knowledge Assessment Framework (don’t say the Q word)
 
 ### ==16:10 - Close==
+
+Evening social at [Between the Bridges](https://maps.app.goo.gl/sRvMKxNDhXL3tJFT8)
 
 ---
 
@@ -59,89 +56,65 @@ See the [venue map](#venue-map). Printed maps are available from reception and o
 
 ## The Cube
 
-### 13:45 – RAVS 
+### 13:45 – RAVS (Frankie Roberto and Matt Lucht)
 
-Frankie Roberto and Matt Lucht
+Find out how to record a vaccination with RAVS in a live demonstration, and see how it has been improved in the past year. 
 
-: Find out how to record a vaccination with RAVS in a live demonstration, and see how it has been improved in the past year. 
+### 14:10 – HomeTest (Matt Visser)
 
-### 14:10 – HomeTest
-
-Matt Visser
-
-: How we want to scale home testing: Changing lives from HIV to long-term condition management. 
+How we want to scale home testing: Changing lives from HIV to long-term condition management. 
 
 ### ==14:30 - Break==
 
-### 14:35 – Intro to Accessibility 
+### 14:35 – Intro to Accessibility (?)
 
-???
+???? 
 
-: ???? 
+### 14:40 – NHS Lung Cancer Risk Check Online (Michael Watson and Jules Fidler)
 
-### 14:40 – NHS Lung Cancer Risk Check Online
+Step into the shoes of a real NHS service user and experience the new NHS lung cancer risk check online. Then tell us what works and what doesn’t! 
 
-Michael Watson and Jules Fidler
+### 14:50 – Mavis (Adam Maddison and Giulia Matrigiani)
 
-: Step into the shoes of a real NHS service user and experience the new NHS lung cancer risk check online. Then tell us what works and what doesn’t! 
-
-### 14:50 – Mavis 
-
-Adam Maddison and Giulia Matrigiani
-
-: See how Mavis helps the NHS vaccinate more children more easily. 
+See how Mavis helps the NHS vaccinate more children more easily. 
 
 ---
 
 ## Maple and Mulberry
 
-### 13:45 – ChildHealth
+### 13:45 – ChildHealth (Amy Glees)
 
-Amy Glees
+Building healthier futures – the story and vision behind digital child health​ 
 
-: Building healthier futures – the story and vision behind digital child health​ 
+### 14:00 – HPV (Adam Withers and team)
 
-### 14:00 – HPV
+HPV Self-Testing: What can you expect to see in 2026? 
 
-Adam Withers (and team)
+### 14:15 – NHS Health Check Online (Rob Bridgewater)
 
-: HPV Self-Testing: What can you expect to see in 2026? 
-
-### 14:15 – NHS Health Check Online
-
-Rob Bridgewater
-
-: Not everyone gets the same chance to prevent cardiovascular disease...
+Not everyone gets the same chance to prevent cardiovascular disease...
 
 ### ==14:30 - Break==
 
-### 14:35 – Interop / data​
+### 14:35 – Interop / data​ (Ben MacInnes)
 
-Ben MacInnes
+Banishing batch and the drive for real time - what's the Imms API all about? 
 
-: Banishing batch and the drive for real time - what's the Imms API all about? 
+### 14:50 – AI Health Coach (John Fisher)
 
-### 14:50 – AI Health Coach
-
-John Fisher
-
-: Exploring an AI Coach to establish long term behavioural change in prevention. 
+Exploring an AI Coach to establish long term behavioural change in prevention. 
 
 ---
 
 ## Beech & Cedar 
 
-### 13:45 – Intro to Accessibility ​
+### 13:45 – Intro to Accessibility ​(?)
 
-???
+???? 
 
-: ???? 
+### 13:50 – BoxWave​ (Harry & Joe Freeman)
 
-### 13:50 – BoxWave​
-
-Harry & Joe Freeman
-
-: Join us for a thought-provoking conversation on behavioural change – BoxWave work with kids struggling with confidence, weight, motivation or bullying.
+Join us for a thought-provoking conversation on behavioural change – BoxWave work with kids struggling with confidence, weight, motivation or bullying.
 
 ### ==14:30 - Break==
 
@@ -151,4 +124,4 @@ Harry & Joe Freeman
 
 # Venue Map
 
-![DPSP Winter Event Map](/assets/dpsp-winter-event-venue-map.png 'Zoom in to see details')
+![DPSP Winter Event Map](app/assets/images/dpsp-winter-event-venue-map.png 'Zoom in to see details')
