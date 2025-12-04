@@ -3,6 +3,55 @@ layout: page
 title: 2025 Winter Event
 ---
 
+[Agenda](#agenda) | [DPSP Festival](#dpsp-festival) | [Venue Map](#venue-map)
+
+---
+
+# Agenda
+
+### 10:00 - 11:00
+
+Welcome​ - 2025: It's a wrap
+
+### 11:00 - 11:30
+
+DPSP meeting of minds
+
+### 11:30 - 12:00
+
+==Break==
+
+### 12:00 - 12:45
+
+Keynote
+**Care at the core: An ICB's digital journey**
+Sam Burrows, Managing Director, NHS Frimley ICB
+
+### 12:45 - 13:45
+
+==Lunch==
+
+### 13:45 - 15:15
+
+DPSP Festival - [see session details](#dpsp-festival)
+
+### 15:15 - 15:30
+
+==Break==
+
+### 15:30 - 16:10​
+
+DPSP CKAF 🎤❔🏆
+The DPSP Competitive Knowledge Assessment Framework (don’t say the Q word)
+
+### 16:10
+
+==Close==
+
+---
+
+# DPSP Festival
+
 Select a room to see what’s on:
 
 - [The Cube](#the-cube)
@@ -11,7 +60,7 @@ Select a room to see what’s on:
 
 All times are approximate.
 
-Maps are available from reception and on posters around the venue.
+See the venue map. Printed maps are also available from reception and on posters around the venue.
 
 ---
 
@@ -101,4 +150,9 @@ Adam Maddison and Giulia Matrigiani
 
 ???
 
-: ???? 
+: ????
+
+
+---
+
+![DPSP Winter Event Map](/assets/post-image.jpg 'Zoom in to see details')
