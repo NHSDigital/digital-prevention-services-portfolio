@@ -124,4 +124,4 @@ Join us for a thought-provoking conversation on behavioural change – BoxWave w
 
 # Venue Map
 
-![DPSP Winter Event Map](app/assets/images/dpsp-winter-event-venue-map.png 'Zoom in to see details')
+![DPSP Winter Event Map](/images/dpsp-winter-event-venue-map.png 'Zoom in to see details')
