@@ -22,3 +22,22 @@
     }
   }
 }
+
+.app-its-ok {
+  @include nhsuk-responsive-padding(7);
+  margin-top: nhsuk-spacing(7);
+  background-color: nhsuk-colour("blue");
+  color: nhsuk-colour("white");
+  display: flex;
+  flex-direction: row;
+
+  .nhsuk-body {
+    @include nhsuk-responsive-padding(9, "right");
+  }
+
+  .nhsuk-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+}
