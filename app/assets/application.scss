@@ -24,7 +24,7 @@
 }
 
 .app-its-ok {
-  @include nhsuk-responsive-padding(7);
+  padding: nhsuk-spacing(5);
   margin-top: nhsuk-spacing(7);
   background-color: nhsuk-colour("blue");
   color: nhsuk-colour("white");
@@ -32,6 +32,7 @@
   @include nhsuk-media-query($from: tablet) {
     display: flex;
     flex-direction: row;
+    padding: nhsuk-spacing(7);
   }
 
   .nhsuk-body {
