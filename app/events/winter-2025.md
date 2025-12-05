@@ -47,6 +47,7 @@ Select a room to see what’s on:
 - [The Cube](#the-cube)
 - [Maple and Mulberry](#maple-and-mulberry)
 - [Beech and Cedar](#beech-and-cedar)
+- [Acacia and Alder](#acacia-and-alder)
 
 All times are approximate.
 
@@ -62,13 +63,13 @@ Find out how to record a vaccination with RAVS in a live demonstration, and see 
 
 ### 14:10 – HomeTest (Matt Visser)
 
-How we want to scale home testing: Changing lives from HIV to long-term condition management. 
+How we want to scale home testing, changing lives from HIV to long-term condition management. 
 
 ### ==14:30 - Break==
 
-### 14:35 – Intro to Accessibility (?)
+### 14:35 – Intro to Accessibility
 
-???? 
+A promo for the Accessibility Lab taking place in [Acacia and Alder](#acacia-and-alder).
 
 ### 14:40 – NHS Lung Cancer Risk Check Online (Michael Watson and Jules Fidler)
 
@@ -84,15 +85,15 @@ See how Mavis helps the NHS vaccinate more children more easily.
 
 ### 13:45 – ChildHealth (Amy Glees)
 
-Building healthier futures – the story and vision behind digital child health​ 
+Building healthier futures – the story and vision behind digital child health​.
 
 ### 14:00 – HPV (Adam Withers and team)
 
-HPV Self-Testing: What can you expect to see in 2026? 
+Explore how we'll be launching this new national service, what opportunities are on the horizon, and what this means for the future of cervical screening.
 
 ### 14:15 – NHS Health Check Online (Rob Bridgewater)
 
-Not everyone gets the same chance to prevent cardiovascular disease...
+Cardiovascular disease is one of the nation's biggest killers, and NHS Health Checks are one way to stop it before it happens.
 
 ### ==14:30 - Break==
 
@@ -102,15 +103,15 @@ Banishing batch and the drive for real time - what's the Imms API all about?
 
 ### 14:50 – AI Health Coach (John Fisher)
 
-Exploring an AI Coach to establish long term behavioural change in prevention. 
+Hear how a multi-disciplinary, multi departmental, team are establishing novel techniques and ways of working across user research, design, behavioural science and tech. All whilst ensuring clinical safety and ethics are at the forefront of their work
 
 ---
 
 ## Beech & Cedar 
 
-### 13:45 – Intro to Accessibility ​(?)
+### 13:45 – Intro to Accessibility
 
-???? 
+A promo for the Accessibility Lab taking place in [Acacia and Alder](#acacia-and-alder).
 
 ### 13:50 – BoxWave​ (Harry & Joe Freeman)
 
@@ -119,6 +120,14 @@ Join us for a thought-provoking conversation on behavioural change – BoxWave w
 ### ==14:30 - Break==
 
 ### 14:35 – BoxWave (repeat)​
+
+---
+
+## Acacia and Alder
+
+### Accessibility Lab
+
+NHSE digital accessibility experts and people with lived experience will showcase how technology can help us create more inclusive products. Going beyond presenting the best practice and standards, they'll have tools letting you test your assumptions, experiment and build empathy with those who have access needs.
 
 ---
 
