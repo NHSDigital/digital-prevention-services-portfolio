@@ -1,7 +1,7 @@
 {
   "name": "digital-prevention-services-portfolio",
-  "version": "0.0.1",
-  "description": "NHS Digital prevention services portfolio",
+  "description": "The website for NHS Digital prevention services portfolio (DPSP).",
+  "homepage": "https://www.digital-prevention-services.nhs.uk",
   "scripts": {
     "build": "eleventy --quiet",
     "start": "eleventy --serve --quiet --port $PORT"
@@ -11,5 +11,18 @@
     "@x-govuk/nhsuk-eleventy-plugin": "^1.0.5",
     "js-yaml": "^4.1.1"
   },
-  "private": true
+  "author": {
+    "name": "NHS England",
+    "url": "https://www.england.nhs.uk"
+  },
+  "repository": "NHSDigital/digital-prevention-services-portfolio",
+  "bugs": {
+    "url": "https://github.com/NHSDigital/digital-prevention-services-portfolio/issues"
+  },
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "^22",
+    "npm": "^11"
+  }
 }
