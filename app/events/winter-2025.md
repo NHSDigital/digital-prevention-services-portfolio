@@ -107,7 +107,7 @@ Hear how a multi-disciplinary, multi departmental, team are establishing novel t
 
 ---
 
-## Beech & Cedar 
+## Beech & Cedar
 
 ### 13:45 – Intro to Accessibility
 
