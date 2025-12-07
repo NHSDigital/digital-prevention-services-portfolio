@@ -13,6 +13,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
+        # If this is a not a pull request from a fork
+        if: github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions/checkout@v6
+        # Check out the git repo using the `head` ref, so that we can
+        # commit to the branch if needed.
+        # We need to use a personal access token (PAT) with repo scope
+        # as the default GITHUB_TOKEN won’t trigger new workflow runs if
+        # a commit is made (to avoid accidental infinite recursion).
+        with:
+          token: ${{ secrets.AUTOLINT_TOKEN }}
+          ref: ${{ github.head_ref || github.ref }}
+      - name: Checkout
+        # If this is pull request from a fork
+        if: github.event.pull_request.head.repo.full_name != github.repository
+        # Check out the code in the usual way
         uses: actions/checkout@v6
       - name: Setup Node.js
         uses: actions/setup-node@v6
@@ -21,5 +36,21 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm ci
-      - name: Lint and format files
+      - name: Lint and format files (with auto-fix)
+        # If this is a not a pull request from a fork
+        run: npm run lint:fix
+      - name: Commit any formatting changes
+        # Only if this isn't a pull request from a fork (as otherwise no
+        # permission to push a commit to it)
+        if: github.event.pull_request.head.repo.full_name == github.repository
+        # This will commit and push if there’s anything to commit, otherwise exit
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add --all
+          git commit -m "Auto-fix code style issues" || exit 0
+          git push
+      - name: Run code style checks
+        # This checks to see if there any any code style issues which couldn’t be
+        # automatically fixed.
         run: npm run lint
