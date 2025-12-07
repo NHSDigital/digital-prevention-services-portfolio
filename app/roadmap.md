@@ -6,7 +6,7 @@ title: Roadmap
 
 {% from 'nhsuk/components/contents-list/macro.njk' import contentsList %}
 
-<p>This roadmap sets out a high-level overview of the work of the Digital Prevention Services Portfolio within NHS England. We aim to update it quarterly, and iterate it, to make it more useful to readers. If you have comments or questions, please send them to <a href="mailto:england.dpsp-front-door@nhs.net?subject=roadmap">england.dpsp-front-door@nhs.net</a>.</p>
+This roadmap sets out a high-level overview of the work of the Digital Prevention Services Portfolio within NHS England. We aim to update it quarterly, and iterate it, to make it more useful to readers. If you have comments or questions, please send them to [england.dpsp-front-door@nhs.net](mailto:england.dpsp-front-door@nhs.net?subject=Roadmap).
 
 [[toc]]
 
@@ -15,6 +15,7 @@ title: Roadmap
 The Digital Screening team works on providing provide safe, efficient, high quality and nationally consistent screening services for adult participants. We’re driving a shift to home testing, and transforming clinic-based screening.
 
 <!-- omit from toc -->
+
 ### Recently completed
 
 - rollout of a new service to help NHS staff manage cervical screening ([Cervical Screening Management System](https://www.service-catalogue.nhs.uk/services/cervical-screening-management-system))
@@ -22,6 +23,7 @@ The Digital Screening team works on providing provide safe, efficient, high qual
 - a new service to improve the quality of data used to invite people for breast cancer screening ([Cohort manager](https://www.service-catalogue.nhs.uk/services/create-screening-cohorts))
 
 <!-- omit from toc -->
+
 ### Up next
 
 - adding self-testing as a new mode for cervical screening participants who have previously not attended clinic-based screening
@@ -33,6 +35,7 @@ The Digital Screening team works on providing provide safe, efficient, high qual
 The Vaccination Digital Services (VDS) team is here to protect the NHS and public, particularly those facing vaccine inequalities, by ensuring more people get vaccinated, more easily.
 
 <!-- omit from toc -->
+
 ### Recently completed
 
 - GP surgeries and community pharmacies have access to digital services to help them accurately record the vaccinations they administer, including a way to sign-up directly via the new [Record a vaccination service](https://www.ravs.england.nhs.uk/login) (RAVS) website
@@ -43,6 +46,7 @@ The Vaccination Digital Services (VDS) team is here to protect the NHS and publi
 - helping clinicians and commissioners make more informed decisions by enabling vaccination data to flow more easily between GP and other clinical systems
 
 <!-- omit from toc -->
+
 ### Up next
 
 - supporting the NHS and wider healthcare system to provide chicken pox (varicella) vaccinations to children
@@ -56,6 +60,7 @@ The Vaccination Digital Services (VDS) team is here to protect the NHS and publi
 The Personalised Prevention Services (PPS) team exists to make it easy for people to understand their health risks, and find the right services to stay well.
 
 <!-- omit from toc -->
+
 ### Recently completed
 
 - residents of three local authority areas are now able to complete a free cardiovascular health check at home ([NHS Health Check online](https://www.service-catalogue.nhs.uk/services/digital-nhs-health-check))
@@ -63,6 +68,7 @@ The Personalised Prevention Services (PPS) team exists to make it easy for peopl
 - started trialling personalised communications to increase uptake of mental health Talking Therapy services for underserved groups
 
 <!-- omit from toc -->
+
 ### Up next
 
 - scaling up NHS Health Check online to more local authorities and GP practices
@@ -74,12 +80,14 @@ The Personalised Prevention Services (PPS) team exists to make it easy for peopl
 Our job is to scale up home tests across a wide range of biomarkers. HomeTest will provide commercial, clinical, and digital capabilities, providing easier access to essential tests – enabling faster diagnosis, improved condition management and bringing care closer to home.
 
 <!-- omit from toc -->
+
 ### Recently completed
 
 - setting up HomeTest team, securing and allocating funding
 - HIV test ordering via national channels agreed as initial area of focus (eg, NHS App)
 
 <!-- omit from toc -->
+
 ### Up next
 
 - design and ratification of our end-to-end service offering, including how citizens order tests and onward pathway integration
@@ -93,6 +101,7 @@ Our job is to scale up home tests across a wide range of biomarkers. HomeTest wi
 Children’s Digital Health Services (CDHS) is a new area within DPSP, established during summer 2025. Its focus is on digital services that support families and care professionals to give children and young people the best start in life.
 
 <!-- omit from toc -->
+
 ### Recently completed
 
 - setting up CDHS teams
@@ -100,6 +109,7 @@ Children’s Digital Health Services (CDHS) is a new area within DPSP, establish
 - enabled changes to the childhood vaccinations schedule, introduced in July 2025, by making changes to CHIS (Child Health Information Services)
 
 <!-- omit from toc -->
+
 ### Up next
 
 - initial work on My Children features for the NHS App, enabling parents to access a new baby's health record online, as announced in the [10 Year Plan for Health](https://www.gov.uk/government/publications/10-year-health-plan-for-england-fit-for-the-future/fit-for-the-future-10-year-health-plan-for-england-executive-summary)
@@ -110,6 +120,7 @@ Children’s Digital Health Services (CDHS) is a new area within DPSP, establish
 - enabling the introduction of new chickenpox vaccinations as part of MMR-V, through further changes to CHIS
 
 <!-- omit from toc -->
+
 ## Help us make this roadmap more useful
 
 Please send questions, comments and suggestions to [england.dpsp-front-door@nhs.net](mailto:england.dpsp-front-door@nhs.net?subject=roadmap), with the word ‘roadmap’ in the subject line.

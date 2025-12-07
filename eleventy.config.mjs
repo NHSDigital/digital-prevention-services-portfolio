@@ -1,10 +1,9 @@
-import yaml from "js-yaml";
 import { nhsukEleventyPlugin } from '@x-govuk/nhsuk-eleventy-plugin'
+import yaml from 'js-yaml'
 
-const serviceName = 'Digital prevention services portfolio'
+const serviceName = 'Digital prevention services'
 
-export default function(eleventyConfig) {
-
+export default function (eleventyConfig) {
   eleventyConfig.addPlugin(nhsukEleventyPlugin, {
     titleSuffix: `NHS ${serviceName}`,
     stylesheets: ['/assets/application.css'],
@@ -48,7 +47,7 @@ export default function(eleventyConfig) {
   })
 
   // Allow YAML to be used for data
-  eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
+  eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents))
 
   // Passthrough
   eleventyConfig.addPassthroughCopy('./app/assets/images')
@@ -63,4 +62,4 @@ export default function(eleventyConfig) {
       layouts: '_layouts'
     }
   }
-};
+}

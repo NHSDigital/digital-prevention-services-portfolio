@@ -3,7 +3,6 @@ order: 1
 title: Incident management
 ---
 
-
 If your service stops working as intended in production, follow these steps.
 
 ## Create a dedicated public Slack channel
@@ -12,14 +11,14 @@ If your service stops working as intended in production, follow these steps.
 - **send invitations**: engineers, PM, DM, clinical safety, upper management, impacted services.
 - **announce** the channel in #dpsp-all-hands.
 
-## Form an incident response team 
+## Form an incident response team
 
-Self-organise to appoint these roles. 
+Self-organise to appoint these roles.
 
 - **A comms lead**: responsible for communicating and alerts to users and
-stakeholders. Usually the delivery manager of the affected service.
+  stakeholders. Usually the delivery manager of the affected service.
 - **A tech lead**: responsible for technical direction and communicating to the comms
-lead. Usually the tech lead of the affected service.
+  lead. Usually the tech lead of the affected service.
 - **A support lead**: responsible for monitoring user support requests and responding to users.
 - **A clinical lead**
 
@@ -42,7 +41,7 @@ If in doubt, consult the [NHS England guidance on Priority levels](https://nhsdi
 
 P2 and P3 moderate “significant” to “moderate” and “minor”. Note that data issues are always P1.
 
-**Know your service tier**, which will determine your SLA. NHS England ranks services on a Gold-Silver-Bronze scale. There is a list in Slack [here](https://screening-discovery.slack.com/archives/CJBBTHWTX/p1763049602409279) (we are seeking a better source). Teams can determine their own service tier. Contact Service Management to do this.
+**Know your service tier**, which will determine your SLA. NHS England ranks services on a Platinum-Gold-Silver-Bronze scale. There is a list in Slack [here](https://screening-discovery.slack.com/archives/CJBBTHWTX/p1763049602409279) (we are seeking a better source). Teams can determine their own service tier. Contact Service Management to do this.
 
 > [!IMPORTANT] Major incidents
 > NHS England calls P1 or P2 incidents (defined according to the criteria linked above) **Major incidents**. If this is a Major incident the comms lead must report it to NHS England’s “Service Bridge”. Their contact details are published on page 10 of the [Service Management documentation](https://nhsdigitallive.service-now.com/now/nav/ui/classic/params/target/%24viewer.do%3Fsysparm_stack%3Dno%26sysparm_sys_id%3Da76b63e4fb465e50ecbef3baaeefdc64).
@@ -53,16 +52,17 @@ P2 and P3 moderate “significant” to “moderate” and “minor”. Note tha
 Make a copy of the [incident report template](https://nhs.sharepoint.com/:w:/s/X26_Digital_Prevention_Service/EWUUIs-x8G5IgOegkJ4pgCwB0Szh_vHcNOnF-CQj0MbRmA?e=GWlAyA) and complete the “Overview” section.
 
 - **Store and permission it**:
-    - it should be editable by anyone in NHS England
-    - it should be stored in the [DPSP Incident Reports](https://nhs.sharepoint.com/:f:/r/sites/X26_Digital_Prevention_Service/Shared%20Documents/DPSP%20Incident%20Reports?csf=1&web=1&e=tYqBT2) folder. Use the same name you used for the Slack channel.
+  - it should be editable by anyone in NHS England
+  - it should be stored in the [DPSP Incident Reports](https://nhs.sharepoint.com/:f:/r/sites/X26_Digital_Prevention_Service/Shared%20Documents/DPSP%20Incident%20Reports?csf=1&web=1&e=tYqBT2) folder. Use the same name you used for the Slack channel.
 - **Pin the link** in the incident channel
 - **Record actions** in the timeline: alerts received, actions taken, communication sent or received, observations. This is invaluable information for troubleshooting, investigating root causes and reviewing our comms.
 
 ## Close the incident
 
 Once service is restored,
-- **change the status** of the incident in the report 
-- **inform stakeholders** on Slack and email if necessary 
+
+- **change the status** of the incident in the report
+- **inform stakeholders** on Slack and email if necessary
 - **assign someone to run a retro** and use the retro as a deadline to complete the report.
 
 ## The incident retro

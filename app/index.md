@@ -1,7 +1,7 @@
 ---
 homepage: true
 layout: home
-title: Digital prevention services portfolio
+title: Digital prevention services
 description: Building the NHS that helps people stay well, before they need the NHS that makes them better
 image:
   src: /assets/images/dpsp-illustration.svg
