@@ -59,11 +59,11 @@ See the [venue map](#venue-map). Printed maps are available from reception and o
 
 ### 13:45 – RAVS (Frankie Roberto and Matt Lucht)
 
-Find out how to record a vaccination with RAVS in a live demonstration, and see how it has been improved in the past year. 
+Find out how to record a vaccination with RAVS in a live demonstration, and see how it has been improved in the past year.
 
 ### 14:10 – HomeTest (Matt Visser)
 
-How we want to scale home testing, changing lives from HIV to long-term condition management. 
+How we want to scale home testing, changing lives from HIV to long-term condition management.
 
 ### ==14:30 - Break==
 
@@ -73,11 +73,11 @@ A promo for the Accessibility Lab taking place in [Acacia and Alder](#acacia-and
 
 ### 14:40 – NHS Lung Cancer Risk Check Online (Michael Watson and Jules Fidler)
 
-Step into the shoes of a real NHS service user and experience the new NHS lung cancer risk check online. Then tell us what works and what doesn’t! 
+Step into the shoes of a real NHS service user and experience the new NHS lung cancer risk check online. Then tell us what works and what doesn’t!
 
 ### 14:50 – Mavis (Adam Maddison and Giulia Matrigiani)
 
-See how Mavis helps the NHS vaccinate more children more easily. 
+See how Mavis helps the NHS vaccinate more children more easily.
 
 ---
 
@@ -99,7 +99,7 @@ Cardiovascular disease is one of the nation's biggest killers, and NHS Health Ch
 
 ### 14:35 – Interop / data​ (Ben MacInnes)
 
-Banishing batch and the drive for real time - what's the Imms API all about? 
+Banishing batch and the drive for real time - what's the Imms API all about?
 
 ### 14:50 – AI Health Coach (John Fisher)
 
