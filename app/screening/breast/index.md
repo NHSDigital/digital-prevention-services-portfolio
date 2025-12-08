@@ -14,7 +14,7 @@ The systems currently used by breast screening offices (BSOs) to manage these ta
 > [!NOTE] Sign up to email news updates
 > Subscribe to the [Breast Screening Digital Digest](https://forms.office.com/Pages/ResponsePage.aspx?id=slTDN7CF9UeyIge0jXdO45mS-NvFy31Gqzkcb-jJwqpUNkJCWFlFOUFBTVdYRDU1SEtHRzJSNzdBNC4u) (Microsoft Forms) for the latest updates. More information is available on [NHS Futures](https://future.nhs.uk/vaccsandscreening/view?objectId=60311632) (login required), including [previous newsletters](https://future.nhs.uk/vaccsandscreening/view?objectId=66919568).
 
-### Created by the NHS, for the NHS
+### Created for the NHS, by the NHS
 
 We're working with colleagues in breast screening to develop bespoke services that meet their needs.
 
@@ -48,7 +48,7 @@ Different elements of the end-to-end service are being developed, tested and rel
 
 - **Managing appointments** (to be piloted in 2026) - helping staff to manage the flow of participants during a breast screening clinic
 - **Reading images** (to be piloted in 2026) - allowing radiologists to review cases, record their opinion and manage arbitration
-- **Reporting** (to be piloted in 2027) - creating reporting dashboards that automatically connect with the [NHS Federated Data Platform (FDP)](https://www.england.nhs.uk/digitaltechnology/nhs-federated-data-platform/), replacing manual reports currently exported from BSIS
+- **Reporting** (to be piloted in 2026) - creating reporting dashboards that automatically connect with the [NHS Federated Data Platform (FDP)](https://www.england.nhs.uk/digitaltechnology/nhs-federated-data-platform/), replacing manual reports currently exported from BSIS
 
 The teams involved in developing these tools regularly publish updates on the [Digital screening design history](https://design-history.prevention-services.nhs.uk/).
 
