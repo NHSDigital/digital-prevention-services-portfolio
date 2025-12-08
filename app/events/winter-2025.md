@@ -57,7 +57,7 @@ See the [venue map](#venue-map). Printed maps are available from reception and o
 
 ## The Cube
 
-### 13:45 – RAVS (Frankie Roberto and Matt Lucht)
+### 13:45 – Record a Vaccination Service (Frankie Roberto and Matt Lucht)
 
 Find out how to record a vaccination with RAVS in a live demonstration, and see how it has been improved in the past year.
 
@@ -71,11 +71,11 @@ How we want to scale home testing, changing lives from HIV to long-term conditio
 
 A promo for the Accessibility Lab taking place in [Acacia and Alder](#acacia-and-alder).
 
-### 14:40 – NHS Lung Cancer Risk Check Online (Michael Watson and Jules Fidler)
+### 14:40 – NHS Lung Cancer Risk Check online (Michael Watson and Jules Fidler)
 
 Step into the shoes of a real NHS service user and experience the new NHS lung cancer risk check online. Then tell us what works and what doesn’t!
 
-### 14:50 – Mavis (Adam Maddison and Giulia Matrigiani)
+### 14:50 – Manage Vaccination in Schools (Adam Maddison and Giulia Matrigiani)
 
 See how Mavis helps the NHS vaccinate more children more easily.
 
@@ -91,7 +91,7 @@ Building healthier futures – the story and vision behind digital child health�
 
 Explore how we'll be launching this new national service, what opportunities are on the horizon, and what this means for the future of cervical screening.
 
-### 14:15 – NHS Health Check Online (Rob Bridgewater)
+### 14:15 – NHS Health Check online (Rob Bridgewater)
 
 Cardiovascular disease is one of the nation's biggest killers, and NHS Health Checks are one way to stop it before it happens.
 
