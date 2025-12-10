@@ -39,14 +39,14 @@ Different elements of the end-to-end service are being developed, tested and rel
 ### Launched
 
 - **Cohort manager** - helping to select people for breast screening and preparing their data for use by other NHS services. The tool improves data quality and expands screening availability to those not typically considered for routine assessment.
-  - [Watch a Cohort manager video explainer](https://www.youtube.com/watch?v=LF_Gscd0SaE) 
+  - [Watch a Cohort manager video explainer](https://www.youtube.com/watch?v=LF_Gscd0SaE)
 
 ### Being developed
 
 - **Digital-first communications** - sending initial messages through the NHS App and SMS, with paper letters delivered to people not reached through digital channels
-   - [Watch a Digital-first communications video explainer](https://www.youtube.com/watch?v=YAE48NGNaY4) 
+  - [Watch a Digital-first communications video explainer](https://www.youtube.com/watch?v=YAE48NGNaY4)
 - **Managing appointments** (to be piloted in 2026) - helping staff to manage the flow of participants during a breast screening clinic
-   - [Watch a Manage breast screening video explainer](https://www.youtube.com/watch?v=YAE48NGNaY4) 
+  - [Watch a Manage breast screening video explainer](https://www.youtube.com/watch?v=YAE48NGNaY4)
 - **Reading images** (to be piloted in 2026) - allowing radiologists to review cases, record their opinion and manage arbitration
 - **Reporting** (to be piloted in 2026) - creating reporting dashboards that automatically connect with the [NHS Federated Data Platform (FDP)](https://www.england.nhs.uk/digitaltechnology/nhs-federated-data-platform/), replacing manual reports currently exported from BSIS
 
