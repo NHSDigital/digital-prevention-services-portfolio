@@ -75,7 +75,7 @@ A promo for the Accessibility Lab taking place in [Acacia and Alder](#acacia-and
 
 Step into the shoes of a real NHS service user and experience the new NHS lung cancer risk check online. Then tell us what works and what doesn’t!
 
-### 14:50 – Manage Vaccination in Schools (Adam Maddison and Giulia Matrigiani)
+### 15:00 – Manage Vaccination in Schools (Adam Maddison and Giulia Matrigiani)
 
 See how Mavis helps the NHS vaccinate more children more easily.
 
@@ -87,7 +87,7 @@ See how Mavis helps the NHS vaccinate more children more easily.
 
 Building healthier futures – the story and vision behind digital child health​.
 
-### 14:00 – HPV (Adam Withers and team)
+### 14:00 – HPV self-testing (Adam Withers and team)
 
 Explore how we'll be launching this new national service, what opportunities are on the horizon, and what this means for the future of cervical screening.
 
