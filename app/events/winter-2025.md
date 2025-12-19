@@ -57,7 +57,7 @@ See the [venue map](#venue-map). Printed maps are available from reception and o
 
 ## The Cube
 
-### 13:45 – Record a Vaccination Service (Frankie Roberto and Matt Lucht)
+### 13:45 – Record a Vaccination Service (Frankie Roberto and Matt Leary)
 
 Find out how to record a vaccination with RAVS in a live demonstration, and see how it has been improved in the past year.
 
