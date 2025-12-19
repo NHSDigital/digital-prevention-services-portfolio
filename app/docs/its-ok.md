@@ -1,6 +1,10 @@
 ---
 order: 3
 title: It’s ok
+image:
+  src: /assets/images/its-ok-to-thumbnail.png
+  alt: Graphic saying "It’s ok to..." on a blue background
+  opengraphImage: true
 ---
 
 This list represents some of our values and culture. It’s a reminder that all of these things are ok.
