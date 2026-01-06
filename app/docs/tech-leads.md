@@ -40,3 +40,5 @@ The Tech Lead of a team is not the boss in two key ways:
 - **Mentorship**: supporting the growth of team members through sharing knowledge, reviewing code, and encouraging learning.
 
 - **Balancing delivery and quality**: helping the team navigate trade-offs between speed, maintainability, and technical debt.
+
+- **Technology awareness**: staying aware of emerging technologies, tools, and practices, and helping the team assess and adopt them proportionately where they offer clear value.
