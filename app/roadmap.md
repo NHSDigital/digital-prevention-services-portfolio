@@ -6,7 +6,7 @@ title: Roadmap
 
 {% from 'nhsuk/components/contents-list/macro.njk' import contentsList %}
 
-This roadmap sets out a high-level overview of the work of the Digital Prevention Services Portfolio within NHS England. We aim to update it quarterly, and iterate it, to make it more useful to readers. If you have comments or questions, please send them to [england.dpsp-front-door@nhs.net](mailto:england.dpsp-front-door@nhs.net?subject=Roadmap).
+This roadmap is updated quarterly to make it more useful to readers. If you have comments or questions, please send them to [england.dpsp-front-door@nhs.net](mailto:england.dpsp-front-door@nhs.net?subject=Roadmap).
 
 [[toc]]
 
