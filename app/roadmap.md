@@ -67,7 +67,7 @@ The Personalised Prevention Services (PPS) team exists to make it easy for peopl
 
 ### Recently completed
 
-- residents of six local authorities are now able to complete a free cardiovascular health check at home ([NHS Health Check online](https://www.service-catalogue.nhs.uk/services/digital-nhs-health-check))
+- residents of 6 local authorities are now able to complete a free cardiovascular health check at home ([NHS Health Check online](https://www.service-catalogue.nhs.uk/services/digital-nhs-health-check))
 - developing a service for people to find the right services to stay healthy
 - understanding how an AI Health Coach could support people to succeed in achieving positive health changes through the [Better Health apps](https://www.nhs.uk/better-health/)
 
