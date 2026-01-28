@@ -21,7 +21,7 @@ The Digital Screening team works on providing provide safe, efficient, high qual
 - rollout of a new service to help NHS staff manage cervical screening ([Cervical Screening Management System](https://www.service-catalogue.nhs.uk/services/cervical-screening-management-system))
 - now sending millions of digital communications for bowel cancer and cervical screening
 - a new service to improve the quality of data used to invite people for breast cancer screening ([Cohort manager](https://www.service-catalogue.nhs.uk/services/create-screening-cohorts))
-- a new dashboard that allows NHS staff to monitor the breast screening coverage in the Federated Data Platform (FDP).
+- a new dashboard that allows NHS staff to monitor the breast screening coverage in the Federated Data Platform (FDP)
 
 <!-- omit from toc -->
 
@@ -114,7 +114,7 @@ Children’s Digital Health Services (CDHS) is a new area within DPSP, establish
 
 ### Up next
 
-- enabling the introduction of Superior mesenteric artery (SMA) syndrome to newborn blood spot screening
+- enabling the introduction of Spinal Muscular Atrophy (SMA) to newborn blood spot screening
 - running a pilot with health visitors and parents of newborns on how to best provide timely prompts for parents and carers, to help them with guidance on routine health appointments and key topics, such as weaning
 - testing ways to share blood spot test results with parents using digital communication tools
 - initial work on new features for the NHS App, enabling parents to access a new baby’s health record online, as announced in the [10 Year Plan for Health](https://www.gov.uk/government/publications/10-year-health-plan-for-england-fit-for-the-future/fit-for-the-future-10-year-health-plan-for-england-executive-summary)
