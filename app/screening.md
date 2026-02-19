@@ -7,7 +7,7 @@ description: NHS England is transforming the digital services that underpin NHS 
 
 NHS Screening Programmes can save lives and reduce ill health by finding out if people have a higher chance of having a health problem, so that early treatment can be offered, or information given to help them make informed decisions. By supporting the government’s shift from treatment to prevention, these programmes mitigate the demand for resource-intensive procedures and reduce strain on other NHS services.
 
-Work is underway to improve services across [breast](/screening/breast/), bowel and cervical programmes.
+Work is underway to improve services across [breast](/screening/breast/), bowel, cervical and diabetic eye screening (DES) programmes, whilst supporting new programmes such as lung cancer screening.
 
 ## Background
 
@@ -35,23 +35,19 @@ Throughout our transformation, services will be designed in collaboration with u
 
 ## Progress and next steps
 
-In June 2025, the NHS Cervical Screening Programme introduced digital-first invitations and reminders via the NHS App. Eligible women and people with a cervix first receive a notification through the app to alert them to book a screening appointment, followed by a text message if the app notification isn’t opened. Letters will still be sent for those who need them. Since June 2025, 9 out of 10 invitations have been sent digitally.
+In 2026, we are working towards: 
 
-The NHS bowel cancer and breast screening programmes plan to start rolling out digital-first communications in 2026.
-
-Currently, over 25 million letters are sent annually by post, costing £14.7 million. Using the NHS App with NHS Notify will help reduce these costs.
-
-Transitioning to digital-first communications brings significant benefits for screening programmes and the people they serve. It improves accessibility – offering more language options and faster communication through modern channels. Digital messages also work with device features such as magnification and text-to-speech.
-
-During a pilot in breast screening, one clinic attendee with severe sight impairment said:
-
-> My husband saw the notification on the phone and let me know to log into the NHS App. [Using it] was a good experience, even if a surprise as I usually got letters.
-
-Findings from the breast screening pilot have guided further testing, with a focus on accessibility, inclusion, and equity.
+- piloting a digital version of the [lung cancer risk check](https://www.nhs.uk/tests-and-treatments/lung-cancer-screening/) for those most at risk of developing lung cancer
+- adding self-testing as a new mode for cervical screening participants who have previously not attended clinic-based screening
+- piloting a [new service for staff working in breast screening](/screening/breast), giving them a quicker, easier way to manage the screening process, and freeing them up to spend more time with participants
+- nationally rolling out digital alerts for bowel cancer screening, letting people know a FIT kit is on its way and expanding this to all communication types
+- transforming services in diabetic eye screening (DES), starting with moving services to NHS-owned platforms such as the National Service Desk (NSD) and Cohorting as a Service (CaaS) 
 
 ## Latest news
 
 [NHS rolls out more personalised cervical screening for millions](https://www.england.nhs.uk/2025/06/nhs-rolls-out-more-personalised-cervical-screening-for-millions/)
+
+[NHS to detect and prevent thousands more bowel cancers with more sensitive screening](https://www.england.nhs.uk/2026/01/nhs-detect-prevent-thousands-more-bowel-cancers-more-sensitive-screening/)
 
 [A digital-first approach to patient communications](https://digital.nhs.uk/blog/transformation-blog/2025/a-digital-first-approach-to-patient-communications)
 
