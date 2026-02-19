@@ -30,6 +30,7 @@ The Digital Screening team works on providing provide safe, efficient, high qual
 - piloting a digital version of the [lung cancer risk check](https://www.nhs.uk/tests-and-treatments/lung-cancer-screening/) for those most at risk of developing lung cancer
 - adding self-testing as a new mode for cervical screening participants who have previously not attended clinic-based screening
 - piloting a [new service for staff working in breast screening](/screening/breast), giving them a quicker, easier way to manage the screening process, and freeing them up to spend more time with participants
+- transforming services in diabetic eye screening (DES), starting with moving services to NHS-owned platforms such as the National Service Desk (NSD) and Cohorting as a Service (CaaS) 
 
 ## Vaccination Digital Services
 
