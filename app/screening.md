@@ -35,13 +35,13 @@ Throughout our transformation, services will be designed in collaboration with u
 
 ## Progress and next steps
 
-In 2026, we are working towards: 
+In 2026, we are working towards:
 
 - piloting a digital version of the [lung cancer risk check](https://www.nhs.uk/tests-and-treatments/lung-cancer-screening/) for those most at risk of developing lung cancer
 - adding self-testing as a new mode for cervical screening participants who have previously not attended clinic-based screening
 - piloting a [new service for staff working in breast screening](/screening/breast), giving them a quicker, easier way to manage the screening process, and freeing them up to spend more time with participants
 - nationally rolling out digital alerts for bowel cancer screening, letting people know a FIT kit is on its way and expanding this to all communication types
-- transforming services in diabetic eye screening (DES), starting with moving services to NHS-owned platforms such as the National Service Desk (NSD) and Cohorting as a Service (CaaS) 
+- transforming services in diabetic eye screening (DES), starting with moving services to NHS-owned platforms such as the National Service Desk (NSD) and Cohorting as a Service (CaaS)
 
 ## Latest news
 
