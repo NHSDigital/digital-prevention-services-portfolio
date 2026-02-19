@@ -48,7 +48,7 @@ You can also check the [VDS section on the DPSP roadmap](https://www.digital-pre
 - [Select People for Invitation (SPI)](https://select-people-for-invitation.nhs.uk/), a system for campaign managers to run awareness or invitation campaigns, sending communications to eligible people
 - [Manage Your Appointments (MYA)](https://digital.nhs.uk/services/vaccinations-national-booking-service/manage-your-appointments-guidance), a tool to help vaccination staff manage appointment availability
 - [National Booking Service (NBS)](https://digital.nhs.uk/services/vaccinations-national-booking-service), a set of services to help patients book, change or cancel vaccination appointments
-- [Record A Vaccination Service (RAVS)](https://guide.ravs.england.nhs.uk/), helping NHS staff record vaccinations and automatically update patient records
+- [Record A Vaccination Service (RAVS)](https://www.ravs.england.nhs.uk), helping NHS staff record vaccinations and automatically update patient records
 - [Manage Vaccinations In Schools (MAVIS)](https://guide.manage-vaccinations-in-schools.nhs.uk/), a service to help school staff, health providers and parents/carers with organising vaccinations for school-age children
 - [Vaccinations Data Flow Management](https://digital.nhs.uk/services/vaccinations-data-flow-management), including the [Immunisation FHIR API](https://digital.nhs.uk/developer/api-catalogue/immunisation-fhir-api) for access and updating of patient immunisation records; and the [Eligibility Data Product (EliD)](https://digital.nhs.uk/services/eligibility-data-product-elid), enabling NHS England organisations and services to check whether an individual is eligible for a particular vaccination.
 
