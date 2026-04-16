@@ -22,7 +22,7 @@ current_activity:
     * **[digital services to support](/screening)** breast, bowel, cervical, lung and diabetic eye screening
     * **[digital services for organising, managing and recording vaccinations](/vaccinations)** for COVID-19, flu, RSV and pertussis, with teams devoted to infant, maternity and school vaccinations
     * **personalised prevention services**, making it easy for people to understand their health risks and find the right services to stay well
-    * **digital services to support expanded home testing**, backed up with clear advice in the NHS App, and with face‑to‑face care when it’s needed<
+    * **digital services to support expanded home testing**, backed up with clear advice in the NHS App, and with face‑to‑face care when it’s needed
     * **digital prevention services for children**, to give them the best start in life
     * **new ideas and innovations across the digital prevention portfolio**, to help plan our long term strategic direction
 
