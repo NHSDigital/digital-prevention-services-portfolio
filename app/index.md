@@ -8,12 +8,10 @@ image:
 intro: |
   Digital Prevention Services Portfolio (DPSP) is part of [NHS England](https://www.england.nhs.uk). **We build and maintain the essential digital infrastructure for NHS preventative healthcare**.
 
-  Find out more about:
-  * what we're working on now and in the near future - see the [roadmap](/roadmap)
-  * our services to support breast, bowel, cervical, lung and diabetic eye [screening](/screening)
-  * our services for organising, managing and recording [vaccinations](/vaccinations) for COVID-19, flu, RSV and pertussis
-  * all our services, live and in development - see the [service catalogue](https://www.service-catalogue.nhs.uk/by-organisation#digital-prevention-services)
-  * the notes our teams are writing as they work - see the [design histories](https://design-history.prevention-services.nhs.uk)
+  * The [roadmap](/roadmap) sets out current and planned work
+  * More on services supporting [screening](/screening) and [vaccinations](/vaccinations)
+  * Browse the [service catalogue](https://www.service-catalogue.nhs.uk/by-organisation#digital-prevention-services)
+  * Read our [design histories](https://design-history.prevention-services.nhs.uk)
 
 
 current_activity:
