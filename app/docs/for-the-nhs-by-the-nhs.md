@@ -3,7 +3,6 @@ order: 4
 title: For the NHS, by the NHS
 ---
 
-# For the NHS, by the NHS
 
 Our motto in Digital Prevention Services is “For the NHS, by the NHS”. Our philosophy is that the NHS itself, with its scale, clinical expertise and unique operational knowledge, is best placed to understand its own needs.
 
