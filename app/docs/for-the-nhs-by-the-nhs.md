@@ -9,9 +9,9 @@ Our motto in Digital Prevention Services is “For the NHS, by the NHS”. Our p
 
 This means:
 
-- **We co-design services with front-line staff** who have lived experience of working in the NHS
-- **We work iteratively**, continuously evolving the services to meet the changing needs of teams and regional NHS organisations
-- **All our work is public property**. It’s owned by the NHS regardless of who is helping to build it, and it’s free at the point of use
-- **We work in the open**, sharing source code, design histories and specifications with the public, creating reuseable components that others across the NHS can adopt
-- **Our multidisciplinary teams include clinicians, engineers and designers**, so our services can be delivered quickly, safely and incrementally
-- **We believe there are better ways than mandates to drive adoption**. We build services with clear value propositions and minimal barriers to entry that NHS staff prefer.
+- **we co-design services with front-line staff** who have lived experience of working in the NHS
+- **we work iteratively**, continuously evolving the services to meet the changing needs of teams and regional NHS organisations
+- **all our work is public property**. It’s owned by the NHS regardless of who is helping to build it, and it’s free at the point of use
+- **we work in the open**, sharing source code, design histories and specifications with the public, creating reuseable components that others across the NHS can adopt
+- **our multidisciplinary teams include clinicians, engineers and designers**, so our services can be delivered quickly, safely and incrementally
+- **we believe there are better ways than mandates to drive adoption**. We build services with clear value propositions and minimal barriers to entry that NHS staff prefer.
