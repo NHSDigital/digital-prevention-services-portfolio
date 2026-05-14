@@ -15,8 +15,9 @@
  */
 
 import { execSync } from 'child_process'
-import { readFileSync, readdirSync, statSync } from 'fs'
+import { readFileSync, readdirSync } from 'fs'
 import { join } from 'path'
+import { fileURLToPath } from 'url'
 
 const H1_MESSAGE =
   'Avoid using a `#` H1 heading here. ' +
@@ -112,15 +113,19 @@ export function getMistakes(baseRef) {
 
 // Run locally when invoked directly ----------------------------------------
 
-const mistakes = scanAllFiles()
+const isMain = process.argv[1] === fileURLToPath(import.meta.url)
 
-if (mistakes.length === 0) {
-  console.log('No markdown issues found.')
-  process.exit(0)
+if (isMain) {
+  const mistakes = scanAllFiles()
+
+  if (mistakes.length === 0) {
+    console.log('No markdown issues found.')
+    process.exit(0)
+  }
+
+  for (const { path, line, message } of mistakes) {
+    console.warn(`${path}:${line}: ${message}`)
+  }
+
+  process.exit(1)
 }
-
-for (const { path, line, message } of mistakes) {
-  console.warn(`${path}:${line}: ${message}`)
-}
-
-process.exit(1)
