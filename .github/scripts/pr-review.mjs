@@ -60,7 +60,10 @@ if (!commentsResponse.ok) {
   process.exit(1)
 }
 const existingComments = await commentsResponse.json()
-const botComments = existingComments.filter((c) => c.user.login === BOT_USER)
+// Normalise comments: `line` is null for outdated diff comments, fall back to `original_line`
+const botComments = existingComments
+  .filter((c) => c.user.login === BOT_USER)
+  .map((c) => ({ ...c, line: c.line ?? c.original_line }))
 
 // Resolve threads for comments that no longer have a matching mistake
 // (line was fixed or file was deleted)
@@ -102,14 +105,18 @@ if (staleComments.length > 0) {
     )
     if (thread) {
       console.log(`Resolving thread for comment on ${comment.path}:${comment.line}`)
-      await graphql(
-        `mutation Resolve($threadId: ID!) {
-          resolveReviewThread(input: { threadId: $threadId }) {
-            thread { id }
-          }
-        }`,
-        { threadId: thread.id }
-      )
+      try {
+        await graphql(
+          `mutation Resolve($threadId: ID!) {
+            resolveReviewThread(input: { threadId: $threadId }) {
+              thread { id }
+            }
+          }`,
+          { threadId: thread.id }
+        )
+      } catch (err) {
+        console.warn(`Could not resolve thread (${err.message}) — skipping`)
+      }
     }
   }
 }
