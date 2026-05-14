@@ -20,8 +20,9 @@ import { join } from 'path'
 import { fileURLToPath } from 'url'
 
 const H1_MESSAGE =
-  'Avoid using a `#` H1 heading here. ' +
-  'The page title H1 is already generated from the `title` field in the frontmatter.'
+  'The page title H1 is already generated from the `title` field in the frontmatter. ' +
+  'If this heading duplicates the title, remove it. ' +
+  'If it is a different heading, change it to an H2 using `##`.'
 
 /**
  * Recursively finds all .md files under the given directory.
