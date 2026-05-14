@@ -20,14 +20,44 @@ if (mistakes.length === 0) {
   process.exit(0)
 }
 
-console.log(`Found ${mistakes.length} issue(s). Posting review...`)
+// Fetch existing review comments to avoid posting duplicates
+const existingResponse = await fetch(
+  `https://api.github.com/repos/${REPO}/pulls/${PR_NUMBER}/comments?per_page=100`,
+  {
+    headers: {
+      Authorization: `Bearer ${GITHUB_TOKEN}`,
+      Accept: 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28',
+    },
+  }
+)
 
-const comments = mistakes.map(({ path, line, message }) => ({
-  path,
-  line,
-  side: 'RIGHT',
-  body: message
-}))
+if (!existingResponse.ok) {
+  console.error('Failed to fetch existing comments:', await existingResponse.text())
+  process.exit(1)
+}
+
+const existingComments = await existingResponse.json()
+
+const newComments = mistakes
+  .filter(({ path, line, message }) =>
+    !existingComments.some(
+      (c) => c.path === path && c.line === line && c.body === message
+    )
+  )
+  .map(({ path, line, message }) => ({
+    path,
+    line,
+    side: 'RIGHT',
+    body: message,
+  }))
+
+if (newComments.length === 0) {
+  console.log('All issues already have review comments. Nothing new to post.')
+  process.exit(1)
+}
+
+console.log(`Posting ${newComments.length} new comment(s)...`)
 
 const response = await fetch(
   `https://api.github.com/repos/${REPO}/pulls/${PR_NUMBER}/reviews`,
@@ -43,9 +73,9 @@ const response = await fetch(
       commit_id: HEAD_SHA,
       event: 'REQUEST_CHANGES',
       body:
-        `Found ${mistakes.length} issue(s) in markdown file(s). ` +
+        `Found ${newComments.length} issue(s) in markdown file(s). ` +
         'Please address the inline comments below.',
-      comments
+      comments: newComments
     })
   }
 )
