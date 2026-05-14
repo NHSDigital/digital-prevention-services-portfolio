@@ -56,7 +56,10 @@ const commentsResponse = await githubFetch(
   `/repos/${REPO}/pulls/${PR_NUMBER}/comments?per_page=100`
 )
 if (!commentsResponse.ok) {
-  console.error('Failed to fetch existing comments:', await commentsResponse.text())
+  console.error(
+    'Failed to fetch existing comments:',
+    await commentsResponse.text()
+  )
   process.exit(1)
 }
 const existingComments = await commentsResponse.json()
@@ -68,7 +71,10 @@ const botComments = existingComments
 // Resolve threads for comments that no longer have a matching mistake
 // (line was fixed or file was deleted)
 const staleComments = botComments.filter(
-  (c) => !mistakes.some((m) => m.path === c.path && m.line === c.line && m.message === c.body)
+  (c) =>
+    !mistakes.some(
+      (m) => m.path === c.path && m.line === c.line && m.message === c.body
+    )
 )
 
 if (staleComments.length > 0) {
@@ -76,42 +82,49 @@ if (staleComments.length > 0) {
 
   // Fetch review thread IDs via GraphQL so we can resolve them
   const threadsData = await graphql(
-    `query GetThreads($owner: String!, $repo: String!, $number: Int!) {
-      repository(owner: $owner, name: $repo) {
-        pullRequest(number: $number) {
-          reviewThreads(first: 100) {
-            nodes {
-              id
-              isResolved
-              comments(first: 1) {
-                nodes { databaseId }
+    `
+      query GetThreads($owner: String!, $repo: String!, $number: Int!) {
+        repository(owner: $owner, name: $repo) {
+          pullRequest(number: $number) {
+            reviewThreads(first: 100) {
+              nodes {
+                id
+                isResolved
+                comments(first: 1) {
+                  nodes {
+                    databaseId
+                  }
+                }
               }
             }
           }
         }
       }
-    }`,
+    `,
     { owner, repo, number: parseInt(PR_NUMBER) }
   )
 
-  const threads =
-    threadsData.repository.pullRequest.reviewThreads.nodes
+  const threads = threadsData.repository.pullRequest.reviewThreads.nodes
 
   for (const comment of staleComments) {
     const thread = threads.find(
-      (t) =>
-        !t.isResolved &&
-        t.comments.nodes[0]?.databaseId === comment.id
+      (t) => !t.isResolved && t.comments.nodes[0]?.databaseId === comment.id
     )
     if (thread) {
-      console.log(`Resolving thread for comment on ${comment.path}:${comment.line}`)
+      console.log(
+        `Resolving thread for comment on ${comment.path}:${comment.line}`
+      )
       try {
         await graphql(
-          `mutation Resolve($threadId: ID!) {
-            resolveReviewThread(input: { threadId: $threadId }) {
-              thread { id }
+          `
+            mutation Resolve($threadId: ID!) {
+              resolveReviewThread(input: { threadId: $threadId }) {
+                thread {
+                  id
+                }
+              }
             }
-          }`,
+          `,
           { threadId: thread.id }
         )
       } catch (err) {
@@ -141,7 +154,9 @@ if (mistakes.length === 0) {
       `/repos/${REPO}/pulls/${PR_NUMBER}/reviews/${review.id}/dismissals`,
       {
         method: 'PUT',
-        body: JSON.stringify({ message: 'No markdown issues found — all clear.' })
+        body: JSON.stringify({
+          message: 'No markdown issues found — all clear.'
+        })
       }
     )
     if (!dismissResponse.ok) {
@@ -156,7 +171,9 @@ if (mistakes.length === 0) {
 const newComments = mistakes
   .filter(
     ({ path, line, message }) =>
-      !botComments.some((c) => c.path === path && c.line === line && c.body === message)
+      !botComments.some(
+        (c) => c.path === path && c.line === line && c.body === message
+      )
   )
   .map(({ path, line, message }) => ({
     path,
@@ -177,17 +194,20 @@ const fileWord = fileCount === 1 ? 'file' : 'files'
 
 console.log(`Posting ${issueCount} new ${issueWord}...`)
 
-const response = await githubFetch(`/repos/${REPO}/pulls/${PR_NUMBER}/reviews`, {
-  method: 'POST',
-  body: JSON.stringify({
-    commit_id: HEAD_SHA,
-    event: 'REQUEST_CHANGES',
-    body:
-      `Found ${issueCount} ${issueWord} across ${fileCount} markdown ${fileWord}. ` +
-      'Please address the inline comments below.',
-    comments: newComments
-  })
-})
+const response = await githubFetch(
+  `/repos/${REPO}/pulls/${PR_NUMBER}/reviews`,
+  {
+    method: 'POST',
+    body: JSON.stringify({
+      commit_id: HEAD_SHA,
+      event: 'REQUEST_CHANGES',
+      body:
+        `Found ${issueCount} ${issueWord} across ${fileCount} markdown ${fileWord}. ` +
+        'Please address the inline comments below.',
+      comments: newComments
+    })
+  }
+)
 
 if (!response.ok) {
   console.error('Failed to post review:', await response.text())
@@ -196,4 +216,3 @@ if (!response.ok) {
 
 console.log('Review posted successfully.')
 process.exit(1)
-
