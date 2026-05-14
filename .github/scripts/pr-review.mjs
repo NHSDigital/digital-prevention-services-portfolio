@@ -27,29 +27,33 @@ const existingResponse = await fetch(
     headers: {
       Authorization: `Bearer ${GITHUB_TOKEN}`,
       Accept: 'application/vnd.github+json',
-      'X-GitHub-Api-Version': '2022-11-28',
-    },
+      'X-GitHub-Api-Version': '2022-11-28'
+    }
   }
 )
 
 if (!existingResponse.ok) {
-  console.error('Failed to fetch existing comments:', await existingResponse.text())
+  console.error(
+    'Failed to fetch existing comments:',
+    await existingResponse.text()
+  )
   process.exit(1)
 }
 
 const existingComments = await existingResponse.json()
 
 const newComments = mistakes
-  .filter(({ path, line, message }) =>
-    !existingComments.some(
-      (c) => c.path === path && c.line === line && c.body === message
-    )
+  .filter(
+    ({ path, line, message }) =>
+      !existingComments.some(
+        (c) => c.path === path && c.line === line && c.body === message
+      )
   )
   .map(({ path, line, message }) => ({
     path,
     line,
     side: 'RIGHT',
-    body: message,
+    body: message
   }))
 
 if (newComments.length === 0) {
