@@ -4,7 +4,7 @@
  *
  * - Posts a REQUEST_CHANGES review with one inline comment per new mistake.
  * - Deletes comments that no longer apply (e.g. the line was fixed or the
- *   file was deleted), which auto-resolves those review threads.
+ *   file was deleted).
  * - Dismisses any previous REQUEST_CHANGES reviews when no mistakes remain.
  * - Exits with code 1 if mistakes are found, so the CI check fails.
  *
@@ -30,23 +30,6 @@ async function githubFetch(path, options = {}) {
     }
   })
   return response
-}
-
-async function graphql(query, variables = {}) {
-  const response = await fetch('https://api.github.com/graphql', {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${GITHUB_TOKEN}`,
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({ query, variables })
-  })
-  if (!response.ok) {
-    throw new Error(`GraphQL request failed: ${await response.text()}`)
-  }
-  const { data, errors } = await response.json()
-  if (errors) throw new Error(errors.map((e) => e.message).join(', '))
-  return data
 }
 
 const mistakes = getMistakes(`origin/${BASE_REF}`)
@@ -77,60 +60,14 @@ const staleComments = botComments.filter(
     )
 )
 
-if (staleComments.length > 0) {
-  const [owner, repo] = REPO.split('/')
-
-  // Fetch review thread IDs via GraphQL so we can resolve them
-  const threadsData = await graphql(
-    `
-      query GetThreads($owner: String!, $repo: String!, $number: Int!) {
-        repository(owner: $owner, name: $repo) {
-          pullRequest(number: $number) {
-            reviewThreads(first: 100) {
-              nodes {
-                id
-                isResolved
-                comments(first: 1) {
-                  nodes {
-                    databaseId
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    `,
-    { owner, repo, number: parseInt(PR_NUMBER) }
+for (const comment of staleComments) {
+  console.log(`Deleting resolved comment on ${comment.path}:${comment.line}`)
+  const deleteResponse = await githubFetch(
+    `/repos/${REPO}/pulls/comments/${comment.id}`,
+    { method: 'DELETE' }
   )
-
-  const threads = threadsData.repository.pullRequest.reviewThreads.nodes
-
-  for (const comment of staleComments) {
-    const thread = threads.find(
-      (t) => !t.isResolved && t.comments.nodes[0]?.databaseId === comment.id
-    )
-    if (thread) {
-      console.log(
-        `Resolving thread for comment on ${comment.path}:${comment.line}`
-      )
-      try {
-        await graphql(
-          `
-            mutation Resolve($threadId: ID!) {
-              resolveReviewThread(input: { threadId: $threadId }) {
-                thread {
-                  id
-                }
-              }
-            }
-          `,
-          { threadId: thread.id }
-        )
-      } catch (err) {
-        console.warn(`Could not resolve thread (${err.message}) — skipping`)
-      }
-    }
+  if (!deleteResponse.ok) {
+    console.error('Failed to delete comment:', await deleteResponse.text())
   }
 }
 
