@@ -26,7 +26,7 @@ const comments = mistakes.map(({ path, line, message }) => ({
   path,
   line,
   side: 'RIGHT',
-  body: message,
+  body: message
 }))
 
 const response = await fetch(
@@ -37,7 +37,7 @@ const response = await fetch(
       Authorization: `Bearer ${GITHUB_TOKEN}`,
       Accept: 'application/vnd.github+json',
       'X-GitHub-Api-Version': '2022-11-28',
-      'Content-Type': 'application/json',
+      'Content-Type': 'application/json'
     },
     body: JSON.stringify({
       commit_id: HEAD_SHA,
@@ -45,8 +45,8 @@ const response = await fetch(
       body:
         `Found ${mistakes.length} issue(s) in markdown file(s). ` +
         'Please address the inline comments below.',
-      comments,
-    }),
+      comments
+    })
   }
 )
 

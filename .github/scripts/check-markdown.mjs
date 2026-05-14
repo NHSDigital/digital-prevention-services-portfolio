@@ -99,7 +99,11 @@ export function getMistakes(baseRef) {
       lineNumber++
       // Added line that is an H1 (single `#` followed by a space)
       if (/^\+# /.test(rawLine)) {
-        mistakes.push({ path: currentFile, line: lineNumber, message: H1_MESSAGE })
+        mistakes.push({
+          path: currentFile,
+          line: lineNumber,
+          message: H1_MESSAGE
+        })
       }
     } else if (!rawLine.startsWith('-')) {
       // Context line -- still advances the new-file line number
