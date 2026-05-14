@@ -59,6 +59,11 @@ if (newComments.length === 0) {
 
 console.log(`Posting ${newComments.length} new comment(s)...`)
 
+const issueCount = newComments.length
+const fileCount = new Set(newComments.map((c) => c.path)).size
+const issueWord = issueCount === 1 ? 'issue' : 'issues'
+const fileWord = fileCount === 1 ? 'file' : 'files'
+
 const response = await fetch(
   `https://api.github.com/repos/${REPO}/pulls/${PR_NUMBER}/reviews`,
   {
@@ -73,7 +78,7 @@ const response = await fetch(
       commit_id: HEAD_SHA,
       event: 'REQUEST_CHANGES',
       body:
-        `Found ${newComments.length} issue(s) in markdown file(s). ` +
+        `Found ${issueCount} ${issueWord} across ${fileCount} markdown ${fileWord}. ` +
         'Please address the inline comments below.',
       comments: newComments
     })
