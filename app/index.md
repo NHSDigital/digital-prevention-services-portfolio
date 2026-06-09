@@ -2,6 +2,7 @@
 homepage: true
 layout: home
 title: For the NHS, by the NHS
+headingClasses: nhsuk-heading-l
 description: |
   We build and maintain essential digital infrastructure for NHS preventative healthcare.
 startButton:
