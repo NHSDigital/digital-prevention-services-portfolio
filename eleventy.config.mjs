@@ -43,6 +43,16 @@ export default function (eleventyConfig) {
           }
         ]
       }
+    },
+    footer: {
+      meta: {
+        items: [
+          {
+            text: 'About us',
+            href: '/about'
+          }
+        ]
+      }
     }
   })
 
