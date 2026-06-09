@@ -2,16 +2,21 @@
 homepage: true
 layout: home
 title: Digital prevention services
-description: For the NHS, by the NHS
+description: |
+  [For the NHS, by the NHS](/docs/for-the-nhs-by-the-nhs)
 image:
   src: /assets/images/dpsp-illustration.svg
 intro: |
-  Digital Prevention Services Portfolio (DPSP) is part of [NHS England](https://www.england.nhs.uk). We build and maintain the essential digital infrastructure for NHS preventative healthcare. **[For the NHS, by the NHS](/docs/for-the-nhs-by-the-nhs)**. Find out [more about us](/about).
+  Digital Prevention Services Portfolio (DPSP) is part of NHS England.
 
-  * The [roadmap](/roadmap) sets out current and planned work
-  * More on services supporting [screening](/screening) and [vaccinations](/vaccinations)
-  * Browse the [service catalogue](https://www.service-catalogue.nhs.uk/by-organisation#digital-prevention-services)
-  * Read our [design histories](https://design-history.prevention-services.nhs.uk)
+  We build and maintain the essential digital infrastructure for NHS preventative healthcare, including [screening](/screening) and [vaccinations](/vaccinations).
+
+  * Our [roadmap](/roadmap) sets out current and planned work
+  * Read our [notes](/notes) and [design histories](https://design-history.prevention-services.nhs.uk)
+
+  [More about us](/about)
+
+
 
 
 current_activity:
