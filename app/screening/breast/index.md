@@ -9,7 +9,7 @@ description: NHS England is developing digital services to support the national 
 
 The processes involved in breast screening include identifying participants, arranging appointments, taking mammograms, reading images, and recording results.
 
-The systems currently used by breast screening offices (BSOs) to manage these tasks are no longer fit for purpose. By 2028 we aim to replace them with modern, digital services.
+The systems currently used by breast screening offices (BSOs) to manage these tasks are no longer fit for purpose. By 2029, we aim to replace them with modern, digital services under the name Rubie (Run Breast Screening in England).
 
 > [!NOTE] Sign up to email news updates
 > Subscribe to the [Breast Screening Digital Digest](https://forms.office.com/Pages/ResponsePage.aspx?id=slTDN7CF9UeyIge0jXdO45mS-NvFy31Gqzkcb-jJwqpUNkJCWFlFOUFBTVdYRDU1SEtHRzJSNzdBNC4u) (Microsoft Forms) for the latest updates. More information is available on [NHS Futures](https://future.nhs.uk/vaccsandscreening/view?objectId=60311632) (login required), including [previous newsletters](https://future.nhs.uk/vaccsandscreening/view?objectId=66919568).
@@ -21,16 +21,16 @@ We're working with colleagues in breast screening to develop bespoke services th
 Designing this within the NHS allows us to create a flexible system that meets the latest web standards, bringing many benefits such as:
 
 - reduced costs (and less paper)
-- natural integration with other NHS services (including the NHS App and NHS Notify)
 - improved data quality and sharing across systems
-- greater information for participants about their appointments and results
-- streamlined log in through single sign-on (fewer usernames and passwords to remember)
+- more information for participants about their appointments and results
+- streamlined log-in through Single Sign-On (fewer usernames and passwords to remember)
+- integration with other NHS services (including the NHS App, NHS Notify, and CaaS)
 
 ### Transition planning
 
-The technology being replaced includes NBSS (the National Breast Screening System), BS Select (Breast Screening Select) and BSIS (Breast Screening Information System). These existing services will continue to run alongside the systems we're developing until all BSOs can move fully to the new services.
+The technology being replaced includes NBSS (the National Breast Screening System), BS Select (Breast Screening Select) and BSIS (Breast Screening Information System). These existing services will continue to run alongside Rubie until all BSOs can move fully to the new services.
 
-Prior to onboarding, all BSOs across England will be offered support to guide them through the process of adopting new systems and retiring existing technology.
+Prior to onboarding, all BSOs across England will be offered support to guide them through the process of adopting Rubie and retiring existing technology.
 
 ## Project progress
 
@@ -43,14 +43,14 @@ Different elements of the end-to-end service are being developed, tested and rel
 
 ### Being developed
 
-- **Digital-first communications** - sending initial messages through the NHS App and SMS, with paper letters delivered to people not reached through digital channels
-- **Managing appointments** (to be piloted in 2026) - helping staff to manage the flow of participants during a breast screening clinic
+- **Clinic management** - features that will allow breast screening office staff to manage their clinics and appointments, with an initial focus on providing the functionality needed to support migration from NBSS to Rubie.
+- **Managing appointments** (piloting in 2026) - helping staff to manage the flow of participants during a breast screening clinic
   - [Watch a Manage breast screening video explainer](https://www.youtube.com/watch?v=z_l-eKzeCnA) (2:30, YouTube)
-- **Reading images** (to be piloted in 2026) - allowing radiologists to review cases, record their opinion and manage arbitration
-- **Reporting** (to be piloted in 2026) - creating reporting dashboards that automatically connect with the [NHS Federated Data Platform (FDP)](https://www.england.nhs.uk/digitaltechnology/nhs-federated-data-platform/), replacing manual reports currently exported from BSIS
+- **Reading images** (piloting in 2026) - allowing radiologists to review cases, record their opinion and manage arbitration
+- **Data extraction** - accessing and making NBSS data available to support the rollout of Rubie, and supporting BSIS
 
-The teams involved in developing these tools regularly publish updates on the [Digital screening design history](https://design-history.prevention-services.nhs.uk/).
+The teams involved in developing these tools regularly publish updates on the [digital screening design history](https://design-history.prevention-services.nhs.uk/breast-screening/).
 
 ## Help us to improve the future of breast screening
 
-Features are being actively trialled with BSOs to ensure they meet the needs of both clinical and administrative staff prior to release. <a href="mailto:england.digitalscreening@nhs.net">Get in touch</a> if you would like to be involved in research and testing, or if you have any other feedback or questions.
+Features are being actively trialled with BSOs to ensure they meet the needs of both clinical and administrative staff prior to release. <a href="mailto:england.digitalbreastscreening@nhs.net">Get in touch</a> if you would like to be involved in research and testing, or if you have any other feedback or questions.
