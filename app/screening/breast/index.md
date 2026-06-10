@@ -26,7 +26,6 @@ Designing this within the NHS allows us to create a flexible system that meets t
 - streamlined log-in through Single Sign-On (fewer usernames and passwords to remember)
 - integration with other NHS services (including the NHS App, NHS Notify, and CaaS)
 
-
 ### Transition planning
 
 The technology being replaced includes NBSS (the National Breast Screening System), BS Select (Breast Screening Select) and BSIS (Breast Screening Information System). These existing services will continue to run alongside Rubie until all BSOs can move fully to the new services.
