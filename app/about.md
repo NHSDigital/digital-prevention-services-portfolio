@@ -28,7 +28,7 @@ We're building for a future where patients can do more to manage their health an
 
 ## We're structured around delivery
 
-We're organised into 4 delivery areas, focused on specific aspects of healthcare: [vaccinations](/vaccinations), [screening](/screening), children's health and personalised prevention. These areas are supported by 2 additional support areas: one working on operations, and another on cross-cutting technology, data, innovation and communications.
+We're organised into 5 delivery areas, focused on specific aspects of healthcare: [vaccinations](/vaccinations), [screening](/screening), children's health, home testing and personalised prevention. These areas are supported by 2 additional support areas: one working on operations, and another on cross-cutting technology, data, innovation and communications.
 
 ## How we work
 
