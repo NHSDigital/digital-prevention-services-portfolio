@@ -37,7 +37,7 @@ In 2026, we are working towards:
 - adding self-testing as a new mode for cervical screening participants who have previously not attended clinic-based screening
 - piloting a [new service for staff working in breast screening](/screening/breast), giving them a quicker, easier way to manage the screening process, and freeing them up to spend more time with participants
 - rolling out digital alerts for bowel cancer screening, letting people know a FIT kit is on its way and expanding this to all communication types
-- transforming cohorting in diabetic eye screening (DES), starting with piloting a new process (*Cascade*) in collaboration with Cohorting as a Service (CaaS)
+- transforming cohorting in diabetic eye screening (DES), starting with piloting a new process (_Cascade_) in collaboration with Cohorting as a Service (CaaS)
 
 ## Latest news
 
