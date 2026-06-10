@@ -52,7 +52,6 @@ The Vaccination Digital Services (VDS) team is here to protect the NHS and publi
 ### Up next
 
 - enabling more school immunisation teams (more than 2 in 3) to record vaccinations using [Manage vaccinations in schools](https://guide.manage-vaccinations-in-schools.nhs.uk/) by the start of the 2026/27 academic school year
-- enabling 16-24 year olds to access catch up vaccinations at community pharmacies
 - adding features to the [NHS App](https://www.nhs.uk/nhs-app/) to help the public understand what vaccinations they, or their dependents, have had, or need to get
 - adding all community pharmacies onto RAVS for [autumn-winter 2026-27](https://www.nhs.uk/live-well/seasonal-health/keep-warm-keep-well/)
 - helping vaccination teams save time by integrating [MYA](https://www.nhs.uk/manage-your-appointments/login) patient appointments into [RAVS](https://www.ravs.england.nhs.uk/login)
