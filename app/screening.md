@@ -9,10 +9,6 @@ NHS Screening Programmes can save lives and reduce ill health by finding out if 
 
 Work is underway to improve services across [breast](/screening/breast/), bowel, cervical and diabetic eye screening (DES) programmes, whilst supporting new programmes such as lung cancer screening.
 
-## Background
-
-Our vision is that in the next 5 years, a third of interactions with the NHS will be delivered using the NHS App and other digital tools. These tools can support people to take control of their health, while also freeing up more time for healthcare staff and providing valuable new data and insight.
-
 ## Aims
 
 New digital products and services will:
@@ -40,8 +36,8 @@ In 2026, we are working towards:
 - piloting a digital version of the [lung cancer risk check](https://www.nhs.uk/tests-and-treatments/lung-cancer-screening/) for those most at risk of developing lung cancer
 - adding self-testing as a new mode for cervical screening participants who have previously not attended clinic-based screening
 - piloting a [new service for staff working in breast screening](/screening/breast), giving them a quicker, easier way to manage the screening process, and freeing them up to spend more time with participants
-- nationally rolling out digital alerts for bowel cancer screening, letting people know a FIT kit is on its way and expanding this to all communication types
-- transforming services in diabetic eye screening (DES), starting with moving services to NHS-owned platforms such as the National Service Desk (NSD) and Cohorting as a Service (CaaS)
+- rolling out digital alerts for bowel cancer screening, letting people know a FIT kit is on its way and expanding this to all communication types
+- transforming cohorting in diabetic eye screening (DES), starting with piloting a new process (*Cascade*) in collaboration with Cohorting as a Service (CaaS)
 
 ## Latest news
 
@@ -51,6 +47,10 @@ In 2026, we are working towards:
 
 [A digital-first approach to patient communications](https://digital.nhs.uk/blog/transformation-blog/2025/a-digital-first-approach-to-patient-communications)
 
-[Transforming digital services in breast screening](https://www.england.nhs.uk/blog/transforming-digital-services-breast-screening/)
+[What we learned about clinics and appointments](https://design-history.prevention-services.nhs.uk/cohort-to-clinic/2026/05/what-we-learned-about-clinics-and-appointments/)
 
-[NHS ‘ping and book’ screening to help save thousands of women’s lives](https://www.england.nhs.uk/2024/11/nhs-ping-and-book-screening-to-help-save-thousands-of-womens-lives/)
+[From co-design to delivery - a phased approach to improving diabetic eye screening](https://design-history.prevention-services.nhs.uk/diabetic-eye-screening/2026/04/from-co-design-to-delivery/)
+
+[Understanding user experience in lung cancer screening beyond user needs](https://design-history.prevention-services.nhs.uk/lung-health-check/2026/03/beyond-user-needs/)
+
+[Experimenting with dark mode for image readers](https://design-history.prevention-services.nhs.uk/manage-breast-screening/2026/02/experimenting-with-dark-mode-for-image-readers/)
