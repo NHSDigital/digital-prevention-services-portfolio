@@ -23,8 +23,6 @@ The Digital Screening team works on providing provide safe, efficient, high qual
 - Diabetic Eye Screening (DES) launched a new helpdesk service to provide a more consistent and resilient experience
 - rollout of a new service to help NHS staff manage cervical screening ([Cervical Screening Management System](https://www.service-catalogue.nhs.uk/services/cervical-screening-management-system))
 - now sending millions of digital communications for bowel cancer and cervical screening
-- a new service to improve the quality of data used to invite people for breast cancer screening ([Cohort manager](https://www.service-catalogue.nhs.uk/services/create-screening-cohorts))
-- a new dashboard that allows NHS staff to monitor the breast screening coverage in the Federated Data Platform (FDP)
 
 <!-- omit from toc -->
 
