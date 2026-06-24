@@ -34,6 +34,10 @@ export default function (eleventyConfig) {
             href: '/roadmap'
           },
           {
+            text: 'Case studies',
+            href: '/case-studies'
+          },
+          {
             text: 'Notes',
             href: '/notes'
           },

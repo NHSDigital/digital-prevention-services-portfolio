@@ -1,0 +1,7 @@
+{
+  "layout": "sub-navigation",
+  "sectionKey": "case-studies",
+  "eleventyNavigation": {
+    "parent": "case-studies"
+  }
+}
