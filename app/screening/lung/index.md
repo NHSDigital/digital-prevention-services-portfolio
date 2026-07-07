@@ -2,7 +2,8 @@
 layout: page
 title: Lung cancer screening
 description: NHS England is developing a new online service for NHS lung cancer screening.
-
+eleventyNavigation:
+  parent: Screening
 ---
 
 The aim of the lung cancer screening programme is to reduce deaths from lung cancer, by finding it early when treatment to cure it is still an option.  
