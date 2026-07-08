@@ -30,7 +30,7 @@ The Digital Screening team works on providing provide safe, efficient, high qual
 ### Up next
 
 - adding self-testing as a new mode for cervical screening participants who have previously not attended clinic-based screening
-- piloting the [new service for staff working in breast screening](https://www.digital-prevention-services.nhs.uk/screening/breast/), called Run Breast Screening In England (Rubie), giving them a quicker, easier way to manage the screening process and freeing them up to spend more time with participants
+- piloting the [new service for staff working in breast screening](https://www.digital-prevention-services.nhs.uk/screening/breast/), called Run breast screening in England (Rubie), giving them a quicker, easier way to manage the screening process and freeing them up to spend more time with participants
 - testing online booking via the NHS app as part of increasing uptake in Cervical Screening
 - testing a new cohorting service for Diabetic Eye Screening using [Cohorting as a Service (CaaS)](https://www.service-catalogue.nhs.uk/services/cohorting-as-a-service), and exploring how AI can support image reading
 
