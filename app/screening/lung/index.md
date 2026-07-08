@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lung cancer screening
+title: Digital screening for lung cancer
 description: NHS England is developing a new online service for NHS lung cancer screening.
 eleventyNavigation:
   parent: Screening
