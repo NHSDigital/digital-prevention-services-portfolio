@@ -23,14 +23,16 @@ The Digital Screening team works on providing provide safe, efficient, high qual
 - Diabetic Eye Screening (DES) launched a new helpdesk service to provide a more consistent and resilient experience
 - rollout of a new service to help NHS staff manage cervical screening ([Cervical Screening Management System](https://www.service-catalogue.nhs.uk/services/cervical-screening-management-system))
 - now sending millions of digital communications for bowel cancer and cervical screening
+- data used to invite people for breast cancer screening is now higher quality, because of the new [Cohort Manager](https://www.service-catalogue.nhs.uk/services/create-screening-cohorts) service
 
 <!-- omit from toc -->
 
 ### Up next
 
 - adding self-testing as a new mode for cervical screening participants who have previously not attended clinic-based screening
-- launching image reading and clinic management features to Run Breast Screening in England (Rubie) as part of our regular live tests
+- piloting the [new service for staff working in breast screening](https://www.digital-prevention-services.nhs.uk/screening/breast/), called Run Breast Screening In England (Rubie), giving them a quicker, easier way to manage the screening process and freeing them up to spend more time with participants
 - testing online booking via the NHS app as part of increasing uptake in Cervical Screening
+- testing a new cohorting service for Diabetic Eye Screening using [Cohorting as a Service (CaaS)](https://www.service-catalogue.nhs.uk/services/cohorting-as-a-service), and exploring how AI can support image reading
 
 ## Vaccination Digital Services
 
