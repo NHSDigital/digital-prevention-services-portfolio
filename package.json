@@ -7,6 +7,7 @@
     "url": "https://www.england.nhs.uk"
   },
   "repository": "NHSDigital/digital-prevention-services-portfolio",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/NHSDigital/digital-prevention-services-portfolio/issues"
   },
@@ -30,7 +31,7 @@
     "js-yaml": "^4.1.1"
   },
   "devDependencies": {
-    "@x-govuk/eslint-config": "^0.0.1",
+    "@x-govuk/eslint-config": "^0.0.2",
     "prettier": "^3.8.3",
     "stylelint": "^16.24.0",
     "stylelint-config-gds": "^2.0.0"
