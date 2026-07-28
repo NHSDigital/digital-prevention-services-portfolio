@@ -19,9 +19,7 @@ There are 77 breast screening offices (BSOs) across England, which between them 
 
 This fragmentation of data comes at a cost.
 
-![Gateway Now](/assets/images/gateway-now.png)
-
-The current set up with 75 instances of NBSS that run locally, within each secure hospital trust network (represented by grey rectangles).
+![The current set up with 75 instances of NBSS that run locally, within each secure hospital trust network (represented by grey rectangles).](/assets/images/gateway-now.png 'The current set up with 75 instances of NBSS that run locally, within each secure hospital trust network (represented by grey rectangles).')
 
 #### To the participants
 
@@ -49,9 +47,7 @@ Based inside the hospital network, the gateway will open a secure online channel
 
 Rubie being cloud-based will enable huge future opportunities for using and interpreting data, including the metadata from X-rays and MRIs. Information from all BSOs can be gathered at a national level more easily and in real time. It reduces reliance on manual (and error prone) processes and will save thousands of hours of productivity. It enables AI readiness and the potential for further improvements to the programme, including connecting to other IT such as GP systems.
 
-![Gateway Future](/assets/images/gateway-future.png)
-
-The future set up with 75 gateways running locally within each secure hospital network, and also connecting to Rubie – one national breast screening service.
+![The future set up with 75 gateways running locally within each secure hospital network, and also connecting to Rubie – one national breast screening service.](/assets/images/gateway-future.png 'The future set up with 75 gateways running locally within each secure hospital network, and also connecting to Rubie – one national breast screening service.')
 
 ### Can we solve other puzzles with this answer?
 
