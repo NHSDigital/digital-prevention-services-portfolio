@@ -34,7 +34,7 @@ blocks:
       > Gracious is it that time already ... If I didn’t get the nudge, I wouldn’t think about it. It’s just one of those things ... It’s good to get the nudge.
 
   - type: two-column
-    ratio: one-third-two-thirds
+    ratio: half-half
     left: |
       This system depends on the NHS having an up to date postal address for every participant. Unfortunately, every year, we send out thousands of kits to incorrect or out-of-date addresses, and many of them get returned because they can't be delivered. Every returned kit costs us about £5 in postal fees.
     right: |
@@ -70,7 +70,7 @@ blocks:
       - and decide if they want to take part
 
   - type: two-column
-    ratio: one-third-two-thirds
+    ratio: half-half
     left: |
       ![A flow chart showing how the screening invite does two jobs. It helps users understand what screening is, why they've been invited, and whether they should be worried. When they're ready to receive a kit, they are starting the bowel screening pathway.](/assets/images/bowel-screening-invite-flow-chart.png)
     right: |
@@ -89,7 +89,7 @@ blocks:
       The second insight was: **most people don't realise that the NHS might have the wrong postal address for them**. So if we help them see the problem, they can take action.
 
   - type: two-column
-    ratio: two-thirds-one-third
+    ratio: half-half
     left: |
       When we send digital invites via the NHS App, we're able to show the address we've got on file, and ask people: "Is this the right place to send your kit?"
 
