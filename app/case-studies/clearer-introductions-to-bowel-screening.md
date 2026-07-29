@@ -23,20 +23,22 @@ blocks:
   - type: two-column
     ratio: half-half
     left: |
-      This system depends on the NHS having an up to date postal address for every participant. Unfortunately, every year, we send out thousands of kits to incorrect or out-of-date addresses, and many of them get returned because they can't be delivered. Every returned kit costs us about £5 in postal fees.
+      ![A screenshot of a message about NHS bowel cancer screening in the app.](/assets/images/bowel-screening-notify-message.png)
     right: |
-      ![Screenshot of the NHS App showing a message from NHS Screening. The message tells a patient that their next bowel cancer screening home test kit should arrive within 2 weeks, and the message asks them to check the address the NHS holds is correct.](/assets/images/bowel-screening-summer-2026.png)
+      Our team has been working on a new way to send invites for screening - digitally, via NHS Notify, which is able to route messages via the NHS App for the people who use it.
+      
+      Quotes from user research:
+      
+      > It’s interesting because it’s obviously conveying the same information as the letter did, but it’s much more succinct.
+      
+      > Gracious is it that time already ... If I didn’t get the nudge, I wouldn’t think about it. It’s just one of those things ... It’s good to get the nudge.
 
   - type: two-column
     ratio: one-third-two-thirds
     left: |
-      ![Screenshot of a mockup of NHS Notify.](/assets/images/template.png)
+      This system depends on the NHS having an up to date postal address for every participant. Unfortunately, every year, we send out thousands of kits to incorrect or out-of-date addresses, and many of them get returned because they can't be delivered. Every returned kit costs us about £5 in postal fees.
     right: |
-      Our team has been working on a new way to send invites for screening - digitally, via NHS Notify, which is able to route messages via the NHS App for the people who use it.
-
-      > It’s interesting because it’s obviously conveying the same information as the letter did, but it’s much more succinct.
-
-      > Gracious is it that time already ... If I didn’t get the nudge, I wouldn’t think about it. It’s just one of those things ... It’s good to get the nudge.
+      ![A mock screenshot of how users can check their address is correct.](/assets/images/bowel-screening-check-your-address.png)
 
   - type: markdown
     body: |
@@ -70,7 +72,7 @@ blocks:
   - type: two-column
     ratio: one-third-two-thirds
     left: |
-      ![Screenshot of a mockup of NHS Notify.](/assets/images/template.png)
+      ![A flow chart showing how the screening invite does two jobs. It helps users understand what screening is, why they've been invited, and whether they should be worried. When they're ready to receive a kit, they are starting the bowel screening pathway.](/assets/images/bowel-screening-invite-flow-chart.png)
     right: |
       So the invite does two jobs:
       1. It’s an _introduction to screening_ as a concept.
@@ -93,20 +95,20 @@ blocks:
 
       It's not yet possible for people to update their address themselves in the App, but we are able to say: "To update your address, call this number." 
     right: |
-      ![Screenshot of a mockup of NHS Notify.](/assets/images/appfirst.png)
+      ![Another screenshot of a bowel screening invite in the NHS App, encouraging users to also check their address is correct.](/assets/images/bowel-screening-summer-2026.png)
 
   - type: markdown
     body: |
-      Since rolling that message out, we've seen an increase in calls from people wanting to update their postal address. We're confident that over time, this change will result in far fewer costly kit returns, saving the NHS money and improving the experience. 
+      Since rolling that message out, **we've seen an increase in calls from people wanting to update their postal address**. We're confident that over time, this change will result in far fewer costly kit returns, saving the NHS money and improving the experience. 
 
       ## What this means for NHS colleagues
 
       Our work to modernise bowel screening communications with eligible patients has taught us many things, some of which might be applicable in other areas of screening healthcare.
 
       Among other things, we've learned that:
-      - invitations are sometimes more than just invitations - depending on what people are being invited to do, the invitation might carry emotional weight that needs to be addressed up front, or as early as possible in the process
-      - people don't know what the NHS knows about them, and surfacing something simple like a postal address record can help them spot errors, and fix them easily
-      - digital communication gives local NHS screening teams a much richer picture of what happens after each invite is sent, which in turns means they can adapt their own processes to respond to any areas of concern; which in turn could have a positive effect on health inequalities
+      - **invitations are sometimes more than just invitations** - depending on what people are being invited to do, the invitation might carry emotional weight that needs to be addressed up front, or as early as possible in the process
+      - **people don't know what the NHS knows about them**, and surfacing something simple like a postal address record can help them spot errors, and fix them easily
+      - **digital communication gives local NHS screening teams a much richer picture** of what happens after each invite is sent, which in turns means they can adapt their own processes to respond to any areas of concern; which in turn could have a positive effect on health inequalities
 
       ## Learn more
 
