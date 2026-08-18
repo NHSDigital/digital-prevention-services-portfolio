@@ -50,10 +50,24 @@ export default function (eleventyConfig) {
           {
             text: 'About us',
             href: '/about'
+          },
+          {
+            text: 'Privacy policy',
+            href: '/privacy-policy'
           }
         ]
       }
     }
+  })
+
+  // The NHS plugin provides base.njk as a virtual template, so avoid copying it just to add this site-wide script.
+  eleventyConfig.addTransform('analytics-script', (content) => {
+    if (!content.includes('<head>')) return content
+
+    return content.replace(
+      '<head>',
+      '<head>\n<script defer src="https://d11vb7m97xecvc.cloudfront.net/script.js" data-website-id="046780c9-3684-4ded-a9d2-bdf361faf561"></script>'
+    )
   })
 
   // Allow YAML to be used for data
