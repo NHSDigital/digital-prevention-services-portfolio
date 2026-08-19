@@ -34,7 +34,7 @@ The Digital Screening team works on providing provide safe, efficient, high qual
 - testing online booking via the NHS app as part of increasing uptake in Cervical Screening
 - testing a new cohorting service for Diabetic Eye Screening using [Cohorting as a Service (CaaS)](https://www.service-catalogue.nhs.uk/services/cohorting-as-a-service), and exploring how AI can support image reading
 
-## Vaccination Digital Services
+## Vaccination Digital Services.
 
 The Vaccination Digital Services (VDS) team is here to protect the NHS and public, particularly those facing vaccine inequalities, by ensuring more people get vaccinated, more easily.
 
