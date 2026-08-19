@@ -1,0 +1,10 @@
+{
+  // URL of the tracking JavaScript snippet provided by our Umami service.
+  // The nightly GitHub Actions workflow downloads this file from this URL and
+  // opens a pull request when it changes. Keep the /script.js part of the URL.
+  "trackerUrl": "https://d11vb7m97xecvc.cloudfront.net/script.js",
+
+  // Origin of the Umami service that receives analytics events from the local
+  // copy of the snippet. Use the origin only: do not add /script.js or /api/send.
+  "hostUrl": "https://d11vb7m97xecvc.cloudfront.net"
+}

@@ -33,10 +33,9 @@ jobs:
 
       - name: Download tracking JavaScript snippet
         id: tracker
-        env:
-          TRACKER_URL: https://d11vb7m97xecvc.cloudfront.net/script.js
         run: |
           set -euo pipefail
+          TRACKER_URL=$(node --input-type=module -e "import fs from 'node:fs'; const config = JSON.parse(fs.readFileSync('config/umami.jsonc', 'utf8').replace(/^\\s*\\/\\/.*$/gm, '')); process.stdout.write(config.trackerUrl)")
           curl --fail --location --silent --show-error --proto '=https' --tlsv1.2 \
             "$TRACKER_URL" --output /tmp/umami.js
           test -s /tmp/umami.js
