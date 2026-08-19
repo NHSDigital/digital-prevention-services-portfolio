@@ -7,7 +7,7 @@ description: NHS England is transforming the digital services that underpin NHS 
 
 NHS Screening Programmes can save lives and reduce ill health by finding out if people have a higher chance of having a health problem, so that early treatment can be offered, or information given to help them make informed decisions. By supporting the government’s shift from treatment to prevention, these programmes mitigate the demand for resource-intensive procedures and reduce strain on other NHS services.
 
-Work is underway to improve services across [breast](/screening/breast/), bowel, cervical and diabetic eye screening (DES) programmes, whilst supporting new programmes such as lung cancer screening.
+Work is underway to improve services across [breast](/screening/breast/), bowel, cervical and diabetic eye screening (DES) programmes, whilst supporting new programmes such as [lung cancer screening](/screening/lung/).
 
 ## Aims
 

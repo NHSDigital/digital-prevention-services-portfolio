@@ -2,7 +2,8 @@
 layout: page
 title: Digital breast screening
 description: NHS England is developing digital services to support the national breast screening programme. This includes new services and replacements for outdated technology.
-
+eleventyNavigation:
+  parent: Screening
 ---
 
 ## Replacing NBSS (the National Breast Screening Service)
