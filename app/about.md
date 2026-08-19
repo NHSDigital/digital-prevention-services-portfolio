@@ -6,7 +6,7 @@ title: About us
 
 Digital Prevention Services Portfolio (DPSP) is part of [NHS England](https://www.england.nhs.uk).
 
-We’re responsible for building and maintaining the essential digital infrastructure for preventative healthcare, delivering digital products and services for NHS staff and for patients.
+We’re responsible for building and maintaining the essential digital infrastructure for preventative healthcare, delivering digital products and services for NHS staff and for patients...
 
 We're central to delivering the government's healthcare priorities, outlined in the 10 Year Health Plan: analogue to digital, sickness to prevention, hospital to community. We play a part in all 3 of them.
 
