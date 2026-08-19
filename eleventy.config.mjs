@@ -66,7 +66,7 @@ export default function (eleventyConfig) {
 
     return content.replace(
       '<head>',
-      '<head>\n<script defer src="https://d11vb7m97xecvc.cloudfront.net/script.js" data-website-id="046780c9-3684-4ded-a9d2-bdf361faf561"></script>'
+      '<head>\n<script defer src="/assets/umami.js" data-website-id="046780c9-3684-4ded-a9d2-bdf361faf561"></script>'
     )
   })
 
@@ -76,6 +76,7 @@ export default function (eleventyConfig) {
   // Passthrough
   eleventyConfig.addPassthroughCopy('./app/assets/images')
   eleventyConfig.addPassthroughCopy('./app/assets/pdfs')
+  eleventyConfig.addPassthroughCopy('./app/assets/umami.js')
 
   return {
     dataTemplateEngine: 'njk',
