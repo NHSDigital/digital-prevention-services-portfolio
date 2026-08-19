@@ -8,15 +8,15 @@ This privacy policy explains how NHS England uses information when you visit the
 
 ## Information we collect
 
-When you visit this website, our web server collects your IP address and user agent. A user agent is information about the browser, device and operating system you use to access the website.
+When you visit this website, we collect your IP address, user agent, page URL and title, referring page, language and screen information. A user agent is information sent by your browser when you access the website.
 
 We use this information to understand how the website is being used and to improve it. We do not use it to identify you directly.
 
 ## How we store information
 
-We store IP addresses and user agents in pseudonymised form. This means direct identifiers are replaced with a value that cannot be used to identify you without additional information. Pseudonymised information is still personal data under data protection law.
+We use your IP address and user agent to create a pseudonymous identifier for analytics. Pseudonymised information is still personal data under data protection law.
 
-We retain this information for up to 2 months, after which it is deleted.
+We keep this identifier for up to 2 months, after which it is deleted. We keep the other analytics data, excluding your IP address, for up to 2 years. Once the identifier is deleted, the remaining data is anonymised.
 
 ## Our legal obligations
 
