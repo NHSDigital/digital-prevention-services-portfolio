@@ -1,0 +1,91 @@
+# We keep a reviewed copy of the tracking JavaScript snippet in the repository.
+# Loading it from CloudFront would allow its contents to change without a code
+# review, so this action checks for updates and proposes them as a pull request.
+name: Update tracking JavaScript snippet
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+
+  # Enable running this workflow manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-umami-tracker
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: Download tracking JavaScript snippet
+        id: tracker
+        run: |
+          set -euo pipefail
+          TRACKER_URL=$(node --input-type=module -e "import fs from 'node:fs'; const config = JSON.parse(fs.readFileSync('config/umami.jsonc', 'utf8').replace(/^\\s*\\/\\/.*$/gm, '')); process.stdout.write(config.trackerUrl)")
+          curl --fail --location --silent --show-error --proto '=https' --tlsv1.2 \
+            --connect-timeout 10 --max-time 60 \
+            "$TRACKER_URL" --output /tmp/umami.js
+          test -s /tmp/umami.js
+
+          if cmp --silent /tmp/umami.js app/assets/umami.js; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          cp /tmp/umami.js app/assets/umami.js
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+          echo "hash=$(sha384sum /tmp/umami.js | cut -d ' ' -f 1)" >> "$GITHUB_OUTPUT"
+
+      - name: Install dependencies
+        if: steps.tracker.outputs.changed == 'true'
+        run: npm ci
+
+      - name: Check tracking JavaScript syntax
+        if: steps.tracker.outputs.changed == 'true'
+        run: node --check app/assets/umami.js
+
+      - name: Build site
+        if: steps.tracker.outputs.changed == 'true'
+        run: npm run build
+
+      - name: Check JavaScript
+        if: steps.tracker.outputs.changed == 'true'
+        run: npm run lint:js
+
+      - name: Create update pull request
+        if: steps.tracker.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: automated/update-umami-tracker
+          delete-branch: true
+          add-paths: app/assets/umami.js
+          commit-message: Update tracking JavaScript snippet
+          title: Update tracking JavaScript snippet
+          body: |
+            This automated PR updates the tracking JavaScript snippet from CloudFront.
+
+            Please check that the change is genuine and matches an expected Umami update before merging it.
+
+            SHA-384: `${{ steps.tracker.outputs.hash }}`
+
+            Checks run by the workflow:
+            - `node --check app/assets/umami.js`
+            - `npm run build`
+            - `npm run lint:js`

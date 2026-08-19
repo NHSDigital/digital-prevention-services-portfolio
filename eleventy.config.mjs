@@ -1,7 +1,13 @@
+import fs from 'node:fs'
 import { nhsukEleventyPlugin } from '@x-govuk/nhsuk-eleventy-plugin'
 import yaml from 'js-yaml'
 
 const serviceName = 'Digital prevention services'
+const umami = JSON.parse(
+  fs
+    .readFileSync(new URL('./config/umami.jsonc', import.meta.url), 'utf8')
+    .replace(/^\s*\/\/.*$/gm, '')
+)
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(nhsukEleventyPlugin, {
@@ -50,10 +56,24 @@ export default function (eleventyConfig) {
           {
             text: 'About us',
             href: '/about'
+          },
+          {
+            text: 'Privacy policy',
+            href: '/privacy-policy'
           }
         ]
       }
     }
+  })
+
+  // The NHS plugin provides base.njk as a virtual template, so avoid copying it just to add this site-wide script.
+  eleventyConfig.addTransform('analytics-script', (content) => {
+    if (!content.includes('<head>')) return content
+
+    return content.replace(
+      '<head>',
+      `<head>\n<script defer src="/assets/umami.js" data-website-id="046780c9-3684-4ded-a9d2-bdf361faf561" data-host-url="${umami.hostUrl}"></script>`
+    )
   })
 
   // Allow YAML to be used for data
@@ -62,6 +82,7 @@ export default function (eleventyConfig) {
   // Passthrough
   eleventyConfig.addPassthroughCopy('./app/assets/images')
   eleventyConfig.addPassthroughCopy('./app/assets/pdfs')
+  eleventyConfig.addPassthroughCopy('./app/assets/umami.js')
 
   return {
     dataTemplateEngine: 'njk',
