@@ -42,7 +42,7 @@ We are:
 
 ## We're eager to help
 
-Most of our services have a direct impact on staff, or patients, or both. They are all free to use. We have a lot to offer to local teams in regions, ICBs, Trusts, GP surgeries and pharmacies.
+Most of our services have a direct impact on staff, or patients, or both. They are all free to use. We have plenty to offer to local teams in regions, ICBs, Trusts, GP surgeries and pharmacies.
 
 If you:
 
