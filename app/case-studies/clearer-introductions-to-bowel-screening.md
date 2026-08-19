@@ -18,7 +18,7 @@ blocks:
 
   - type: markdown
     body: |
-      The NHS sends eligible people an invitation to take part, along with a leaflet. Later, they are sent a home testing kit (known as a FIT kit) in the post. When someone uses the kit and returns a test sample, it goes to a laboratory for testing. After they've completed this process once, they will be invited to repeat it every 2 years.
+      The NHS sends eligible people an invitation to take part, along with a leaflet. Later, they are sent a home testing kit (known as a FIT kit) in the post. When someone uses the kit and returns a test sample, it goes to a laboratory for testing. Repeat invitations are sent every 2 years.
 
   - type: two-column
     ratio: half-half
