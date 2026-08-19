@@ -23,7 +23,7 @@ blocks:
   - type: two-column
     ratio: half-half
     left: |
-      ![A screenshot of a message about NHS bowel cancer screening in the app.](/assets/images/bowel-screening-notify-message.png)
+      ![A screenshot of a message about NHS bowel cancer screening in the app.](/assets/images/bowel-screening-notify-message-2.png)
     right: |
       Our team has been working on a new way to send invites for screening - digitally, via NHS Notify, which is able to route messages via the NHS App for the people who use it.
       
@@ -38,7 +38,7 @@ blocks:
     left: |
       This system depends on the NHS having an up to date postal address for every participant. Unfortunately, every year, we send out thousands of kits to incorrect or out-of-date addresses, and many of them get returned because they can't be delivered. Every returned kit costs us about £5 in postal fees.
     right: |
-      ![A mock screenshot of how users can check their address is correct.](/assets/images/bowel-screening-check-your-address.png)
+      ![A mock screenshot of how users can check their address is correct.](/assets/images/bowel-screening-check-your-address-2.png)
 
   - type: markdown
     body: |
@@ -95,7 +95,7 @@ blocks:
 
       It's not yet possible for people to update their address themselves in the App, but we are able to say: "To update your address, call this number." 
     right: |
-      ![Another screenshot of a bowel screening invite in the NHS App, encouraging users to also check their address is correct.](/assets/images/bowel-screening-summer-2026.png)
+      ![Another screenshot of a bowel screening invite in the NHS App, encouraging users to also check their address is correct.](/assets/images/bowel-screening-summer-2026-2.png)
 
   - type: markdown
     body: |
