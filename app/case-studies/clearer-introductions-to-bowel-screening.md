@@ -1,5 +1,5 @@
 ---
-layout: case-study
+layout: page
 order: 1
 title: Clearer introductions to bowel screening
 description: Our team developed a new process for inviting people to take part in bowel cancer screening - and in the process, uncovered new insights to help us understand what those invites really mean to patients.
