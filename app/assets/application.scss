@@ -23,7 +23,27 @@
   }
 }
 
-.app-its-ok {
+.app-prose-scope.nhsuk-u-reading-width {
+  > .nhsuk-image {
+    width: 100%;
+
+    > .nhsuk-image__img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
+      height: auto;
+      padding: nhsuk-spacing(2);
+      box-sizing: border-box;
+    }
+
+    > .nhsuk-image__caption {
+      padding: nhsuk-spacing(4);
+    }
+  }
+}
+
+  .app-its-ok {
   padding: nhsuk-spacing(5);
   margin-top: nhsuk-spacing(7);
   background-color: nhsuk-colour("blue");
