@@ -37,7 +37,11 @@
   },
   "private": true,
   "engines": {
-    "node": "^22",
-    "npm": "^11"
+    "node": "^24",
+    "npm": "^12"
+  },
+  "allowScripts": {
+    "fsevents": false,
+    "@parcel/watcher": false
   }
 }
