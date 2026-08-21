@@ -8,6 +8,11 @@ updates:
       interval: monthly
     cooldown:
       default-days: 4
+    groups:
+      stylelint:
+        patterns:
+          - 'stylelint'
+          - 'stylelint-config-gds'
 
   # Update GitHub Actions
   - package-ecosystem: github-actions
