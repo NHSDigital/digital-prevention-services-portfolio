@@ -1,7 +1,7 @@
 import { nhsukEleventyPlugin } from '@x-govuk/nhsuk-eleventy-plugin'
 import yaml from 'js-yaml'
 
-const serviceName = 'Digital prevention services'
+const serviceName = 'Digital prevention services (DPSP)'
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(nhsukEleventyPlugin, {
