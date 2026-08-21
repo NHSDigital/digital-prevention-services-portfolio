@@ -9,6 +9,10 @@ updates:
     cooldown:
       default-days: 4
     groups:
+      eleventy:
+        patterns:
+          - '@11ty/eleventy'
+          - '@x-govuk/nhsuk-eleventy-plugin'
       stylelint:
         patterns:
           - 'stylelint'
@@ -19,3 +23,9 @@ updates:
     directory: '/'
     schedule:
       interval: monthly
+    groups:
+      github-pages:
+        patterns:
+          - 'actions/configure-pages'
+          - 'actions/upload-pages-artifact'
+          - 'actions/deploy-pages'
