@@ -34,6 +34,9 @@ current_activity:
       - title: Manage breast screening
         href: https://www.service-catalogue.nhs.uk/services/manage-breast-screening
         description: Helping clinical staff to manage breast screening
+      - title: Manage your appointments
+        href: https://www.nhs.uk/manage-your-appointments/login
+        description: A service for setting up vaccination clinics and managing public appointments
 
   footer: |
     See a [full list of digital prevention services](https://www.service-catalogue.nhs.uk/by-organisation#digital-prevention-services)
