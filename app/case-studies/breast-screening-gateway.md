@@ -1,13 +1,13 @@
 ---
-order: 4
+layout: page
+order: 2
 title: Breast screening gateway
+description: Connecting hospital machines to the cloud – a new type of infrastructure.
 image:
   src: /assets/images/gateway-future.png
   alt: Graphic showing the future gateway state
   opengraphImage: true
 ---
-
-## Connecting hospital machines to the cloud – a new type of infrastructure
 
 In breast screening, we're working to replace the decades-old tech that underpins the entire service. Part of this work will be a major upgrade to how the service connects to the cloud, which will allow easier and quicker data sharing on a national level.
 
