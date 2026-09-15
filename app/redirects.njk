@@ -1,0 +1,12 @@
+---
+pagination:
+  data: redirections
+  size: 1
+  alias: redirect
+permalink: "{{ redirect.origin }}"
+eleventyComputed:
+  newLocation: "{{ website.baseUrl }}{{ redirect.destination }}"
+layout: "redirect.njk"
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+---
