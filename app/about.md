@@ -6,25 +6,22 @@ title: About us
 
 Digital Prevention Services Portfolio (DPSP) is part of [NHS England](https://www.england.nhs.uk).
 
-We’re responsible for building and maintaining the essential digital infrastructure for preventative healthcare, delivering digital products and services for NHS staff and for patients.
+**We design, build, deliver and operate critical national digital infrastructure** across vaccinations, screening, children’s health, home testing, and personalised prevention. We thrive on tackling some of the thorniest problems in the NHS.
 
-We're central to delivering the government's healthcare priorities, outlined in the 10 Year Health Plan: analogue to digital, sickness to prevention, hospital to community. We play a part in all 3 of them.
+**We bring NHS services to people, not people to services**. We use what the NHS already knows about people to help them stay healthy: spotting risks earlier, offering support at the right time, and preventing illness escalating to the point where acute care is needed.
 
-Prevention is not a new idea. It's been baked into the NHS from the very start. But what it means in terms of NHS processes and patient-facing services - all of that is very different today. Digital technology offers us enormous scope to simplify, automate and centre all services around user needs.
+At the same time, **we’re building high quality services for NHS staff**: meeting the needs of clinicians and administrators, involving them directly in service design and iteration.
 
-## What we're dealing with
+**Our work is central to delivering the three big shifts set out in the NHS [10 Year Plan](https://www.gov.uk/government/publications/10-year-health-plan-for-england-fit-for-the-future)**: analogue to digital, sickness to prevention, hospital to community. We are embedded in policy and operational teams, working with them to deliver high-quality software, and radically transform how the NHS works. Many of our services are proofs of concept as we move toward a digital-first NHS.
 
-- 40% of the NHS budget is spent on treating preventable conditions
-- For example: £24 billion is the annual cost of treating cardiovascular disease
-- And £7.6 billion is the annual cost of treating cancer
-- 26 million people live with at least one long-term health condition
-- 2.8 million people are economically inactive due to long term sickness
+We are partnering with the NHS App team to deliver more prevention services there – helping to transform the app into a **[lifelong digital companion](https://digital.nhs.uk/blog/transformation-blog/2026/the-nhs-app-from-digital-front-door-to-lifelong-companion)** and helping to shift more NHS care from reactive treatment to proactive engagement.
 
-## What we're aiming for
+## We want to bring about:
 
-Our goal is **radical reimagination of preventative healthcare**.
-
-We're building for a future where patients can do more to manage their health and that of their dependents, with the [NHS App as a lifelong companion](https://digital.nhs.uk/blog/transformation-blog/2026/the-nhs-app-from-digital-front-door-to-lifelong-companion) to help guide the way. Where NHS staff have access to constantly improving, well maintained digital tools that reduce admin burden, all while upholding the highest standards of security, patient privacy and clinical safety.
+- radically reimagined preventative healthcare for everyone, staff and patients alike
+- a seamless end-to-end personalised health journey delivered via the NHS App
+- far-reaching transformation of existing services in vaccination, screening and children’s health
+- innovative new approaches for personalised prevention and home testing
 
 ## We're structured around delivery
 
