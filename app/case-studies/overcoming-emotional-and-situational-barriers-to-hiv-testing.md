@@ -17,7 +17,7 @@ Testing isn't standardised. Anyone can ask for a test, and most tests happen in 
 
 Now, we are building a new home testing service for HIV. Our goal is to make it available nationally via the NHS App, by the end of 2026. **It will allow at-risk people to order a test, get results securely, and contact their GP or sexual health clinic, entirely within the NHS App.**
 
-![A screenshot showing how users can order a free HIV self-test kit in the NHS App.](/assets/images/order-a-free-hiv-self-test-kit.jpg 'Ordering a free HIV self-test kit in the NHS App.')
+![A screenshot showing how users can order a free HIV self-test kit in the NHS App.](/assets/images/hiv-hometesting-order-a-kit.png 'Ordering a free HIV self-test kit in the NHS App.')
 
 We believe this service will bring about:
 
@@ -28,7 +28,7 @@ We believe this service will bring about:
 
 ## How it works
 
-![An animation showing how the app helps people to take a blood sample.](/assets/images/hiv-hometesting-walkthrough-animation.gif 'The app also helps people to understand the process of taking the test.')
+![An animation showing how the app helps people to take a blood sample.](/assets/images/hiv-hometesting-are-you-comfortable.gif 'The app also helps people to understand the process of taking the test.')
 
 1. Users access the service via the NHS App, or following instructions from a trusted campaign (for example: using a QR code)
 2. Users are given clear information about privacy, data use, and possible alternatives
@@ -44,7 +44,7 @@ Barriers to testing are often emotional and situational, rather than technical.
 
 Some people are more confident than others about taking a sample of their own blood. What's more, beyond confidence, the process requires some dexterity, so isn't suitable for everyone. It's important to check this with users early on, before they order a kit.
 
-![An illustration in the NHS App showing people how to take a blood sample.](/assets/images/hiv-hometesting-blood-sample-guidance.jpg 'We made illustrations to help people understand the process, and included those illustrations in the pages displayed inside the NHS App, before the user confirms that they want to request the kit.')
+![An illustration in the NHS App showing people how to take a blood sample.](/assets/images/hiv-hometesting-blood-sample-guide.png 'We made illustrations to help people understand the process, and included those illustrations in the pages displayed inside the NHS App, before the user confirms that they want to request the kit.')
 
 Knowing what's involved from the start helps more users feel more comfortable. Users who are uncomfortable can choose not to order a home test kit, and attend a clinic instead.
 
@@ -77,5 +77,3 @@ We believe this service will help local service providers:
 - avoid a 10-15 minute phlebotomy appointment for every returned test kit (a working assumption we used during early prototyping)
 
 Studies show that about one third of the population do not access health services online, so it's essential that any digital route also has a non-digital option (in this case: direct delivery to home, or access to a clinic for in-person testing). In future, there is scope for providing this service via other digital channels (eg, nhs.uk).
-
-We intend to rollout access via the NHS App before the end of 2026. If you have questions about how this might affect HIV pathways in your organisation, please contact us: [contact details]
