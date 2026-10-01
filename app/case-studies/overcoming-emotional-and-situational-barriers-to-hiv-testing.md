@@ -1,7 +1,7 @@
 ---
 layout: page
-order: 3
 title: Overcoming emotional and situational barriers to HIV testing
+date: 2026-10-01
 description: The process for getting an HIV test varies from place to place. Home tests are available in some locations, but aren’t always available to all. In some places, getting a small blood sample still requires an in-person appointment. We’re building a new digital service, initially available in the NHS App, designed to make the home test more accessible and less intimidating.
 ---
 
