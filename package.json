@@ -27,7 +27,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.1.6",
     "@x-govuk/nhsuk-eleventy-plugin": "^1.4.4",
-    "js-yaml": "^4.3.1"
+    "js-yaml": "^5.4.2"
   },
   "devDependencies": {
     "@x-govuk/eslint-config": "^0.0.1",
