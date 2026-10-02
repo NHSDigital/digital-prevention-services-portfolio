@@ -1,5 +1,9 @@
 ---
-layout: sub-navigation
+layout: collection
+pagination:
+  data: collections.case-studies
+  size: 20
+  reverse: true
 title: Case studies
 sectionKey: case-studies
 eleventyNavigation:
