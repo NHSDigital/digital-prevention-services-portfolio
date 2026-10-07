@@ -15,7 +15,7 @@ The government's goal is to end new HIV transmissions by 2030. To bring that abo
 
 Testing isn't standardised. Anyone can ask for a test, and most tests happen in local sexual health clinics - but those clinics aren't always easy to find on the internet. They usually have their own independent websites, which may or may not come up when someone goes searching for their nearest testing location. If and when someone does find somewhere to get tested, they give a small sample of blood or saliva, which is sent off to a laboratory. Results come back a few days later.
 
-We are developing a home HIV testing service and aim to trial ordering through an NHS App-linked journey in selected areas by 2026. Eligible people will be able to order a kit, access results securely and find information about local follow-up care. The route into the service, and thr way results appear in the NHS App, are still being developed. 
+We are developing a home HIV testing service and aim to trial ordering through an NHS App-linked journey in selected areas by 2026. Eligible people will be able to order a kit, access results securely and find information about local follow-up care. The route into the service, and thr way results appear in the NHS App, are still being developed.
 
 ![A screenshot showing how users can order a free HIV self-test kit in the NHS App.](/assets/images/hiv-hometesting-order-a-kit.png 'Ordering a free HIV self-test kit in the NHS App.')
 
@@ -36,7 +36,7 @@ We believe this service will bring about:
 4. Users are shown what the home test entails, and asked to confirm that they want to continue
 5. A test kit is sent out in the post
 6. Users complete the test by collecting a sample, then return it by post
-7. Results are communicated securely through the service, with access from NHS App messages.  Reactive results are passed on to relevant local teams via existing clinical pathways
+7. Results are communicated securely through the service, with access from NHS App messages. Reactive results are passed on to relevant local teams via existing clinical pathways
 
 ## What we learned while designing this service
 
@@ -58,9 +58,9 @@ Another person said:
 
 Research also uncovered barriers to ordering and completing a home test, including privacy, trust, language and accessibility - so we’ve made sure we mitigate them by designing the service around user needs.
 
-| Barriers such as...                                   | The service responds by...                                                                                                                                  |
+| Barriers such as...                                   | The service responds by...                                                                                                                               |
 | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Shame and stigma surrounding HIV                      | <ul><li>Normalising testing</li><li>Framing HIV as treatable</li><li>Exploring delivery options that support privacy</li></ul>                    |
+| Shame and stigma surrounding HIV                      | <ul><li>Normalising testing</li><li>Framing HIV as treatable</li><li>Exploring delivery options that support privacy</li></ul>                           |
 | People don't know that home testing exists            | <ul><li>Targeted use of posters and social media</li><li>QR codes in trusted places (eg, primary care)</li></ul>                                         |
 | Some people find test kit instructions hard to follow | <ul><li>Supportive messaging to reduce anxiety</li><li>Focus on accessibility</li><li>Making it clear what happens if a kit is damaged or lost</li></ul> |
 
@@ -68,7 +68,7 @@ As with all our services, accessibility is vitally important. The service design
 
 ## What this means for ICBs, regions, and local authorities
 
-NHS England is working with local authorities to trial the home testing service in selected areas, and to plan wider access through the NHS App. Local partners will help shape how the service reaches people in their areas. Expansion will depend on local arrangements and the outcome of the trial. 
+NHS England is working with local authorities to trial the home testing service in selected areas, and to plan wider access through the NHS App. Local partners will help shape how the service reaches people in their areas. Expansion will depend on local arrangements and the outcome of the trial.
 
 We believe this service will help local service providers:
 
