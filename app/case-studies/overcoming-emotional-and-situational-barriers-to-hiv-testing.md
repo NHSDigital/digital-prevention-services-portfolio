@@ -1,8 +1,12 @@
 ---
 layout: page
 title: Overcoming emotional and situational barriers to HIV testing
-date: 2026-10-01
+date: 2026-10-13
 description: The process for getting an HIV test varies from place to place. Home tests are available in some locations, but aren’t always available to all. In some places, getting a small blood sample still requires an in-person appointment. We’re building a new digital service, which we aim to trial with people in selected areas, through the NHS App, by the end of 2026. It is designed to make home testing more accessible and less intimidating.
+image:
+  src: /assets/images/hiv-hometesting-order-a-kit.png
+  alt: A screenshot showing how users can order a free HIV self-test kit in the NHS App.
+  opengraphImage: true
 ---
 
 > [!NOTE] Impact
