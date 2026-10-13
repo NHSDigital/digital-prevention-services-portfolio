@@ -1,7 +1,7 @@
 ---
 layout: page
-order: 1
 title: Clearer introductions to bowel screening
+date: 2026-08-20
 description: Our team developed a new process for inviting people to take part in bowel cancer screening - and in the process, uncovered new insights to help us understand what those invites really mean to patients.
 ---
 
