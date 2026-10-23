@@ -19,7 +19,7 @@ The government's goal is to end new HIV transmissions by 2030. To bring that abo
 
 Testing isn't standardised. Anyone can ask for a test, and most tests happen in local sexual health clinics - but those clinics aren't always easy to find on the internet. They usually have their own independent websites, which may or may not come up when someone goes searching for their nearest testing location. If and when someone does find somewhere to get tested, they give a small sample of blood or saliva, which is sent off to a laboratory. Results come back a few days later.
 
-We are developing a home HIV testing service and aim to trial ordering through an NHS App-linked journey in selected areas by 2026. Eligible people will be able to order a kit, access results securely and find information about local follow-up care. The route into the service, and thr way results appear in the NHS App, are still being developed.
+We are developing a home HIV testing service and aim to trial ordering through an NHS App-linked journey in selected areas by 2026. Eligible people will be able to order a kit, access results securely and find information about local follow-up care. The route into the service, and the way results appear in the NHS App, are still being developed.
 
 ![A screenshot showing how users can order a free HIV self-test kit in the NHS App.](/assets/images/hiv-hometesting-order-a-kit.png 'Ordering a free HIV self-test kit in the NHS App.')
 
