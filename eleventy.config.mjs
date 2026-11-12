@@ -1,3 +1,5 @@
+import { createHash } from 'node:crypto'
+
 import { nhsukEleventyPlugin } from '@x-govuk/nhsuk-eleventy-plugin'
 import yaml from 'js-yaml'
 
@@ -19,6 +21,35 @@ const analyticsWebsiteId = '046780c9-3684-4ded-a9d2-bdf361faf561'
 // Prefix the result with 'sha256-' and update this value.
 const cspInlineScriptHash =
   'sha256-tDOvXJi1PXbg0CWjLCCYSNHRXtps26K4JXkE3M6u/c0='
+
+// Removes personal data before Umami sends it. Copied from the onboarding guide at
+// https://github.com/NHSDigital/dpsp-umami#2-add-the-tracking-script
+const umamiBeforeSendScript = String.raw`
+  // Removes personal data from what is sent to Umami. Test it against your own URLs and titles.
+  function umamiBeforeSend(type, payload) {
+    const decode = (s) => {
+      try { return decodeURIComponent(s); } catch { return s; }
+    };
+    // Email addresses, UUIDs, then any run of letters and digits that contains a digit.
+    const redact = (s) => s
+      .replace(/[\w.+-]+@[\w-]+\.[\w.-]+/g, "[email]")
+      .replace(/\b[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}\b/gi, "[id]")
+      .replace(/[a-z0-9]*\d[a-z0-9]*/gi, "[id]");
+    const cleanUrl = (value) => {
+      if (!value) return value;
+      const url = new URL(value, location.origin);
+      const rest = redact(decode(url.pathname + url.search));
+      return /^https?:/i.test(value) ? url.origin + rest : rest;
+    };
+    payload.url = cleanUrl(payload.url);
+    payload.referrer = cleanUrl(payload.referrer);
+    if (payload.title) payload.title = redact(payload.title);
+    return payload;
+  }
+`
+
+// Calculated from the script above, so the CSP always matches it.
+const umamiBeforeSendHash = `sha256-${createHash('sha256').update(umamiBeforeSendScript).digest('base64')}`
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(nhsukEleventyPlugin, {
@@ -91,7 +122,7 @@ export default function (eleventyConfig) {
       // Keep the analytics host in both script-src and connect-src: Umami loads its script and sends events there.
       `<head>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self';
-  script-src 'self' ${analyticsHost} '${cspInlineScriptHash}';
+  script-src 'self' ${analyticsHost} '${cspInlineScriptHash}' '${umamiBeforeSendHash}';
   connect-src 'self' ${analyticsHost};
   style-src 'self';
   img-src 'self' data:;
@@ -103,10 +134,14 @@ export default function (eleventyConfig) {
 ` +
         // Load Umami asynchronously for analytics.
         // The host and website ID are configured in the variables above.
-        `<script defer src="${analyticsHost}/script.js"
+        // The redaction function must come before the Umami script.
+        `<script>${umamiBeforeSendScript}</script>
+<script defer src="${analyticsHost}/script.js"
   data-website-id="${analyticsWebsiteId}"
   data-host-url="${analyticsHost}"
-  data-domains="www.digital-prevention-services.nhs.uk"></script>`
+  data-domains="www.digital-prevention-services.nhs.uk"
+  data-exclude-hash="true"
+  data-before-send="umamiBeforeSend"></script>`
     )
   })
 
