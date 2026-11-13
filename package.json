@@ -1,5 +1,6 @@
 {
   "name": "digital-prevention-services-portfolio",
+  "type": "module",
   "description": "The website for NHS Digital prevention services portfolio (DPSP).",
   "homepage": "https://www.digital-prevention-services.nhs.uk",
   "author": {
