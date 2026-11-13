@@ -1,0 +1,26 @@
+---
+layout: "page.njk"
+excludeFromSitemap: true
+---
+
+{% block head %}
+  <meta http-equiv="refresh" content="0;url={{ newLocation }}">
+  <title>This page has moved</title>
+  <link rel="canonical" href="{{ newLocation | safe }}">
+{% endblock %}
+
+{% block beforeContent %}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-u-body">
+    <p aria-live="polite">This page has moved. You will be redirected automatically.</p>
+    <p>If you are not redirected within a few seconds, please <a href="{{ newLocation }}">continue to the new page</a>.</p>
+    <noscript>
+      <p><a href="{{ newLocation }}">Continue to the new page</a></p>
+    </noscript>
+  </div>
+  <script>
+    window.location.replace("{{ newLocation }}");
+  </script>
+{% endblock %}
