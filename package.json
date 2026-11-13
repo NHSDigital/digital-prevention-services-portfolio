@@ -35,6 +35,11 @@
     "stylelint": "^17.14.1",
     "stylelint-config-gds": "^3.0.0"
   },
+  "overrides": {
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "^11.0.8"
+    }
+  },
   "private": true,
   "engines": {
     "node": "^24",
