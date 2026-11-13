@@ -1,5 +1,6 @@
 {
   "name": "digital-prevention-services-portfolio",
+  "type": "module",
   "description": "The website for NHS Digital prevention services portfolio (DPSP).",
   "homepage": "https://www.digital-prevention-services.nhs.uk",
   "author": {
@@ -30,7 +31,7 @@
     "js-yaml": "^4.3.1"
   },
   "devDependencies": {
-    "@x-govuk/eslint-config": "^0.0.1",
+    "@x-govuk/eslint-config": "^0.0.3",
     "prettier": "^3.9.10",
     "stylelint": "^17.14.1",
     "stylelint-config-gds": "^3.0.0"
