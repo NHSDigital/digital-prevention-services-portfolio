@@ -34,3 +34,16 @@ The `/docs` section is _not_ suitable for:
 Adding a page to `app/docs` will automatically include it in the
 "Documents" left-hand nav menu that appears on `docs/` and pages beneath
 it.
+
+## Analytics
+
+[The Umami redaction script](app/assets/umami-before-send.js) follows the
+[Umami onboarding guide](https://github.com/NHSDigital/dpsp-umami#2-add-the-tracking-script).
+It replaces email addresses and identifiers in URLs, referrers and page titles
+before they are sent. Keep it as a classic deferred script before the Umami
+tracking script so `window.umamiBeforeSend` is available when tracking starts.
+The existing `script-src 'self'` policy allows this file without an inline hash.
+
+After building with `npm run build`, run
+`node --test .github/scripts/umami-before-send.test.mjs`
+to check the generated script order and redaction behaviour.
