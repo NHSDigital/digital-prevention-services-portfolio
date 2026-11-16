@@ -47,6 +47,5 @@ Keep it as a classic deferred script before the Umami
 tracking script so `window.umamiBeforeSend` is available when tracking starts.
 The existing `script-src 'self'` policy allows this file without an inline hash.
 
-After building with `npm run build`, run
-`node --test .github/scripts/umami-before-send.test.mjs`
-to check the generated script order and redaction behaviour.
+The shared redaction tests are maintained in the
+[Umami repository](https://github.com/NHSDigital/dpsp-umami).
