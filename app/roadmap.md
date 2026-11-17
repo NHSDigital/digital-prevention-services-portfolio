@@ -1,6 +1,6 @@
 ---
 layout: page
-caption: June 2026
+caption: November 2026
 title: Roadmap
 ---
 
@@ -18,21 +18,23 @@ The Digital Screening team works on providing provide safe, efficient, high qual
 
 ### Recently completed
 
-- piloted a digital version of the Lung Health Check to give those most at risk of developing lung cancer an alternative to the phone-based assessment
-- first test of Run Breast Screening in England (Rubie) conducted with screening participants
-- Diabetic Eye Screening (DES) launched a new helpdesk service to provide a more consistent and resilient experience
-- rollout of a new service to help NHS staff manage cervical screening ([Cervical Screening Management System](https://www.service-catalogue.nhs.uk/services/cervical-screening-management-system))
-- now sending millions of digital communications for bowel cancer and cervical screening
-- data used to invite people for breast cancer screening is now higher quality, because of the new [Cohort Manager](https://www.service-catalogue.nhs.uk/services/create-screening-cohorts) service
+- Established a new pathway for cervical screening patients who have not previously attended clinic-based screening for human papilloma virus (HPV) (Private beta for HPV self-testing) 
+- Completed 128 live mammogram appointments using Run breast screening in England (Rubie), including creating our first clinic and bulk assigning appointments 
+- Piloted a digital version of a new service to give those most at risk of developing lung cancer an alternative to the phone-based assessment (Lung Health Check) 
+- Cohorting as a Service (CaaS), alongside the Diabetic Eye Screening (DES) Squad completed delivery of the Pilot version of the Cascade cohorting solution to support Diabetic Eye Screening (DES) that will ensure that the right people are identified for screening at the right time 
+- Preparations for the first participant journey through the Prostate pathway. This includes completion of governance and assurance activities, commissioning laboratory services, implementing participant communications, and continuing integration work to support future rollout 
 
 <!-- omit from toc -->
 
 ### Up next
 
-- adding self-testing as a new mode for cervical screening participants who have previously not attended clinic-based screening
-- piloting the [new service for staff working in breast screening](https://www.digital-prevention-services.nhs.uk/screening/breast/), called Run breast screening in England (Rubie), giving them a quicker, easier way to manage the screening process and freeing them up to spend more time with participants
-- testing online booking via the NHS app as part of increasing uptake in Cervical Screening
-- testing a new cohorting service for Diabetic Eye Screening using [Cohorting as a Service (CaaS)](https://www.service-catalogue.nhs.uk/services/cohorting-as-a-service), and exploring how AI can support image reading
+- Work on wider HPV self-testing will be offered to 4 million people who have not been regularly attending cervical screening
+- Moving all bowel cancer screening communications at the early adopter Screening Hub from letter to digital first (NHS App and SMS), giving participants a faster, more convenient service and significantly reducing postage volume and costs, ahead of national rollout
+- Adding more features for radiologists, and bringing a third breast screening office on board, as we expand Rubie
+- Understand what cancer alliances need from a national participant record for lung, and create a prototype based on these
+- We’ll run an operational pilot across 5 sites and 2 software suppliers, with a view to rolling out the Cascade cohorting service for diabetic eye screening next year 
+- Launching a new prostate cancer screening pathway with a small number of early adopters. 
+
 
 ## Vaccination Digital Services
 
@@ -42,23 +44,25 @@ The Vaccination Digital Services (VDS) team is here to protect the NHS and publi
 
 ### Recently completed
 
-- supporting the [national Spring 2026 COVID-19 vaccination campaign](https://www.england.nhs.uk/long-read/booking-your-nhs-spring-covid-19-vaccination-75-and-over/), including the ability for two people to make a 'joint booking', and a combined RSV and Covid vaccination appointment
-- digital support in place for early-adopter pharmacies across parts of England, which means people can get RSV and pertussis vaccinations, and for the first time, infant-flu vaccinations for 2-3 year-olds
-- vaccination providers, and for the first time GPs, now have access to a service ([Manage Your Appointments](https://www.nhs.uk/manage-your-appointments/login)) that helps them manage millions of vaccination appointment slots across thousands of locations, as part of the [Vaccinations National Booking Service](https://digital.nhs.uk/services/vaccinations-national-booking-service)
-- helping members of the public understand if they are eligible for, and how to get RSV vaccinations, using the [NHS App](https://www.nhs.uk/nhs-app/)
-- helping clinicians and commissioners by processing all adult, maternity, school-aged, infant and seasonal vaccination data e.g. shingles
-- helping clinicians in outbreak areas to quickly and easily record Meningitis B vaccinations using [RAVS](https://www.ravs.england.nhs.uk/login)
+- Supporting the [autumn-winter 2026/27 vaccination campaign](https://www.england.nhs.uk/publication/seasonal-vaccination-invitations/), including [Record A Vaccination Service](https://www.ravs.england.nhs.uk/) (RAVS) now being used in 7400 community pharmacies 
+- Including personalised COVID-19 and flu eligibility in [My Vaccines](https://www.digital-prevention-services.nhs.uk/vaccinations/) in the NHS App, and expanding its availability across all GP practices in England
+- Extended access to the National Booking Service (NBS) for Meningitis B second doses and people in higher or further education
+- Enabling school immunisation teams using [Manage Vaccinations In Schools](https://guide.manage-vaccinations-in-schools.nhs.uk/) (MAVIS) to offer local clinic booking to parents, alongside changes to support the 2026/27 school-age flu programme
+- Enabling vaccination teams using [Manage Your Appointments](https://digital.nhs.uk/services/vaccinations-national-booking-service/manage-your-appointments-guidance) (MYA) to more easily manage their clinics with new bulk edit and delete functionality for clinic availability and appointments
+- Migrating historical COVID-19 vaccination records to the national data flows (via [Immunisations FHIR API](https://digital.nhs.uk/developer/api-catalogue/immunisation-fhir-api)), helping make vaccination data available through VDS services  
+
 
 <!-- omit from toc -->
 
 ### Up next
 
-- enabling more school immunisation teams (more than 2 in 3) to record vaccinations using [Manage vaccinations in schools](https://guide.manage-vaccinations-in-schools.nhs.uk/) by the start of the 2026/27 academic school year
-- adding features to the [NHS App](https://www.nhs.uk/nhs-app/) to help the public understand what vaccinations they, or their dependents, have had, or need to get
-- adding all community pharmacies onto RAVS for [autumn-winter 2026-27](https://www.nhs.uk/live-well/seasonal-health/keep-warm-keep-well/)
-- helping vaccination teams save time by integrating [MYA](https://www.nhs.uk/manage-your-appointments/login) patient appointments into [RAVS](https://www.ravs.england.nhs.uk/login)
-- running a pilot in [RAVS](https://www.ravs.england.nhs.uk/login) for maternity vaccination teams to show a list of all their patients and calculate when vaccinations are due
-- supporting even more people, e.g. school-aged children, to [book a flu vaccination](https://www.nhs.uk/nhs-services/vaccination-and-booking-services/book-flu-vaccination/) at a pharmacy if they miss their school vaccination
+- Helping young adults understand which vaccinations they may have missed, and preparing NHS services to make it easier for them to catch up
+- Adding vaccination records to My Vaccines, helping people use the NHS App to understand what vaccinations they have had and what they may still need
+- Helping vaccination teams save time by joining up MYA and RAVS, so appointments booked through MYA can be seen in RAVS
+- Expanding RAVS for maternity vaccination teams, including support for flu, reporting and further maternity-service features
+- Making vaccination data more complete and easier to share by bringing more vaccination types and systems onto the national flows (via Immunisations FHIR API) improving the quality of vaccination records, including identifying duplicate records and strengthening automated monitoring of vaccination data quality 
+
+
 
 ## Personalised Prevention Services
 
@@ -68,61 +72,62 @@ The Personalised Prevention Services (PPS) team exists to make it easy for peopl
 
 ### Recently completed
 
-- residents of 11 local authorities are now able to complete a free cardiovascular health check at home ([NHS Health Check online](https://www.service-catalogue.nhs.uk/services/digital-nhs-health-check))
-- the service for people to find the right services to stay healthy is now ready to test with real people in 2-3 local authorities
-- proved that personalised communications using national infrastructure in 2 areas in West Yorkshire can increase uptake of mental health Talking Therapy services for underserved populations
+- Residents in 11 local authorities are now able to complete a free cardiovascular health check at home ([NHS Health Check online](https://www.service-catalogue.nhs.uk/services/digital-nhs-health-check)) as the service begins to scale
+- Proved that personalised communications using national infrastructure in 3 areas of West Yorkshire can increase uptake of mental health Talking Therapy services for underserved populations
+- Explored a scalable infrastructure and model for cardiovascular risk calculation ([QRISK3](https://www.qrisk.org/)) in a GP setting 
 
 <!-- omit from toc -->
 
 ### Up next
 
-- continue improving the NHS Health Check online so more people start and complete the service
-- piloting a [Vital5](https://www.selondonics.org/our-residents/your-health/living-well/vital-5/) online service that helps people measure and understand their health, and find the right services to stay healthy in partnership with South East London Integrated Care System
-- testing the use of AI Health Coach with real users, to support setting goals and achieving positive health changes when using the [Better Health apps](https://www.nhs.uk/better-health/)
-- developing a scalable infrastructure and model for cardiovascular risk calculation ([QRISK3](https://www.qrisk.org/))
+- Assessing further opportunities for tailored communications using national infrastructure to increase appropriate take-up of Talking Therapies (and potentially other prevention services) in a wider set of areas
+- Testing the use of AI Health Coach with real users, to support setting goals and achieving positive health changes when using the [Better Health apps](https://www.nhs.uk/better-health/)
+- Developing a scalable infrastructure and model for cardiovascular risk calculation ([QRISK3](https://www.qrisk.org/)) 
+
 
 ## HomeTest
 
-HomeTest will scale up home testing across a wider range of clinically important biomarkers, making it simpler for people to access the tests they need without unnecessary friction. HomeTest will bring together the commercial, clinical, and digital capabilities required to run safe, consistent services at national scale. Over time, this will support earlier diagnosis, improved condition management, and care that is genuinely closer to home, while maintaining clear clinical oversight and dependable onward pathways.
+The work of the HomeTest team contributes to achieving the ministerial commitment of HIV Home Testing becoming nationally available, enabling the ordering of HIV test kits, completion of self-samples and receipt of test results from home.  The learning from HIV HomeTest is being applied to other testing / monitoring tests to identify other areas with potential to be suitable for home self-testing.
 
 <!-- omit from toc -->
 
 ### Recently completed
 
-- successfully passed GDS Alpha assessment with approvals across all areas
-- created formal partnerships with key HIV test kit suppliers and local authorities to prove service blueprint and create a go-live plan
-- validated end to end system processes, defined financial and supply model and validated user experience designs for beta service
+- HIV HomeTest private beta is live in East Sussex. Using NHS Notify, a controlled group of citizens are now ordering HIV test kits, completing self-samples from their homes, and receiving results
+- National Patient-Centric Testing Standards Group established to develop a nationally consistent process for assessing and validating home sampling and patient-centric testing approaches across NHS pathways
 
 <!-- omit from toc -->
 
 ### Up next
 
-- enabling people to order HIV home tests through national channels in a controlled way, supported by clear onward pathways and clinical support arrangements as we move HomeTest into Alpha
-- expanding the HomeTest service beyond a single pathway by starting Discovery for PSA and investigating UTI, with a view to move into Alpha delivery and set up a pipeline for wider biomarkers and tests
-- making scaling practical by agreeing the commercial and onboarding model that allows multiple suppliers and multiple tests to be brought on at pace, without redoing assurance from scratch each time
+- Extending the HIV HomeTest private beta to service users in Salford
+- Rolling HIV HomeTest out to patients in selected areas of London
+- Considering how a panel of STI tests could be offered (this will be tested in the London roll out)
+- Complete technical development and testing for the PSA HomeTest across two sites - Royal Devon University Healthcare (RDUH), and Chelsea and Westminster Hospitals NHS Trust; and beginning pilot for the use of HomeTest with patients on PSA Active Surveillance Pathways, validating usability and patient experience
+
 
 ## Children’s Digital Health Services
 
-Children’s Digital Health Services (CDHS) is a new area within DPSP, established during summer 2025. Its focus is on digital services that support families and care professionals to give children and young people the best start in life.
+Children’s Digital Health Services (CDHS) focuses on digital services that support families and care professionals to give children and young people the best start in life.
 
 <!-- omit from toc -->
 
 ### Recently completed
 
-- defining ways to share newborn blood spot test results with parents using digital communication tools
-- working with feedback from parents to refine features for My Children (the digital alternative to the Red Book) enabling parents to access a new baby’s public health record through the NHS App, as announced in the [10 Year Health Plan](https://www.gov.uk/government/publications/10-year-health-plan-for-england-fit-for-the-future/fit-for-the-future-10-year-health-plan-for-england-executive-summary)
-- identifying inequalities experienced by different parent and carer groups who are using the physical Red Book to inform how we design My Children (digital alternative to the Red Book)
+- Completed a pilot of the age-based messaging service, designed to send new parents timely guidance at key milestones in their child’s development
+- Updated the newborn blood spot failsafe solution (NBSFS) to support the in service evaluation of Spinal Muscular Atrophy (SMA) in newborn blood spot screening
+- Worked with maternity teams to identify ways to improve the antenatal screening processes to better support everyone in pregnancy through their screening journey 
 
 <!-- omit from toc -->
 
 ### Up next
 
-- piloting a service designed to send messages to parents of babies and infants signposting parents and carers to specific 'jobs to do' at key milestones in a child's early life
-- introducing Spinal Muscular Atrophy (SMA) to newborn blood spot screening
-- enabling the flow of data to the NHS App so that parents can access their new baby’s public health record online
-- assessing ways to consolidate childhood vaccinations records, enabling better manual cleanup processes and delivery of local and national vaccination campaigns
-- improving newborn screening reporting and quality assurance tools
-- working with maternity teams to identify ways to improve the antenatal screening processes to better support everyone in pregnancy through their screening journey
+- Rolling out the age-based messaging service to 5 further locations in England
+- Assessing ways to rationalise childhood vaccinations records, consolidating duplicates and improving data quality for professional and parental use
+- Improving newborn screening reporting and quality assurance tools
+- Continue researching the current growth monitoring landscape for parents and health visitors
+- Continue development of the Child Health API as part of the NEMS to MNS transition and digital child public health record 
+
 
 <!-- omit from toc -->
 
