@@ -44,11 +44,12 @@ Different elements of the end-to-end service are being developed, tested and rel
 
 ### Being developed
 
-- **Clinic management** - features that will allow breast screening office staff to manage their clinics and appointments, with an initial focus on providing the functionality needed to support migration from NBSS to Rubie.
-- **Managing appointments** (piloting in 2026) - helping staff to manage the flow of participants during a breast screening clinic
+- **Scheduling clinics** (in private beta pilot) - allowing office staff to organise breast screening clinics and invite participants to appointment slots
+  - [Watch a demo of creating clinics in Rubie](https://www.youtube.com/watch?v=Zba_441DroE) (4:50, YouTube)
+- **Running clinic sessions** (in private beta pilot) - helping staff to manage the flow of participants attending their mammogram appointment
   - [Watch a Manage breast screening video explainer](https://www.youtube.com/watch?v=z_l-eKzeCnA) (2:30, YouTube)
-- **Reading images** (piloting in 2026) - allowing radiologists to review cases, record their opinion and manage arbitration
-- **Data extraction** - accessing and making NBSS data available to support the rollout of Rubie, and supporting BSIS
+- **Reading images** (in private beta pilot) - allowing radiologists to review cases, record opinions and manage arbitration
+* **Data extraction** - accessing and making NBSS data available to support the rollout of Rubie, and supporting BSIS
 
 The teams involved in developing these tools regularly publish updates on the [digital screening design history](https://design-history.prevention-services.nhs.uk/breast-screening/).
 
