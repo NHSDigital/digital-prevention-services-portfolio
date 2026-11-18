@@ -35,7 +35,7 @@ We are working towards:
 
 - piloting a digital version of the [lung cancer risk check](https://www.nhs.uk/tests-and-treatments/lung-cancer-screening/) for those most at risk of developing lung cancer
 - adding self-testing as a new mode for cervical screening participants who have previously not attended clinic-based screening
-- piloting a [new service for staff working in breast screening](/screening/breast), giving them a quicker, easier way to manage the screening process, and freeing them up to spend more time with participants
+- piloting a [new service for staff working in breast screening](/screening/breast) that will help make setting up and running clinics more efficient
 - rolling out digital alerts for bowel cancer screening, letting people know a FIT kit is on its way and expanding this to all communication types
 - using Cohorting as a Service (CaaS) to transform cohorting in diabetic eye screening (DES), making it quicker and more accurate
 
