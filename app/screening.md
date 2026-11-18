@@ -31,7 +31,7 @@ Throughout our transformation, services will be designed in collaboration with u
 
 ## Progress and next steps
 
-In 2026, we are working towards:
+We are working towards:
 
 - piloting a digital version of the [lung cancer risk check](https://www.nhs.uk/tests-and-treatments/lung-cancer-screening/) for those most at risk of developing lung cancer
 - adding self-testing as a new mode for cervical screening participants who have previously not attended clinic-based screening
