@@ -49,8 +49,7 @@ Different elements of the end-to-end service are being developed, tested and rel
 - **Running clinic sessions** (in private beta pilot) - helping staff to manage the flow of participants attending their mammogram appointment
   - [Watch a Manage breast screening video explainer](https://www.youtube.com/watch?v=z_l-eKzeCnA) (2:30, YouTube)
 - **Reading images** (in private beta pilot) - allowing radiologists to review cases, record opinions and manage arbitration
-
-* **Data extraction** - accessing and making NBSS data available to support the rollout of Rubie, and supporting BSIS
+- **Data extraction** - accessing and making NBSS data available to support the rollout of Rubie, and supporting BSIS
 
 The teams involved in developing these tools regularly publish updates on the [digital screening design history](https://design-history.prevention-services.nhs.uk/breast-screening/).
 
