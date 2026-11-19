@@ -31,9 +31,9 @@ current_activity:
       - title: Cohorting as a Service
         href: https://digital.nhs.uk/services/cohorting-as-a-service-caas
         description: Securely identifying groups of people with shared characteristics from national health data
-      - title: Manage breast screening
-        href: https://www.service-catalogue.nhs.uk/services/manage-breast-screening
-        description: Helping clinical staff to manage breast screening
+      - title: Run breast screening in England
+        href: https://www.service-catalogue.nhs.uk/services/run-breast-screening-in-england
+        description: Helping staff set up clinic schedules, invite participants, run clinic sessions and review cases
       - title: Manage your appointments
         href: https://digital.nhs.uk/services/vaccinations-national-booking-service/manage-your-appointments-guidance
         description: A service for setting up vaccination clinics and managing public appointments
