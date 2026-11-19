@@ -6,7 +6,7 @@ eleventyNavigation:
   parent: Screening
 ---
 
-## Replacing NBSS (the National Breast Screening Service)
+## Replacing NBSS (the National Breast Screening System)
 
 The processes involved in breast screening include identifying participants, arranging appointments, taking mammograms, reading images, and recording results.
 
