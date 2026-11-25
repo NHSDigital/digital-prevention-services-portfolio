@@ -116,6 +116,7 @@ export default function (eleventyConfig) {
   // Passthrough
   eleventyConfig.addPassthroughCopy('./app/assets/images')
   eleventyConfig.addPassthroughCopy('./app/assets/pdfs')
+  eleventyConfig.addPassthroughCopy('./app/humans.txt')
 
   return {
     dataTemplateEngine: 'njk',
