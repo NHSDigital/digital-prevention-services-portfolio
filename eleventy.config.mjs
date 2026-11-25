@@ -103,10 +103,14 @@ export default function (eleventyConfig) {
 ` +
         // Load Umami asynchronously for analytics.
         // The host and website ID are configured in the variables above.
-        `<script defer src="${analyticsHost}/script.js"
+        // Classic deferred scripts execute in order, registering redaction before Umami starts.
+        `<script defer src="/assets/umami-before-send.js"></script>
+<script defer src="${analyticsHost}/script.js"
   data-website-id="${analyticsWebsiteId}"
   data-host-url="${analyticsHost}"
-  data-domains="www.digital-prevention-services.nhs.uk"></script>`
+  data-domains="www.digital-prevention-services.nhs.uk"
+  data-exclude-hash="true"
+  data-before-send="umamiBeforeSend"></script>`
     )
   })
 
@@ -114,6 +118,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents))
 
   // Passthrough
+  eleventyConfig.addPassthroughCopy('./app/assets/umami-before-send.js')
   eleventyConfig.addPassthroughCopy('./app/assets/images')
   eleventyConfig.addPassthroughCopy('./app/assets/pdfs')
 
